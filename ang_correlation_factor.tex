@@ -59,7 +59,7 @@
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.8\paperwidth]{plots/crosssections_a.png}
-		\caption{(Right) 2D projection of previous 3D image at $\phi = 0$ (Left) 1D projections at $\phi=0$, and either $z_\nu = 0$ or $z_\nu = 1$ }
+		\caption{(Right) 2D projection of previous 3D image at $\phi = 0$ (Left) 1D projections at $\phi=0$, and either $z_\nu = 0$ or $z_\nu = 1$}
 	\end{figure}
 \end{frame}
 
@@ -75,7 +75,7 @@
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.8\paperwidth]{plots/crosssections_D.png}
-		\caption{(Right) 2D projection of previous 3D image at $z_\nu = 0$ (Left) 1D projection at $z_\nu = 0$ and $z_\nu = 0$ }
+		\caption{(Right) 2D projection of previous 3D image at $z_\nu = 0$ (Left) 1D projection, ie plot of F with respect to $\phi$, at $z_e = 0$ and $z_\nu = 0$ }
 	\end{figure}
 \end{frame}
 \begin{frame}{Two variables: A and B}
@@ -162,8 +162,8 @@
 \begin{frame}{Two variables: a and B}
 	Since term proportional to a depends on E, we can consider different ratios by either:
 	\begin{itemize}
-		\item Fixing $a = B = 1$ and modifying the energy (first 3 plots)
-		\item Same as before, but now $B = -1$ (last 2)
+		\item Fixing $a = B = 1$ and modifying the energy
+		\item Same as before, but now $B = -1$
 		\item Fixing $B = 1$ and $E \gg m_e \rightarrow \beta_e \approx 1$ and modifying $a > B$
 	\end{itemize}
 	
@@ -252,17 +252,17 @@
 	\begin{itemize}
 		\item Fixing $B = D = 1$ and modifying the energy
 		\item Same as before, but now $B = -1$
-		\item Fixing $B = 1$ and $E \gg m_e \rightarrow \beta_e \approx 1$ and modifying $a > B$
+		\item Fixing $B = 1$ and $E \gg m_e \rightarrow \beta_e \approx 1$ and modifying $D > B$
 	\end{itemize}
 	
 	We recall
 	
 	$$F = 1 + D\beta_e\sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\sin \phi + Bz_\nu$$
 	
-	Maxima and minima no longer at $z_e=\pm1,z_\nu \pm1$. In fact, expect $z_e = 0$, $\phi = \pm\pi/2$. Additionally, at the maximum:
+	Maxima and minima no longer at $z_e=\pm1,z_\nu \pm1$. In fact, expect $z_e = 0$, $\phi = \pm\pi/2$. Additionally, at the maximum ($D\beta_e \equiv D'$):
 	
-	$$z_\nu = \frac B{\sqrt{D^2+B^2}}$$
-	$$F = 1 + \sqrt{D^2+B^2}$$    
+	$$z_\nu = \frac B{\sqrt{D'^2+B^2}}$$
+	$$F = 1 + \sqrt{D'^2+B^2}$$    
 
 \end{frame}
 \begin{frame}{Two variables: B and D}{3D examples}
@@ -303,7 +303,7 @@
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.8\paperwidth]{plots/BD_max_behaviour}
-		\caption{Behaviour of the $z_\nu$ coordinate for the maximum and the maximum value of the angular correlation factor for diferent values of D}
+		\caption{Behaviour of the $z_\nu$ coordinate for the maximum and the maximum value of the angular correlation factor for diferent values of D'}
 	\end{figure}
 \end{frame}
 \begin{frame}{Two variables: A and D}
@@ -314,7 +314,7 @@
 	Maxima and minima no longer at $z_e=\pm1,z_\nu \pm1$. In fact, expect $z_\nu = 0$, $\phi = \pm\pi/2$. Additionally, at the maximum:
 	
 	$$z_e = \frac A{\sqrt{D^2+A^2}}$$
-	$$F = 1 + \sqrt{D^2+A^2}$$    
+	$$F = 1 + \beta_e\sqrt{D^2+A^2}$$    
 
 	We look directly at the properties of the extrema.
 \end{frame}
@@ -323,7 +323,7 @@
 		\centering
 		\includegraphics[width=0.4\paperwidth]{plots/posD_xsposA_max_min}
 		\includegraphics[width=0.4\paperwidth]{plots/posD_xsnegA_max_min}
-		\caption{Positions of the maximum and minimum with Factor with (Right) D = 1, A = 0.1 and (Left) D = 1, A = -0.1, with E = 100000 keV and rest of variables 0 for both.}
+		\caption{Positions of the maximum (blue) and minimum (orange) for (Right) D = 1, A = 0.1 and (Left) D = 1, A = -0.1, with E = 100000 keV and rest of variables 0 for both.}
 	\end{figure}
 \end{frame}
 \begin{frame}{Two variables: A and D}{$|A|= D$}
@@ -331,7 +331,7 @@
 		\centering
 		\includegraphics[width=0.4\paperwidth]{plots/posD_eqposA_max_min}
 		\includegraphics[width=0.4\paperwidth]{plots/posD_eqnegA_max_min}
-		\caption{Positions of the maximum and minimum with with (Right) D = 1, A = 1 and (Left) D = 1, A = -1, with E = 100000 keV and rest of variables 0 for both.}
+		\caption{Positions of the maximum (blue) and minimum (orange) (Right) D = 1, A = 1 and (Left) D = 1, A = -1, with E = 100000 keV and rest of variables 0 for both.}
 	\end{figure}
 \end{frame}
 \begin{frame}{Two variables: A and D}{$|A|\gg D$}
@@ -339,7 +339,7 @@
 		\centering
 		\includegraphics[width=0.4\paperwidth]{plots/posD_xlposA_max_min}
 		\includegraphics[width=0.4\paperwidth]{plots/posD_xlposA_max_min}
-		\caption{Positions of the maximum and minimum with (Right) D = 1, A = 5 and (Left) D = 1, A = -5, with E = 100000 keV and rest of variables 0 for both.}
+		\caption{Positions of the maximum (blue) and minimum (orange) (Right) D = 1, A = 5 and (Left) D = 1, A = -5, with E = 100000 keV and rest of variables 0 for both.}
 	\end{figure}
 \end{frame}
 \begin{frame}{Two variables: A and D}{Behaviour of maximum}
@@ -357,7 +357,7 @@
 	Maxima and minima no longer at $z_e=\pm1,z_\nu \pm1$. In fact, expect $z_\nu = 0$, $z_e = 0$. Additionally, at the maximum:
 	
 	$$\tan\phi = \frac Da$$
-	$$F = 1 + \sqrt{D^2+a^2}$$    
+	$$F = 1 + \beta_e\sqrt{D^2+a^2}$$    
 	
 	We look directly at the properties of the extrema.
 \end{frame}
@@ -389,16 +389,17 @@
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.8\paperwidth]{plots/aD_max_behaviour}
-		\caption{Behaviour of the $\phi$ coordinate for the maximum and the maximum value of the angular correlation factor for diferent values of A}
+		\caption{Behaviour of the $\phi$ coordinate for the maximum and the maximum value of the angular correlation factor for diferent values of D. Note discrepancies at the endpoint are a result of a sampling too coarse.}
 	\end{figure}
 \end{frame}
 
 \begin{frame}{Three variables: a, A, B}
 	We come back to the case we hinted at before, that is compatible with all Gamov-Teller decays within the Standard Model framework.
 	
-	Gamov-Teller, $C_A = C_A' = C$, ($C_V, C_V'$ irrelevant), $\xi=2C|M_{GT}|^2$, $|A| = |B| = |\lambda_{J_i,J_f}|$ 
+	Gamov-Teller, $C_A = C_A' = C$, ($C_V, C_V'$ irrelevant), $\xi=2C|M_{GT}|^2$, $|A| = |B| = |\lambda_{J_i,J_f}|$, $A < 0$, $B > 0$ 
 	$$|A| = |B| = \frac{2}{\xi}|M_{GT}|^2|\lambda_{J_i,J_f}||Re(C_A\overline{C_A'})| = |\lambda_{J_i,J_f}|$$
-	$$a$$
+ 
+	$$a = -\frac{|M_{GT}|^2(|C_A|^2+|C_A'|^2)}{3\xi}=-\frac13$$. 
 	
 	We consider different values of $|A|$, particularly with $|A| > 0.5$, and a range of electron energies from very low to very high.
 	
@@ -407,7 +408,7 @@
 	\begin{figure}
 	\centering
 	\includegraphics[width=0.8\paperwidth]{plots/aAB_gt_current_physics}
-	\caption{Values of the maximum and minimum for different combinations of $|A|$ and E. In red, values that are negative}
+	\caption{Values of the maximum and minimum for different combinations of $|A|$ and E. , Values that are negative are marked with a cross}
 	\end{figure}
 \end{frame}
 
