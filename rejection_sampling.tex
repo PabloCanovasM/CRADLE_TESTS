@@ -1,0 +1,225 @@
+\documentclass{beamer}
+\usetheme{default}
+\usepackage{graphicx}
+
+
+
+\begin{document}
+\begin{frame}{Angular correlation Function}
+	$$F = 1 + a \frac{\boldsymbol{p_e}\cdot\boldsymbol{p_\nu}}{E_eE_\nu} + \frac{\boldsymbol{J}}J\cdot\left(A \frac{\boldsymbol{p_e}}{E_e} + B \frac{\boldsymbol{p_\nu}}{E_\nu} + D \frac{\boldsymbol{p_e}\times\boldsymbol{p_\nu}}{E_eE_\nu}\right)$$
+	Spherical Coordinates ($\boldsymbol{J}$ parallel to positive Z axis)
+	$$\boldsymbol{\beta_e} = (r=\beta_e;\theta=\theta_e;\phi=0),\;\cos(\theta_e) \equiv z_e,\;\beta_e = \frac{|\boldsymbol{p_e}|}{E} = \sqrt{1-\frac{m_e^2}{E^2}}$$
+	$$\boldsymbol{\beta_\nu} = (r=1;\theta=\theta_\nu;\phi=\phi),\quad\cos(\theta_\nu) \equiv z_\nu$$
+	$$\boldsymbol{\beta_e}\cdot\boldsymbol{\beta_\nu} = \beta_e(\cos\theta_e\cos\theta_\nu + \sin\theta_e\sin\theta_\nu\cos\phi) =$$
+	$$ \beta_e(z_ez_\nu + \sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\cos\phi)$$
+	$$\boldsymbol{\beta_e}\cdot\boldsymbol{j} = \beta_e\cos\theta_e=\beta_ez_e$$
+	$$\boldsymbol{\beta_\nu}\cdot\boldsymbol{j} = \cos\theta_\nu=z_\nu$$
+	$$\boldsymbol{j}\cdot(\boldsymbol{\beta_e}\times\boldsymbol{\beta_\nu})=\beta_e\sin\theta_e\sin\theta_\nu\sin\phi=\beta_e\sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\sin\phi$$
+\end{frame}	
+\begin{frame}{Single Variable A}
+	\begin{figure}
+		\centering
+		\includegraphics[height=.8\textheight]{plots/sample_Apairplot}
+		\caption{Pair plots for N = 100000 decays with A = 1, E = 1000 keV}
+	\end{figure}
+\end{frame}
+\begin{frame}{Single Variable A}
+	\begin{columns}
+		\begin{column}{0.425\textwidth}
+			In detail: distribution of the $z_e$ component (only with non trivial dependence)
+			
+			Theoretical distribution: 
+			
+			$$f(z_e) = N\int_{-1}^{1}dz_\nu\int_{0}^{2\pi}d\phi F = $$$$= 4\pi N (1+A\beta z_e) = N(1+A\beta z_e)$$
+			
+			N is a normalization constant. In the histogram, we set it to 
+			
+			$$N =  \frac{\# \text{counts}}{\# \text{bins}}$$ 
+
+		\end{column}
+		\begin{column}{0.575\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=\columnwidth]{plots/hist_A_ze}
+				\caption{Histogram showing the values of $z_e$ with A = 1, E = 1000 keV for N = 100000 decays, and curve showing the theoretical distribution}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+\begin{frame}{Single Variable B}
+	\begin{figure}
+		\centering
+		\includegraphics[height=.8\textheight]{plots/sample_Bpairplot}
+		\caption{Pair plots for N = 100000 decays with A = B, E = 1000 keV}
+	\end{figure}
+\end{frame}
+\begin{frame}{Single Variable B}
+	\begin{columns}
+		\begin{column}{0.425\textwidth}
+			In detail: distribution of the $z_\nu$ component (only with non trivial dependence)
+			
+			Theoretical distribution: 
+			
+			$$f(z_\nu) = N\int_{-1}^{1}dz_e\int_{0}^{2\pi}d\phi F = $$$$= 4\pi N (1+B z_\nu) = N(1 + B z_\nu)$$
+			
+		\end{column}
+		\begin{column}{0.575\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=\columnwidth]{plots/hist_B_znu}
+				\caption{Histogram showing the values of $z_e$ with B = 1, E = 1000 keV for N = 100000 decays, and curve showing the theoretical distribution}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+\begin{frame}{Single Variable a}
+	\begin{figure}
+		\centering
+		\includegraphics[height=.8\textheight]{plots/sample_apairplot}
+		\caption{Pair plots for N = 100000 decays with A = 1, E = 1000 keV}
+	\end{figure}
+\end{frame}
+\begin{frame}{Single Variable a}{Marginal distributions}
+
+	
+	For $z_e$ (and $z_\nu$ by symmetry of the expresions), we can observe reason why the marginal distribution becomes constant: 
+	
+	$$f(z_e) = N\int_{-1}^{1}dz_\nu\int_{0}^{2\pi}d\phi F =$$$$= N\int_{-1}^{1}dz_\nu\int_{0}^{2\pi}d\phi (1 + a\beta(z_ez_\nu+\sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\cos \phi)) = $$$$ = N\int_{-1}^{1}dz_\nu\int_{0}^{2\pi}d\phi = 4\pi N = N $$
+
+	
+\end{frame}
+\begin{frame}{Single Variable a}{Marginal distributions}
+	
+	
+	For $\phi$, we can derive the expected shape: 
+	
+	$$f(\phi) = N\int_{-1}^{1}dz_\nu\int_{-1}^{1}dz_e F =$$$$= N\int_{-1}^{1}dz_\nu\int_{-1}^{1}dz_e (1 + a\beta(z_ez_\nu+\sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\cos \phi)) = $$$$ = N\left(4+a\beta\left(\frac{\pi}{2}\right)^2\cos\phi\right) = N\left(1+a\beta\frac{\pi^2}{16}\cos\phi\right)  $$
+	
+	
+\end{frame}
+\begin{frame}{Single Variable a}{Marginal distributions}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.7\textheight]{plots/hist_a_phi}
+		\caption{Histogram showing the values of $\phi$ with a = 1, E = 1000 keV for N = 100000 decays, and curve showing the theoretical distribution}
+	\end{figure}
+	
+	
+\end{frame}
+\begin{frame}{Single Variable a}{Marginal distributions}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			An extra variable we can plot is the cosine between the 2 vectors $\cos \theta_{e,\nu} = \boldsymbol{\beta_e}\cdot\boldsymbol{\beta_\nu}$. So F symplifies to:
+			
+			$$F = 1 + a\beta\cos \theta_{e,\nu}$$
+			
+			So the marginal distribution should be 
+			
+			$$f(\cos \theta_{e,\nu}) = N(1+a\beta \cos \theta_{e,\nu})$$
+
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=\columnwidth]{plots/hist_a_cos_enu}
+				\caption{Histogram showing the values of $\cos \theta_{e,\nu}$ with a = 1, E = 1000 keV for N = 100000 decays, and curve showing the theoretical distribution}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+\begin{frame}{Single Variable D}
+	\begin{figure}
+		\centering
+		\includegraphics[height=.8\textheight]{plots/sample_Dpairplot}
+		\caption{Pair plots for N = 100000 decays with D = 1, E = 1000 keV}
+	\end{figure}
+\end{frame}
+\begin{frame}{Single Variable D}{Marginal distributions}
+	
+	
+	For $z_e$ (and $z_\nu$ by symmetry of the expresions), we can observe reason why the marginal distribution becomes constant: 
+	
+	$$f(z_e) = N\int_{-1}^{1}dz_\nu\int_{0}^{2\pi}d\phi F =$$$$= N\int_{-1}^{1}dz_\nu\int_{0}^{2\pi}d\phi (1 + D\beta\sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\sin \phi) = $$$$ = N\int_{-1}^{1}dz_\nu\int_{0}^{2\pi}d\phi = 4\pi N = N $$
+	
+	
+\end{frame}
+\begin{frame}{Single Variable D}{Marginal distributions}
+	
+	
+	For $\phi$, we can derive the expected shape: 
+	
+	$$f(\phi) = N\int_{-1}^{1}dz_\nu\int_{-1}^{1}dz_e F =$$$$= N\int_{-1}^{1}dz_\nu\int_{-1}^{1}dz_e (1 + D\beta\sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\sin \phi)) = $$$$ = N\left(4+a\beta\left(\frac{\pi}{2}\right)^2\sin\phi\right) = N\left(1+a\beta\frac{\pi^2}{16}\sin\phi\right)  $$
+	
+	
+\end{frame}
+\begin{frame}{Single Variable D}{Marginal distributions}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.65\textheight]{plots/hist_D_phi}
+		\caption{Histogram showing the values of $\phi$ with D = 1, E = 1000 keV for N = 100000 decays, and curve showing the theoretical distribution}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Two variable: A and B}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.55\textheight]{plots/sample_posA_posB_lowE}
+		\caption{(Right) Output of the angular distribution function and (Left) histogram of N = 300000 decays, both plots with A = B= 1, E = 5000 keV}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Two variable: A and B}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.55\textheight]{plots/sample_posA_posB_hiE}
+		\caption{(Right) Output of the angular distribution function and (Left) histogram of N = 300000 decays, both plots with A = B= 1, E = 5000 keV}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Two variable: A and B}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.55\textheight]{plots/sample_posA_posB_hiA}
+		\caption{(Right) Output of the angular distribution function and (Left) histogram of N = 300000 decays, both plots with A = B= 1, E = 5000 keV}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Two variable: A and B}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.55\textheight]{plots/sample_posA_negB_hiE}
+		\caption{(Right) Output of the angular distribution function and (Left) histogram of N = 300000 decays, both plots with A = B= 1, E = 5000 keV}
+	\end{figure}
+\end{frame}
+\begin{frame}{Two variable: A and B}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.55\textheight]{plots/sample_ABpairplot}
+		\caption{(Right) Output of the angular distribution function and (Left) histogram of N = 300000 decays, both plots with A = B= 1, E = 5000 keV}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Two variables A and B}{Marginal distributions}
+	
+	We need to correct for the places where the distribution is negative, which occur if $Az_e\beta+Bz_\nu < -1$. In the case of the plots, B = 1, so we can translate this into the condition $z_nu < -1-Az_e\beta$  
+	
+	$$f(z_e) = N\int_{-1}^{1}dz_\nu\int_{0}^{2\pi}d\phi F = 2\pi N\int_{-1-Az_e\beta}^{1}dz_\nu(1 + A\beta z_e + z_\nu) = $$
+	$$ = 2\pi N\left((1+A\beta z_e)(2+A\beta z_e)-\int_{-1}^{-1-Az_e\beta}dz_\nu z_\nu\right) $$
+	$$ = 2\pi N\left((1+A\beta z_e)(2+A\beta z_e)+\frac 12 (1-(1+Az_e\beta)^2)\right)  $$
+	$$4\pi N \left(1 + A\beta z_e + \frac 14 (A\beta z_e)^2 \right)$$
+	
+	
+\end{frame}
+
+\begin{frame}{Single Variable D}{Marginal distributions}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.5\textheight]{plots/hist_AB_ze}
+		\includegraphics[height=0.5\textheight]{plots/hist_AB_corr_ze}
+		\caption{Histogram showing the values of $\phi$ with D = 1, E = 1000 keV for N = 100000 decays, and curve showing the theoretical distribution}
+	\end{figure}
+\end{frame}
+
+
+\end{document}
