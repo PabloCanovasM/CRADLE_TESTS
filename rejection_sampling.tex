@@ -26,15 +26,11 @@
 \begin{frame}{Single Variable A}
 	\begin{columns}
 		\begin{column}{0.425\textwidth}
-			In detail: distribution of the $z_e$ component (only with non trivial dependence)
-			
-			Theoretical distribution: 
-			
+			In detail: distribution of the $z_e$ component
 			$$f(z_e) = N\int_{-1}^{1}dz_\nu\int_{0}^{2\pi}d\phi F = $$$$= 4\pi N (1+A\beta z_e) = N(1+A\beta z_e)$$
-			
-			N is a normalization constant. In the histogram, we set it to 
-			
+			N normalization constant. Here 
 			$$N =  \frac{\# \text{counts}}{\# \text{bins}}$$ 
+			as "average" of $f(z_e) = \frac 12 \int_{-1}^1 f(z_e)dz_e = N$
 
 		\end{column}
 		\begin{column}{0.575\textwidth}
@@ -196,30 +192,160 @@
 	\begin{figure}
 		\centering
 		\includegraphics[height=0.55\textheight]{plots/sample_ABpairplot}
-		\caption{(Right) Output of the angular distribution function and (Left) histogram of N = 300000 decays, both plots with A = B= 1, E = 5000 keV}
+		\caption{Pairplot with the marginal distributions for a simulation of N = 300000 decays with A = B = 1, E = 5000 keV}
 	\end{figure}
 \end{frame}
 
-\begin{frame}{Two variables A and B}{Marginal distributions}
+\begin{frame}{Two variables A and B}{Marginal distributions (attempt)}
 	
-	We need to correct for the places where the distribution is negative, which occur if $Az_e\beta+Bz_\nu < -1$. In the case of the plots, B = 1, so we can translate this into the condition $z_nu < -1-Az_e\beta$  
-	
+	To compute $f(z_e)$, avoid $F < 0$ areas, which occur if $Az_e\beta+Bz_\nu < -1$.
+	If B = 1, $z_\nu > -1-Az_e\beta$ is the lower bound 
 	$$f(z_e) = N\int_{-1}^{1}dz_\nu\int_{0}^{2\pi}d\phi F = 2\pi N\int_{-1-Az_e\beta}^{1}dz_\nu(1 + A\beta z_e + z_\nu) = $$
-	$$ = 2\pi N\left((1+A\beta z_e)(2+A\beta z_e)-\int_{-1}^{-1-Az_e\beta}dz_\nu z_\nu\right) $$
-	$$ = 2\pi N\left((1+A\beta z_e)(2+A\beta z_e)+\frac 12 (1-(1+Az_e\beta)^2)\right)  $$
-	$$4\pi N \left(1 + A\beta z_e + \frac 14 (A\beta z_e)^2 \right)$$
+	$$ = 2\pi N\left((1+A\beta z_e)(2+A\beta z_e)+\int^{1}_{-1-Az_e\beta}dz_\nu z_\nu\right) $$
+	$$=2\pi N \left(2 + 2A\beta z_e + \frac 12 (A\beta z_e)^2 \right)=N\left(2 + 2A\beta z_e + \frac 12 (A\beta z_e)^2 \right)$$
+	
+	Note:
+	$$\frac 12\int_{-1}^{1} f(z_e) = \left[2 + \frac{1}{6}(A\beta)^2\right]N$$
+	so we need to divide $f(z_e)$ by the factor in [] to write N in the histogram as
+	$$N =  \frac{\# \text{counts}}{\# \text{bins}}$$ 
+	
 	
 	
 \end{frame}
 
-\begin{frame}{Single Variable D}{Marginal distributions}
+\begin{frame}{Two variables A and B}{Marginal distributions}
 	\begin{figure}
 		\centering
 		\includegraphics[height=0.5\textheight]{plots/hist_AB_ze}
 		\includegraphics[height=0.5\textheight]{plots/hist_AB_corr_ze}
-		\caption{Histogram showing the values of $\phi$ with D = 1, E = 1000 keV for N = 100000 decays, and curve showing the theoretical distribution}
+		\caption{Histogram showing the values of $z_e$ with A = B = 1, E = 5000 keV for N = 300000 decays. On the right, a naive computation of $f(z_e)$, which ignores the presence of F < 0 areas, on the left a more refined one that fits the distribution better.}
 	\end{figure}
 \end{frame}
+
+\begin{frame}{Two Variables A and B}{Marginal distributions}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			Better method: use F numerically to compute the marginal distributions f(x).
+			\begin{itemize}
+				\item Ignore the $F < 0$ points (set them to 0)
+				\item Integrate numerically over the remaining variables 
+			\end{itemize} 
+			
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=\columnwidth]{plots/hist_AB_corr2_ze}
+				\caption{Histogram showing the values of $\cos \theta_{e,\nu}$ with A = B = 1, E = 1000 keV for N = 100000 decays, and updated marginal distribution}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}{Two Variables A and B}{2D marginal distributions}
+	Works also with 2D histograms
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.55\textheight]{plots/sample_AB_hists}
+		\caption{(Right) Theoretical distribution of particles and (Left) 2D histogram of N = 300000 decays, both plots with A = B = 1, E = 5000 keV}	
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Two variable: rest of pairs}
+	For the rest of variables, we show only the pairplot with the marginal distributions and the theoretical distribution in the 1D marginal plots. We expect 2 kinds of results
+	
+	\begin{itemize}
+		\item (a,A), (a,B), (A,D) and (B,D):
+		
+		Here, one of the 1D histograms will be aproximately constant, and the other 2 will be close to the 1 variable case (though need to account for $F < 0$ areas)
+		
+		\item (a,D)
+		
+		In this case, integration along $\phi$ cancels most terms, and the remaining $z_ez_\nu$ cancels the only non constant term. So only non-constant marginal distribution is that of $\phi$
+
+	\end{itemize}
+	
+	$$F = 1 + \beta_e(a (z_ez_\nu + \sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\cos \phi) + D\sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\sin \phi)$$
+	
+\end{frame}
+
+
+\begin{frame}{Two variable: a and D}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.6\textheight]{plots/sample_aD_eqpos_pairplot}
+		\caption{Pairplot with the marginal distributions for a simulation of N = 300000 decays with a = D = 1, E = 100000 keV. The 1 variable histograms show the theoretical distribution obtained from numerically integrating F with the constrain $F > 0$}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}{Two variable: a and A}
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			$$F = 1 + \beta_e(a (z_ez_\nu +$$$$ \sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\cos \phi) + Az_e)$$
+		\end{column}
+
+	\begin{column}{0.6\textwidth}
+		\begin{figure}
+			\centering
+			\includegraphics[height=0.65\textheight]{plots/sample_aA_eqpos_pairplot}
+			\caption{Pairplot with the marginal distributions for a simulation of N = 300000 decays with a = A = 1, E = 100000 keV}
+		\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+
+\begin{frame}{Two variable: a and B}
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			$$F = 1 + a\beta_e(z_ez_\nu +$$$$ \sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\cos \phi) + Bz_\nu$$
+		\end{column}
+		
+		\begin{column}{0.6\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[height=0.65\textheight]{plots/sample_aB_hiE_pairplot}
+				\caption{Pairplot with the marginal distributions for a simulation of N = 300000 decays with a = B = 1, E = 5000 keV.}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Two variable: A and D}
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			$$F = 1 + A\beta_ez_e$$$$+ D\beta_e\sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\sin \phi$$
+
+		\end{column}
+		
+		\begin{column}{0.6\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[height=0.65\textheight]{plots/sample_DB_hiE_pairplot}
+				\caption{Pairplot with the marginal distributions for a simulation of N = 300000 decays with A = D = 1, E = 100000 keV}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Two variable: B and D}
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			$$F = 1  + Bz_\nu$$$$+ D\beta_e\sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\sin \phi$$
+			
+		\end{column}
+		\begin{column}{0.6\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[height=0.65\textheight]{plots/sample_DA_eqpos_pairplot}
+				\caption{Pairplot with the marginal distributions for a simulation of N = 300000 decays with B = D = 1, E = 5000 keV}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
 
 
 \end{document}

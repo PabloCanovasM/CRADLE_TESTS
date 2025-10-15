@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.2)  14 OCT 2025 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.2)  15 OCT 2025 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -879,393 +879,930 @@ it/10.95 ^^R[]\OT1/cmss/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^Q \OT1/cmss/m/it/10.9
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<plots/A_3D_image.png, id=53, 433.62pt x 433.62pt>
-File: plots/A_3D_image.png Graphic file (type png)
-<use plots/A_3D_image.png>
-Package pdftex.def Info: plots/A_3D_image.png  used on input line 25.
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
-<plots/A_max_min.png, id=55, 433.62pt x 433.62pt>
-File: plots/A_max_min.png Graphic file (type png)
-<use plots/A_max_min.png>
-Package pdftex.def Info: plots/A_max_min.png  used on input line 25.
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
- [2
 
- <./plots/A_3D_image.png> <./plots/A_max_min.png>]
-<plots/crosssections_A.png, id=83, 867.24pt x 433.62pt>
-File: plots/crosssections_A.png Graphic file (type png)
-<use plots/crosssections_A.png>
-Package pdftex.def Info: plots/crosssections_A.png  used on input line 32.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
- [3
+LaTeX Warning: File `plots/A_3D_image.png' not found on input line 25.
 
- <./plots/crosssections_A.png>]
-<plots/B_3D_image.png, id=111, 433.62pt x 433.62pt>
-File: plots/B_3D_image.png Graphic file (type png)
-<use plots/B_3D_image.png>
-Package pdftex.def Info: plots/B_3D_image.png  used on input line 41.
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
-<plots/B_max_min.png, id=112, 433.62pt x 433.62pt>
-File: plots/B_max_min.png Graphic file (type png)
-<use plots/B_max_min.png>
-Package pdftex.def Info: plots/B_max_min.png  used on input line 41.
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
- [4
 
- <./plots/B_3D_image.png> <./plots/B_max_min.png>]
-<plots/crosssections_B.png, id=140, 867.24pt x 433.62pt>
-File: plots/crosssections_B.png Graphic file (type png)
-<use plots/crosssections_B.png>
-Package pdftex.def Info: plots/crosssections_B.png  used on input line 48.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
- [5
+! Package pdftex.def Error: File `plots/A_3D_image.png' not found: using draft 
+setting.
 
- <./plots/crosssections_B.png>]
-<plots/a_3D_image.png, id=168, 433.62pt x 433.62pt>
-File: plots/a_3D_image.png Graphic file (type png)
-<use plots/a_3D_image.png>
-Package pdftex.def Info: plots/a_3D_image.png  used on input line 57.
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
-<plots/a_max_min.png, id=169, 433.62pt x 433.62pt>
-File: plots/a_max_min.png Graphic file (type png)
-<use plots/a_max_min.png>
-Package pdftex.def Info: plots/a_max_min.png  used on input line 57.
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
- [6
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \end{frame}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
- <./plots/a_3D_image.png> <./plots/a_max_min.png>]
-<plots/crosssections_a.png, id=197, 867.24pt x 433.62pt>
-File: plots/crosssections_a.png Graphic file (type png)
-<use plots/crosssections_a.png>
-Package pdftex.def Info: plots/crosssections_a.png  used on input line 64.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
- [7
 
- <./plots/crosssections_a.png>]
-<plots/D_3D_image.png, id=225, 433.62pt x 433.62pt>
-File: plots/D_3D_image.png Graphic file (type png)
-<use plots/D_3D_image.png>
-Package pdftex.def Info: plots/D_3D_image.png  used on input line 73.
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
-<plots/D_max_min.png, id=226, 433.62pt x 433.62pt>
-File: plots/D_max_min.png Graphic file (type png)
-<use plots/D_max_min.png>
-Package pdftex.def Info: plots/D_max_min.png  used on input line 73.
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
+LaTeX Warning: File `plots/A_max_min.png' not found on input line 25.
+
+
+! Package pdftex.def Error: File `plots/A_max_min.png' not found: using draft s
+etting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \end{frame}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[2
+
+]
+
+LaTeX Warning: File `plots/crosssections_A.png' not found on input line 32.
+
+
+! Package pdftex.def Error: File `plots/crosssections_A.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \end{frame}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \vbox (94.10896pt too high) detected at line 32
+ []
+
+[3
+
+]
+
+LaTeX Warning: File `plots/B_3D_image.png' not found on input line 41.
+
+
+! Package pdftex.def Error: File `plots/B_3D_image.png' not found: using draft 
+setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \end{frame}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `plots/B_max_min.png' not found on input line 41.
+
+
+! Package pdftex.def Error: File `plots/B_max_min.png' not found: using draft s
+etting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \end{frame}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[4
+
+]
+
+LaTeX Warning: File `plots/crosssections_B.png' not found on input line 48.
+
+
+! Package pdftex.def Error: File `plots/crosssections_B.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \end{frame}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \vbox (94.10896pt too high) detected at line 48
+ []
+
+[5
+
+]
+
+LaTeX Warning: File `plots/a_3D_image.png' not found on input line 57.
+
+
+! Package pdftex.def Error: File `plots/a_3D_image.png' not found: using draft 
+setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \end{frame}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `plots/a_max_min.png' not found on input line 57.
+
+
+! Package pdftex.def Error: File `plots/a_max_min.png' not found: using draft s
+etting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \end{frame}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[6
+
+]
+
+LaTeX Warning: File `plots/crosssections_a.png' not found on input line 64.
+
+
+! Package pdftex.def Error: File `plots/crosssections_a.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 \end{frame}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \vbox (94.10896pt too high) detected at line 64
+ []
+
+[7
+
+]
+
+LaTeX Warning: File `plots/D_3D_image.png' not found on input line 73.
+
+
+! Package pdftex.def Error: File `plots/D_3D_image.png' not found: using draft 
+setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 \end{frame}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `plots/D_max_min.png' not found on input line 73.
+
+
+! Package pdftex.def Error: File `plots/D_max_min.png' not found: using draft s
+etting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 \end{frame}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [8
 
- <./plots/D_3D_image.png> <./plots/D_max_min.png>]
-<plots/crosssections_D.png, id=254, 867.24pt x 433.62pt>
-File: plots/crosssections_D.png Graphic file (type png)
-<use plots/crosssections_D.png>
-Package pdftex.def Info: plots/crosssections_D.png  used on input line 80.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
- [9
+]
 
- <./plots/crosssections_D.png>] [10
+LaTeX Warning: File `plots/crosssections_D.png' not found on input line 80.
+
+
+! Package pdftex.def Error: File `plots/crosssections_D.png' not found: using d
+raft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 \end{frame}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \vbox (94.10896pt too high) detected at line 80
+ []
+
+[9
+
+] [10
 
 ]
-<plots/posA_posB_lowE.png, id=308, 867.24pt x 433.62pt>
-File: plots/posA_posB_lowE.png Graphic file (type png)
-<use plots/posA_posB_lowE.png>
-Package pdftex.def Info: plots/posA_posB_lowE.png  used on input line 100.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
- [11
 
- <./plots/posA_posB_lowE.png>]
-<plots/posA_posB_medE.png, id=336, 867.24pt x 433.62pt>
-File: plots/posA_posB_medE.png Graphic file (type png)
-<use plots/posA_posB_medE.png>
-Package pdftex.def Info: plots/posA_posB_medE.png  used on input line 107.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
- [12
+LaTeX Warning: File `plots/posA_posB_lowE.png' not found on input line 100.
 
- <./plots/posA_posB_medE.png>]
-<plots/posA_posB_hiE.png, id=363, 867.24pt x 433.62pt>
-File: plots/posA_posB_hiE.png Graphic file (type png)
-<use plots/posA_posB_hiE.png>
-Package pdftex.def Info: plots/posA_posB_hiE.png  used on input line 114.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
- [13
 
- <./plots/posA_posB_hiE.png>]
-<plots/posA_posB_hiA.png, id=392, 867.24pt x 433.62pt>
-File: plots/posA_posB_hiA.png Graphic file (type png)
-<use plots/posA_posB_hiA.png>
-Package pdftex.def Info: plots/posA_posB_hiA.png  used on input line 121.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
- [14
+! Package pdftex.def Error: File `plots/posA_posB_lowE.png' not found: using dr
+aft setting.
 
- <./plots/posA_posB_hiA.png>]
-<plots/posA_posB_vhiA.png, id=419, 867.24pt x 433.62pt>
-File: plots/posA_posB_vhiA.png Graphic file (type png)
-<use plots/posA_posB_vhiA.png>
-Package pdftex.def Info: plots/posA_posB_vhiA.png  used on input line 128.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
- [15
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
- <./plots/posA_posB_vhiA.png>]
-<plots/posA_negB_lowE.png, id=446, 867.24pt x 433.62pt>
-File: plots/posA_negB_lowE.png Graphic file (type png)
-<use plots/posA_negB_lowE.png>
-Package pdftex.def Info: plots/posA_negB_lowE.png  used on input line 135.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
- [16
 
- <./plots/posA_negB_lowE.png>]
-<plots/posA_negB_hiE.png, id=473, 867.24pt x 433.62pt>
-File: plots/posA_negB_hiE.png Graphic file (type png)
-<use plots/posA_negB_hiE.png>
-Package pdftex.def Info: plots/posA_negB_hiE.png  used on input line 142.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
- [17
+Overfull \vbox (130.66452pt too high) detected at line 100
+ []
 
- <./plots/posA_negB_hiE.png>] [18
+[11
 
 ]
-<plots/lambda_test_result.png, id=527, 562.2606pt x 314.3745pt>
-File: plots/lambda_test_result.png Graphic file (type png)
-<use plots/lambda_test_result.png>
-Package pdftex.def Info: plots/lambda_test_result.png  used on input line 161.
-(pdftex.def)             Requested size: 244.27252pt x 136.5733pt.
- [19
 
- <./plots/lambda_test_result.png>] [20
+LaTeX Warning: File `plots/posA_posB_medE.png' not found on input line 107.
 
-]
-<plots/posa_posB_lowE_3D.png, id=580, 433.62pt x 433.62pt>
-File: plots/posa_posB_lowE_3D.png Graphic file (type png)
-<use plots/posa_posB_lowE_3D.png>
-Package pdftex.def Info: plots/posa_posB_lowE_3D.png  used on input line 184.
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
-<plots/posa_negB_lowE_3D.png, id=581, 433.62pt x 433.62pt>
-File: plots/posa_negB_lowE_3D.png Graphic file (type png)
-<use plots/posa_negB_lowE_3D.png>
-Package pdftex.def Info: plots/posa_negB_lowE_3D.png  used on input line 184.
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
- [21
 
- <./plots/posa_posB_lowE_3D.png> <./plots/posa_negB_lowE_3D.png>]
-<plots/posa_posB_hiE_3D.png, id=610, 433.62pt x 433.62pt>
-File: plots/posa_posB_hiE_3D.png Graphic file (type png)
-<use plots/posa_posB_hiE_3D.png>
-Package pdftex.def Info: plots/posa_posB_hiE_3D.png  used on input line 192.
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
-<plots/posa_negB_hiE_3D.png, id=611, 433.62pt x 433.62pt>
-File: plots/posa_negB_hiE_3D.png Graphic file (type png)
-<use plots/posa_negB_hiE_3D.png>
-Package pdftex.def Info: plots/posa_negB_hiE_3D.png  used on input line 192.
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
- [22
+! Package pdftex.def Error: File `plots/posA_posB_medE.png' not found: using dr
+aft setting.
 
- <./plots/posa_posB_hiE_3D.png> <./plots/posa_negB_hiE_3D.png>]
-<plots/posa_posB_medE_3D.png, id=639, 433.62pt x 433.62pt>
-File: plots/posa_posB_medE_3D.png Graphic file (type png)
-<use plots/posa_posB_medE_3D.png>
-Package pdftex.def Info: plots/posa_posB_medE_3D.png  used on input line 200.
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
-<plots/posa_posB_vhia_3D.png, id=640, 433.62pt x 433.62pt>
-File: plots/posa_posB_vhia_3D.png Graphic file (type png)
-<use plots/posa_posB_vhia_3D.png>
-Package pdftex.def Info: plots/posa_posB_vhia_3D.png  used on input line 200.
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
- [23
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
- <./plots/posa_posB_medE_3D.png> <./plots/posa_posB_vhia_3D.png>]
-<plots/posa_posB_hiE_max_min.png, id=668, 433.62pt x 505.89pt>
-File: plots/posa_posB_hiE_max_min.png Graphic file (type png)
-<use plots/posa_posB_hiE_max_min.png>
-Package pdftex.def Info: plots/posa_posB_hiE_max_min.png  used on input line 20
-8.
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
-<plots/posa_negB_hiE_max_min.png, id=669, 433.62pt x 505.89pt>
-File: plots/posa_negB_hiE_max_min.png Graphic file (type png)
-<use plots/posa_negB_hiE_max_min.png>
-Package pdftex.def Info: plots/posa_negB_hiE_max_min.png  used on input line 20
-8.
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
- [24
 
- <./plots/posa_posB_hiE_max_min.png> <./plots/posa_negB_hiE_max_min.png>] [25
+Overfull \vbox (130.66452pt too high) detected at line 107
+ []
+
+[12
 
 ]
-<plots/posa_xsposA_3D.png, id=724, 462.528pt x 346.896pt>
-File: plots/posa_xsposA_3D.png Graphic file (type png)
-<use plots/posa_xsposA_3D.png>
-Package pdftex.def Info: plots/posa_xsposA_3D.png  used on input line 224.
-(pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
-<plots/posa_xsnegA_3D.png, id=725, 462.528pt x 346.896pt>
-File: plots/posa_xsnegA_3D.png Graphic file (type png)
-<use plots/posa_xsnegA_3D.png>
-Package pdftex.def Info: plots/posa_xsnegA_3D.png  used on input line 224.
-(pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
- [26
 
- <./plots/posa_xsposA_3D.png> <./plots/posa_xsnegA_3D.png>]
-<plots/posa_eqposA_3D.png, id=755, 462.528pt x 346.896pt>
-File: plots/posa_eqposA_3D.png Graphic file (type png)
-<use plots/posa_eqposA_3D.png>
-Package pdftex.def Info: plots/posa_eqposA_3D.png  used on input line 232.
-(pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
-<plots/posa_eqnegA_3D.png, id=756, 462.528pt x 346.896pt>
-File: plots/posa_eqnegA_3D.png Graphic file (type png)
-<use plots/posa_eqnegA_3D.png>
-Package pdftex.def Info: plots/posa_eqnegA_3D.png  used on input line 232.
-(pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
- [27
+LaTeX Warning: File `plots/posA_posB_hiE.png' not found on input line 114.
 
- <./plots/posa_eqposA_3D.png> <./plots/posa_eqnegA_3D.png>]
-<plots/posa_xlposA_3D.png, id=784, 462.528pt x 346.896pt>
-File: plots/posa_xlposA_3D.png Graphic file (type png)
-<use plots/posa_xlposA_3D.png>
-Package pdftex.def Info: plots/posa_xlposA_3D.png  used on input line 241.
-(pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
-<plots/posa_xlnegA_3D.png, id=785, 462.528pt x 346.896pt>
-File: plots/posa_xlnegA_3D.png Graphic file (type png)
-<use plots/posa_xlnegA_3D.png>
-Package pdftex.def Info: plots/posa_xlnegA_3D.png  used on input line 241.
-(pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
+
+! Package pdftex.def Error: File `plots/posA_posB_hiE.png' not found: using dra
+ft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \vbox (130.66452pt too high) detected at line 114
+ []
+
+[13
+
+]
+
+LaTeX Warning: File `plots/posA_posB_hiA.png' not found on input line 121.
+
+
+! Package pdftex.def Error: File `plots/posA_posB_hiA.png' not found: using dra
+ft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \vbox (130.66452pt too high) detected at line 121
+ []
+
+[14
+
+]
+
+LaTeX Warning: File `plots/posA_posB_vhiA.png' not found on input line 128.
+
+
+! Package pdftex.def Error: File `plots/posA_posB_vhiA.png' not found: using dr
+aft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \vbox (130.66452pt too high) detected at line 128
+ []
+
+[15
+
+]
+
+LaTeX Warning: File `plots/posA_negB_lowE.png' not found on input line 135.
+
+
+! Package pdftex.def Error: File `plots/posA_negB_lowE.png' not found: using dr
+aft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \vbox (130.66452pt too high) detected at line 135
+ []
+
+[16
+
+]
+
+LaTeX Warning: File `plots/posA_negB_hiE.png' not found on input line 142.
+
+
+! Package pdftex.def Error: File `plots/posA_negB_hiE.png' not found: using dra
+ft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \vbox (130.66452pt too high) detected at line 142
+ []
+
+[17
+
+] [18
+
+]
+
+LaTeX Warning: File `plots/lambda_test_result.png' not found on input line 161.
+
+
+
+! Package pdftex.def Error: File `plots/lambda_test_result.png' not found: usin
+g draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[19
+
+] [20
+
+]
+
+! LaTeX Error: File `plots/posa_posB_lowE_3D' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `plots/posa_negB_lowE_3D' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[21
+
+]
+
+! LaTeX Error: File `plots/posa_posB_hiE_3D' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `plots/posa_negB_hiE_3D' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[22
+
+]
+
+! LaTeX Error: File `plots/posa_posB_medE_3D' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `plots/posa_posB_vhia_3D' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[23
+
+]
+
+! LaTeX Error: File `plots/posa_posB_hiE_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `plots/posa_negB_hiE_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[24
+
+] [25
+
+]
+
+! LaTeX Error: File `plots/posa_xsposA_3D' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `plots/posa_xsnegA_3D' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[26
+
+]
+
+! LaTeX Error: File `plots/posa_eqposA_3D' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `plots/posa_eqnegA_3D' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[27
+
+]
+
+! LaTeX Error: File `plots/posa_xlposA_3D' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `plots/posa_xlnegA_3D' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [28
 
- <./plots/posa_xlposA_3D.png> <./plots/posa_xlnegA_3D.png>]
-<plots/posa_eqposA_max_min.png, id=813, 433.62pt x 433.62pt>
-File: plots/posa_eqposA_max_min.png Graphic file (type png)
-<use plots/posa_eqposA_max_min.png>
-Package pdftex.def Info: plots/posa_eqposA_max_min.png  used on input line 249.
+]
 
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
-<plots/posa_eqnegA_max_min.png, id=814, 433.62pt x 433.62pt>
-File: plots/posa_eqnegA_max_min.png Graphic file (type png)
-<use plots/posa_eqnegA_max_min.png>
-Package pdftex.def Info: plots/posa_eqnegA_max_min.png  used on input line 249.
+! LaTeX Error: File `plots/posa_eqposA_max_min' not found.
 
-(pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
- [29
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.249 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
- <./plots/posa_eqposA_max_min.png> <./plots/posa_eqnegA_max_min.png>] [30
+
+! LaTeX Error: File `plots/posa_eqnegA_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.249 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[29
+
+] [30
 
 ]
-<plots/posD_posB_medE_3D.png, id=868, 462.528pt x 346.896pt>
-File: plots/posD_posB_medE_3D.png Graphic file (type png)
-<use plots/posD_posB_medE_3D.png>
-Package pdftex.def Info: plots/posD_posB_medE_3D.png  used on input line 276.
-(pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
-<plots/posD_posB_hiD_3D.png, id=869, 462.528pt x 346.896pt>
-File: plots/posD_posB_hiD_3D.png Graphic file (type png)
-<use plots/posD_posB_hiD_3D.png>
-Package pdftex.def Info: plots/posD_posB_hiD_3D.png  used on input line 276.
-(pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
- [31
 
- <./plots/posD_posB_medE_3D.png> <./plots/posD_posB_hiD_3D.png>]
-<plots/posD_posB_lowE_max_min.png, id=898, 433.62pt x 505.89pt>
-File: plots/posD_posB_lowE_max_min.png Graphic file (type png)
-<use plots/posD_posB_lowE_max_min.png>
-Package pdftex.def Info: plots/posD_posB_lowE_max_min.png  used on input line 2
-84.
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
-<plots/posD_negB_lowE_max_min.png, id=899, 433.62pt x 505.89pt>
-File: plots/posD_negB_lowE_max_min.png Graphic file (type png)
-<use plots/posD_negB_lowE_max_min.png>
-Package pdftex.def Info: plots/posD_negB_lowE_max_min.png  used on input line 2
-84.
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
- [32
+! LaTeX Error: File `plots/posD_posB_medE_3D' not found.
 
- <./plots/posD_posB_lowE_max_min.png> <./plots/posD_negB_lowE_max_min.png>]
-<plots/posD_negB_hiE_max_min.png, id=927, 433.62pt x 505.89pt>
-File: plots/posD_negB_hiE_max_min.png Graphic file (type png)
-<use plots/posD_negB_hiE_max_min.png>
-Package pdftex.def Info: plots/posD_negB_hiE_max_min.png  used on input line 29
-2.
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
-File: plots/posD_negB_hiE_max_min.png Graphic file (type png)
-<use plots/posD_negB_hiE_max_min.png>
-Package pdftex.def Info: plots/posD_negB_hiE_max_min.png  used on input line 29
-2.
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
- [33
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
- <./plots/posD_negB_hiE_max_min.png>]
-<plots/posD_posB_hiD_max_min.png, id=954, 433.62pt x 505.89pt>
-File: plots/posD_posB_hiD_max_min.png Graphic file (type png)
-<use plots/posD_posB_hiD_max_min.png>
-Package pdftex.def Info: plots/posD_posB_hiD_max_min.png  used on input line 30
-0.
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
-<plots/posD_posB_vhiD_max_min.png, id=955, 433.62pt x 505.89pt>
-File: plots/posD_posB_vhiD_max_min.png Graphic file (type png)
-<use plots/posD_posB_vhiD_max_min.png>
-Package pdftex.def Info: plots/posD_posB_vhiD_max_min.png  used on input line 3
-00.
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
- [34
 
- <./plots/posD_posB_hiD_max_min.png> <./plots/posD_posB_vhiD_max_min.png>]
-<plots/BD_max_behaviour.png, id=984, 867.24pt x 433.62pt>
-File: plots/BD_max_behaviour.png Graphic file (type png)
-<use plots/BD_max_behaviour.png>
-Package pdftex.def Info: plots/BD_max_behaviour.png  used on input line 308.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
- [35
+! LaTeX Error: File `plots/posD_posB_hiD_3D' not found.
 
- <./plots/BD_max_behaviour.png>] [36
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[31
 
 ]
-<plots/posD_xsposA_max_min.png, id=1036, 433.62pt x 505.89pt>
-File: plots/posD_xsposA_max_min.png Graphic file (type png)
-<use plots/posD_xsposA_max_min.png>
-Package pdftex.def Info: plots/posD_xsposA_max_min.png  used on input line 328.
 
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
-<plots/posD_xsnegA_max_min.png, id=1037, 433.62pt x 505.89pt>
-File: plots/posD_xsnegA_max_min.png Graphic file (type png)
-<use plots/posD_xsnegA_max_min.png>
-Package pdftex.def Info: plots/posD_xsnegA_max_min.png  used on input line 328.
+! LaTeX Error: File `plots/posD_posB_lowE_max_min' not found.
 
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
- [37
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.284 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
- <./plots/posD_xsposA_max_min.png> <./plots/posD_xsnegA_max_min.png>]
-<plots/posD_eqposA_max_min.png, id=1066, 433.62pt x 505.89pt>
-File: plots/posD_eqposA_max_min.png Graphic file (type png)
-<use plots/posD_eqposA_max_min.png>
-Package pdftex.def Info: plots/posD_eqposA_max_min.png  used on input line 336.
 
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
-<plots/posD_eqnegA_max_min.png, id=1067, 433.62pt x 505.89pt>
-File: plots/posD_eqnegA_max_min.png Graphic file (type png)
-<use plots/posD_eqnegA_max_min.png>
-Package pdftex.def Info: plots/posD_eqnegA_max_min.png  used on input line 336.
+! LaTeX Error: File `plots/posD_negB_lowE_max_min' not found.
 
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
- [38
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.284 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
- <./plots/posD_eqposA_max_min.png> <./plots/posD_eqnegA_max_min.png>]
-<plots/posD_xlposA_max_min.png, id=1096, 433.62pt x 505.89pt>
-File: plots/posD_xlposA_max_min.png Graphic file (type png)
-<use plots/posD_xlposA_max_min.png>
-Package pdftex.def Info: plots/posD_xlposA_max_min.png  used on input line 344.
+[32
 
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
-File: plots/posD_xlposA_max_min.png Graphic file (type png)
-<use plots/posD_xlposA_max_min.png>
-Package pdftex.def Info: plots/posD_xlposA_max_min.png  used on input line 344.
+]
 
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
- [39
+! LaTeX Error: File `plots/posD_negB_hiE_max_min' not found.
 
- <./plots/posD_xlposA_max_min.png>]
-<plots/AD_max_behaviour.png, id=1123, 867.24pt x 433.62pt>
-File: plots/AD_max_behaviour.png Graphic file (type png)
-<use plots/AD_max_behaviour.png>
-Package pdftex.def Info: plots/AD_max_behaviour.png  used on input line 351.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.292 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `plots/posD_negB_hiE_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.292 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[33
+
+]
+
+! LaTeX Error: File `plots/posD_posB_hiD_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.300 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `plots/posD_posB_vhiD_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.300 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[34
+
+]
+
+! LaTeX Error: File `plots/BD_max_behaviour' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.308 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[35
+
+] [36
+
+]
+
+! LaTeX Error: File `plots/posD_xsposA_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.328 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `plots/posD_xsnegA_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.328 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[37
+
+]
+
+! LaTeX Error: File `plots/posD_eqposA_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.336 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `plots/posD_eqnegA_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.336 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[38
+
+]
+
+! LaTeX Error: File `plots/posD_xlposA_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.344 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `plots/posD_xlposA_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.344 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[39
+
+]
+
+! LaTeX Error: File `plots/AD_max_behaviour' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.351 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 [40
 
- <./plots/AD_max_behaviour.png>]
+]
 Overfull \hbox (16.22466pt too wide) detected at line 363
 \OT1/cmss/m/it/10.95 F \OT1/cmss/m/n/10.95 = 1 + \OML/cmm/m/it/10.95 ^^L[]\OT1/
 cmss/m/n/10.95 (\OT1/cmss/m/it/10.95 a\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/10.95
@@ -1277,73 +1814,135 @@ cmss/m/n/10.95 (\OT1/cmss/m/it/10.95 a\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/10.95
 [41
 
 ]
-<plots/posa_xsposD_max_min.png, id=1175, 433.62pt x 505.89pt>
-File: plots/posa_xsposD_max_min.png Graphic file (type png)
-<use plots/posa_xsposD_max_min.png>
-Package pdftex.def Info: plots/posa_xsposD_max_min.png  used on input line 371.
 
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
-<plots/posa_xsnegD_max_min.png, id=1176, 433.62pt x 505.89pt>
-File: plots/posa_xsnegD_max_min.png Graphic file (type png)
-<use plots/posa_xsnegD_max_min.png>
-Package pdftex.def Info: plots/posa_xsnegD_max_min.png  used on input line 371.
+! LaTeX Error: File `plots/posa_xsposD_max_min' not found.
 
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
- [42
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.371 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
- <./plots/posa_xsposD_max_min.png> <./plots/posa_xsnegD_max_min.png>]
-<plots/posa_eqposD_max_min.png, id=1205, 433.62pt x 505.89pt>
-File: plots/posa_eqposD_max_min.png Graphic file (type png)
-<use plots/posa_eqposD_max_min.png>
-Package pdftex.def Info: plots/posa_eqposD_max_min.png  used on input line 379.
 
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
-<plots/posa_eqnegD_max_min.png, id=1206, 433.62pt x 505.89pt>
-File: plots/posa_eqnegD_max_min.png Graphic file (type png)
-<use plots/posa_eqnegD_max_min.png>
-Package pdftex.def Info: plots/posa_eqnegD_max_min.png  used on input line 379.
+! LaTeX Error: File `plots/posa_xsnegD_max_min' not found.
 
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.371 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[42
+
+]
+
+! LaTeX Error: File `plots/posa_eqposD_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `plots/posa_eqnegD_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [43
 
- <./plots/posa_eqposD_max_min.png> <./plots/posa_eqnegD_max_min.png>]
-<plots/posa_xlposD_max_min.png, id=1235, 433.62pt x 505.89pt>
-File: plots/posa_xlposD_max_min.png Graphic file (type png)
-<use plots/posa_xlposD_max_min.png>
-Package pdftex.def Info: plots/posa_xlposD_max_min.png  used on input line 387.
+]
 
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
-<plots/posa_xlnegD_max_min.png, id=1236, 433.62pt x 505.89pt>
-File: plots/posa_xlnegD_max_min.png Graphic file (type png)
-<use plots/posa_xlnegD_max_min.png>
-Package pdftex.def Info: plots/posa_xlnegD_max_min.png  used on input line 387.
+! LaTeX Error: File `plots/posa_xlposD_max_min' not found.
 
-(pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.387 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `plots/posa_xlnegD_max_min' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.387 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [44
 
- <./plots/posa_xlposD_max_min.png> <./plots/posa_xlnegD_max_min.png>]
-<plots/aD_max_behaviour.png, id=1264, 867.24pt x 433.62pt>
-File: plots/aD_max_behaviour.png Graphic file (type png)
-<use plots/aD_max_behaviour.png>
-Package pdftex.def Info: plots/aD_max_behaviour.png  used on input line 394.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
+]
+
+! LaTeX Error: File `plots/aD_max_behaviour' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.394 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [45
 
- <./plots/aD_max_behaviour.png>] [46
+] [46
 
 ]
-<plots/aAB_gt_current_physics.png, id=1316, 867.24pt x 433.62pt>
-File: plots/aAB_gt_current_physics.png Graphic file (type png)
-<use plots/aAB_gt_current_physics.png>
-Package pdftex.def Info: plots/aAB_gt_current_physics.png  used on input line 4
-13.
-(pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
- [47
 
- <./plots/aAB_gt_current_physics.png>]
+! LaTeX Error: File `plots/aAB_gt_current_physics' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.413 \end{frame}
+                 
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[47
+
+]
 \tf@nav=\write6
 \openout6 = `ang_correlation_factor.nav'.
 
@@ -1367,11 +1966,11 @@ Package rerunfilecheck Info: File `ang_correlation_factor.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21835 strings out of 476064
- 422693 string characters out of 5792854
+ 23020 strings out of 476064
+ 462949 string characters out of 5792854
  1942975 words of memory out of 5000000
- 43329 multiletter control sequences out of 15000+600000
- 572981 words of font info for 90 fonts, out of 8000000 for 9000
+ 44513 multiletter control sequences out of 15000+600000
+ 573149 words of font info for 91 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  101i,14n,107p,415b,561s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
@@ -1390,11 +1989,12 @@ si8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ang_correlation_factor.pdf (47 pages, 5807048 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on ang_correlation_factor.pdf (47 pages, 265136 bytes).
 PDF statistics:
- 1441 PDF objects out of 1728 (max. 8388607)
- 1221 compressed objects within 13 object streams
+ 1329 PDF objects out of 1440 (max. 8388607)
+ 1223 compressed objects within 13 object streams
  95 named destinations out of 1000 (max. 500000)
- 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.2)  14 OCT 2025 18:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.2)  15 OCT 2025 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -891,14 +891,14 @@ Overfull \vbox (7.58945pt too high) detected at line 25
 [2
 
  <./plots/sample_Apairplot.png>]
-Overfull \hbox (10.18758pt too wide) detected at line 48
+Overfull \hbox (10.18758pt too wide) detected at line 44
 \OT1/cmss/m/it/10.95 f\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/10.95 z[]\OT1/cmss/m/
 n/10.95 ) = \OT1/cmss/m/it/10.95 N [][] dz[] [][] d\OML/cmm/m/it/10.95 ^^^\OT1/
 cmss/m/it/10.95 F \OT1/cmss/m/n/10.95 =
  []
 
 
-Overfull \hbox (17.30359pt too wide) detected at line 48
+Overfull \hbox (17.30359pt too wide) detected at line 44
 \OT1/cmss/m/n/10.95 = 4\OML/cmm/m/it/10.95 ^^Y\OT1/cmss/m/it/10.95 N\OT1/cmss/m
 /n/10.95 (1 + \OT1/cmss/m/it/10.95 A\OML/cmm/m/it/10.95 ^^L\OT1/cmss/m/it/10.95
  z[]\OT1/cmss/m/n/10.95 ) = \OT1/cmss/m/it/10.95 N\OT1/cmss/m/n/10.95 (1 + \OT1
@@ -909,10 +909,10 @@ Overfull \hbox (17.30359pt too wide) detected at line 48
 <plots/hist_A_ze.png, id=81, 433.62pt x 433.62pt>
 File: plots/hist_A_ze.png Graphic file (type png)
 <use plots/hist_A_ze.png>
-Package pdftex.def Info: plots/hist_A_ze.png  used on input line 48.
+Package pdftex.def Info: plots/hist_A_ze.png  used on input line 44.
 (pdftex.def)             Requested size: 176.69073pt x 176.69362pt.
 
-Overfull \vbox (3.4205pt too high) detected at line 48
+Overfull \vbox (3.4205pt too high) detected at line 44
  []
 
 [3
@@ -921,23 +921,23 @@ Overfull \vbox (3.4205pt too high) detected at line 48
 <plots/sample_Bpairplot.png, id=109, 1084.05pt x 1084.05pt>
 File: plots/sample_Bpairplot.png Graphic file (type png)
 <use plots/sample_Bpairplot.png>
-Package pdftex.def Info: plots/sample_Bpairplot.png  used on input line 55.
+Package pdftex.def Info: plots/sample_Bpairplot.png  used on input line 51.
 (pdftex.def)             Requested size: 215.31744pt x 215.31812pt.
 
-Overfull \vbox (7.58945pt too high) detected at line 55
+Overfull \vbox (7.58945pt too high) detected at line 51
  []
 
 [4
 
  <./plots/sample_Bpairplot.png>]
-Overfull \hbox (10.18758pt too wide) detected at line 74
+Overfull \hbox (10.18758pt too wide) detected at line 70
 \OT1/cmss/m/it/10.95 f\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/10.95 z[]\OT1/cmss/m/
 n/10.95 ) = \OT1/cmss/m/it/10.95 N [][] dz[] [][] d\OML/cmm/m/it/10.95 ^^^\OT1/
 cmss/m/it/10.95 F \OT1/cmss/m/n/10.95 =
  []
 
 
-Overfull \hbox (4.49399pt too wide) detected at line 74
+Overfull \hbox (4.49399pt too wide) detected at line 70
 \OT1/cmss/m/n/10.95 = 4\OML/cmm/m/it/10.95 ^^Y\OT1/cmss/m/it/10.95 N\OT1/cmss/m
 /n/10.95 (1 + \OT1/cmss/m/it/10.95 Bz[]\OT1/cmss/m/n/10.95 ) = \OT1/cmss/m/it/1
 0.95 N\OT1/cmss/m/n/10.95 (1 + \OT1/cmss/m/it/10.95 Bz[]\OT1/cmss/m/n/10.95 )
@@ -946,10 +946,10 @@ Overfull \hbox (4.49399pt too wide) detected at line 74
 <plots/hist_B_znu.png, id=136, 433.62pt x 433.62pt>
 File: plots/hist_B_znu.png Graphic file (type png)
 <use plots/hist_B_znu.png>
-Package pdftex.def Info: plots/hist_B_znu.png  used on input line 74.
+Package pdftex.def Info: plots/hist_B_znu.png  used on input line 70.
 (pdftex.def)             Requested size: 176.69073pt x 176.69362pt.
 
-Overfull \vbox (3.4205pt too high) detected at line 74
+Overfull \vbox (3.4205pt too high) detected at line 70
  []
 
 [5
@@ -958,10 +958,10 @@ Overfull \vbox (3.4205pt too high) detected at line 74
 <plots/sample_apairplot.png, id=164, 1084.05pt x 1084.05pt>
 File: plots/sample_apairplot.png Graphic file (type png)
 <use plots/sample_apairplot.png>
-Package pdftex.def Info: plots/sample_apairplot.png  used on input line 81.
+Package pdftex.def Info: plots/sample_apairplot.png  used on input line 77.
 (pdftex.def)             Requested size: 215.31744pt x 215.31812pt.
 
-Overfull \vbox (7.58945pt too high) detected at line 81
+Overfull \vbox (7.58945pt too high) detected at line 77
  []
 
 [6
@@ -974,10 +974,10 @@ Overfull \vbox (7.58945pt too high) detected at line 81
 <plots/hist_a_phi.png, id=243, 433.62pt x 433.62pt>
 File: plots/hist_a_phi.png Graphic file (type png)
 <use plots/hist_a_phi.png>
-Package pdftex.def Info: plots/hist_a_phi.png  used on input line 109.
+Package pdftex.def Info: plots/hist_a_phi.png  used on input line 105.
 (pdftex.def)             Requested size: 188.40483pt x 188.40181pt.
 
-Overfull \vbox (3.07314pt too high) detected at line 109
+Overfull \vbox (3.07314pt too high) detected at line 105
  []
 
 [9
@@ -986,10 +986,10 @@ Overfull \vbox (3.07314pt too high) detected at line 109
 <plots/hist_a_cos_enu.png, id=271, 433.62pt x 433.62pt>
 File: plots/hist_a_cos_enu.png Graphic file (type png)
 <use plots/hist_a_cos_enu.png>
-Package pdftex.def Info: plots/hist_a_cos_enu.png  used on input line 130.
+Package pdftex.def Info: plots/hist_a_cos_enu.png  used on input line 126.
 (pdftex.def)             Requested size: 153.64493pt x 153.64174pt.
 
-Overfull \vbox (4.36862pt too high) detected at line 130
+Overfull \vbox (4.36862pt too high) detected at line 126
  []
 
 [10
@@ -998,10 +998,10 @@ Overfull \vbox (4.36862pt too high) detected at line 130
 <plots/sample_Dpairplot.png, id=299, 1084.05pt x 1084.05pt>
 File: plots/sample_Dpairplot.png Graphic file (type png)
 <use plots/sample_Dpairplot.png>
-Package pdftex.def Info: plots/sample_Dpairplot.png  used on input line 137.
+Package pdftex.def Info: plots/sample_Dpairplot.png  used on input line 133.
 (pdftex.def)             Requested size: 215.31744pt x 215.31812pt.
 
-Overfull \vbox (7.58945pt too high) detected at line 137
+Overfull \vbox (7.58945pt too high) detected at line 133
  []
 
 [11
@@ -1014,7 +1014,7 @@ Overfull \vbox (7.58945pt too high) detected at line 137
 <plots/hist_D_phi.png, id=378, 433.62pt x 433.62pt>
 File: plots/hist_D_phi.png Graphic file (type png)
 <use plots/hist_D_phi.png>
-Package pdftex.def Info: plots/hist_D_phi.png  used on input line 162.
+Package pdftex.def Info: plots/hist_D_phi.png  used on input line 158.
 (pdftex.def)             Requested size: 174.94687pt x 174.94365pt.
  [14
 
@@ -1022,8 +1022,8 @@ Package pdftex.def Info: plots/hist_D_phi.png  used on input line 162.
 <plots/sample_posA_posB_lowE.png, id=405, 867.24pt x 433.62pt>
 File: plots/sample_posA_posB_lowE.png Graphic file (type png)
 <use plots/sample_posA_posB_lowE.png>
-Package pdftex.def Info: plots/sample_posA_posB_lowE.png  used on input line 17
-0.
+Package pdftex.def Info: plots/sample_posA_posB_lowE.png  used on input line 16
+6.
 (pdftex.def)             Requested size: 296.0619pt x 148.03145pt.
 
 [15
@@ -1032,7 +1032,7 @@ Package pdftex.def Info: plots/sample_posA_posB_lowE.png  used on input line 17
 <plots/sample_posA_posB_hiE.png, id=432, 867.24pt x 433.62pt>
 File: plots/sample_posA_posB_hiE.png Graphic file (type png)
 <use plots/sample_posA_posB_hiE.png>
-Package pdftex.def Info: plots/sample_posA_posB_hiE.png  used on input line 178
+Package pdftex.def Info: plots/sample_posA_posB_hiE.png  used on input line 174
 .
 (pdftex.def)             Requested size: 296.0619pt x 148.03145pt.
  [16
@@ -1041,7 +1041,7 @@ Package pdftex.def Info: plots/sample_posA_posB_hiE.png  used on input line 178
 <plots/sample_posA_posB_hiA.png, id=459, 867.24pt x 433.62pt>
 File: plots/sample_posA_posB_hiA.png Graphic file (type png)
 <use plots/sample_posA_posB_hiA.png>
-Package pdftex.def Info: plots/sample_posA_posB_hiA.png  used on input line 186
+Package pdftex.def Info: plots/sample_posA_posB_hiA.png  used on input line 182
 .
 (pdftex.def)             Requested size: 296.0619pt x 148.03145pt.
  [17
@@ -1050,7 +1050,7 @@ Package pdftex.def Info: plots/sample_posA_posB_hiA.png  used on input line 186
 <plots/sample_posA_negB_hiE.png, id=487, 867.24pt x 433.62pt>
 File: plots/sample_posA_negB_hiE.png Graphic file (type png)
 <use plots/sample_posA_negB_hiE.png>
-Package pdftex.def Info: plots/sample_posA_negB_hiE.png  used on input line 194
+Package pdftex.def Info: plots/sample_posA_negB_hiE.png  used on input line 190
 .
 (pdftex.def)             Requested size: 296.0619pt x 148.03145pt.
  [18
@@ -1059,26 +1059,118 @@ Package pdftex.def Info: plots/sample_posA_negB_hiE.png  used on input line 194
 <plots/sample_ABpairplot.png, id=514, 1084.05pt x 1084.05pt>
 File: plots/sample_ABpairplot.png Graphic file (type png)
 <use plots/sample_ABpairplot.png>
-Package pdftex.def Info: plots/sample_ABpairplot.png  used on input line 201.
+Package pdftex.def Info: plots/sample_ABpairplot.png  used on input line 197.
 (pdftex.def)             Requested size: 148.02763pt x 148.03145pt.
  [19
 
  <./plots/sample_ABpairplot.png>] [20
 
 ]
-<plots/hist_AB_ze.png, id=566, 433.62pt x 433.62pt>
+<plots/hist_AB_ze.png, id=567, 433.62pt x 433.62pt>
 File: plots/hist_AB_ze.png Graphic file (type png)
 <use plots/hist_AB_ze.png>
-Package pdftex.def Info: plots/hist_AB_ze.png  used on input line 222.
+Package pdftex.def Info: plots/hist_AB_ze.png  used on input line 223.
 (pdftex.def)             Requested size: 134.57298pt x 134.5733pt.
-<plots/hist_AB_corr_ze.png, id=567, 433.62pt x 433.62pt>
+<plots/hist_AB_corr_ze.png, id=568, 433.62pt x 433.62pt>
 File: plots/hist_AB_corr_ze.png Graphic file (type png)
 <use plots/hist_AB_corr_ze.png>
-Package pdftex.def Info: plots/hist_AB_corr_ze.png  used on input line 222.
+Package pdftex.def Info: plots/hist_AB_corr_ze.png  used on input line 223.
 (pdftex.def)             Requested size: 134.57298pt x 134.5733pt.
  [21
 
  <./plots/hist_AB_ze.png> <./plots/hist_AB_corr_ze.png>]
+<plots/hist_AB_corr2_ze.png, id=597, 433.62pt x 433.62pt>
+File: plots/hist_AB_corr2_ze.png Graphic file (type png)
+<use plots/hist_AB_corr2_ze.png>
+Package pdftex.def Info: plots/hist_AB_corr2_ze.png  used on input line 243.
+(pdftex.def)             Requested size: 153.64493pt x 153.64174pt.
+ [22
+
+ <./plots/hist_AB_corr2_ze.png>]
+<plots/sample_AB_hists.png, id=625, 867.24pt x 433.62pt>
+File: plots/sample_AB_hists.png Graphic file (type png)
+<use plots/sample_AB_hists.png>
+Package pdftex.def Info: plots/sample_AB_hists.png  used on input line 253.
+(pdftex.def)             Requested size: 296.0619pt x 148.03145pt.
+ [23
+
+ <./plots/sample_AB_hists.png>]
+Overfull \hbox (16.22466pt too wide) detected at line 271
+\OT1/cmss/m/it/10.95 F \OT1/cmss/m/n/10.95 = 1 + \OML/cmm/m/it/10.95 ^^L[]\OT1/
+cmss/m/n/10.95 (\OT1/cmss/m/it/10.95 a\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/10.95
+ z[]z[] \OT1/cmss/m/n/10.95 + [][] [] \OML/cmm/m/it/10.95 ^^^\OT1/cmss/m/n/10.9
+5 ) + \OT1/cmss/m/it/10.95 D[][] [] \OML/cmm/m/it/10.95 ^^^\OT1/cmss/m/n/10.95 
+)
+ []
+
+[24
+
+]
+<plots/sample_aD_eqpos_pairplot.png, id=677, 1084.05pt x 1084.05pt>
+File: plots/sample_aD_eqpos_pairplot.png Graphic file (type png)
+<use plots/sample_aD_eqpos_pairplot.png>
+Package pdftex.def Info: plots/sample_aD_eqpos_pairplot.png  used on input line
+ 280.
+(pdftex.def)             Requested size: 161.47568pt x 161.48961pt.
+ [25
+
+ <./plots/sample_aD_eqpos_pairplot.png>]
+Overfull \hbox (16.2817pt too wide) detected at line 297
+[][] [] \OML/cmm/m/it/10.95 ^^^\OT1/cmss/m/n/10.95 ) + \OT1/cmss/m/it/10.95 Az[
+]\OT1/cmss/m/n/10.95 )
+ []
+
+<plots/sample_aA_eqpos_pairplot.png, id=706, 1084.05pt x 1084.05pt>
+File: plots/sample_aA_eqpos_pairplot.png Graphic file (type png)
+<use plots/sample_aA_eqpos_pairplot.png>
+Package pdftex.def Info: plots/sample_aA_eqpos_pairplot.png  used on input line
+ 297.
+(pdftex.def)             Requested size: 174.94025pt x 174.94365pt.
+[26
+
+ <./plots/sample_aA_eqpos_pairplot.png>]
+Overfull \hbox (12.39006pt too wide) detected at line 314
+[][] [] \OML/cmm/m/it/10.95 ^^^\OT1/cmss/m/n/10.95 ) + \OT1/cmss/m/it/10.95 Bz[
+]
+ []
+
+<plots/sample_aB_hiE_pairplot.png, id=733, 1084.05pt x 1084.05pt>
+File: plots/sample_aB_hiE_pairplot.png Graphic file (type png)
+<use plots/sample_aB_hiE_pairplot.png>
+Package pdftex.def Info: plots/sample_aB_hiE_pairplot.png  used on input line 3
+14.
+(pdftex.def)             Requested size: 174.94025pt x 174.94365pt.
+[27
+
+ <./plots/sample_aB_hiE_pairplot.png>]
+Overfull \hbox (8.56564pt too wide) detected at line 331
+\OT1/cmss/m/n/10.95 +\OT1/cmss/m/it/10.95 D\OML/cmm/m/it/10.95 ^^L[][][] [] ^^^
+
+ []
+
+<plots/sample_DB_hiE_pairplot.png, id=760, 1084.05pt x 1084.05pt>
+File: plots/sample_DB_hiE_pairplot.png Graphic file (type png)
+<use plots/sample_DB_hiE_pairplot.png>
+Package pdftex.def Info: plots/sample_DB_hiE_pairplot.png  used on input line 3
+31.
+(pdftex.def)             Requested size: 174.94025pt x 174.94365pt.
+[28
+
+ <./plots/sample_DB_hiE_pairplot.png>]
+Overfull \hbox (8.56564pt too wide) detected at line 347
+\OT1/cmss/m/n/10.95 +\OT1/cmss/m/it/10.95 D\OML/cmm/m/it/10.95 ^^L[][][] [] ^^^
+
+ []
+
+<plots/sample_DA_eqpos_pairplot.png, id=786, 1084.05pt x 1084.05pt>
+File: plots/sample_DA_eqpos_pairplot.png Graphic file (type png)
+<use plots/sample_DA_eqpos_pairplot.png>
+Package pdftex.def Info: plots/sample_DA_eqpos_pairplot.png  used on input line
+ 347.
+(pdftex.def)             Requested size: 174.94025pt x 174.94365pt.
+[29
+
+ <./plots/sample_DA_eqpos_pairplot.png>]
 \tf@nav=\write6
 \openout6 = `rejection_sampling.nav'.
 
@@ -1101,10 +1193,10 @@ Package rerunfilecheck Info: File `rejection_sampling.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21323 strings out of 476064
- 408356 string characters out of 5792854
+ 21464 strings out of 476064
+ 412398 string characters out of 5792854
  1942975 words of memory out of 5000000
- 42873 multiletter control sequences out of 15000+600000
+ 42998 multiletter control sequences out of 15000+600000
  571378 words of font info for 84 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  101i,14n,107p,411b,649s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1121,11 +1213,12 @@ t/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist
 ts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 si8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on rejection_sampling.pdf (21 pages, 1020124 bytes).
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on rejection_sampling.pdf (29 pages, 1744750 bytes).
 PDF statistics:
- 670 PDF objects out of 1000 (max. 8388607)
- 573 compressed objects within 6 object streams
- 43 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 894 PDF objects out of 1000 (max. 8388607)
+ 771 compressed objects within 8 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
