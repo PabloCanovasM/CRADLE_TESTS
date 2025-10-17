@@ -1,0 +1,525 @@
+\documentclass[twocolumn]{article}
+\usepackage[]{float}
+\usepackage[]{graphicx}
+
+
+%opening
+\title{}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+We need to test the a, b, c functions implemented. We test them by setting only one pair of values to a non-zero value.
+
+\section{Fermi ($J_i$ = 0; $J_f$ = 0)}
+
+We first analyse the simpler case: a Fermi transition. Here we only need to consider a and b, as c should be   or undefined ($\xi = 0$)
+
+\subsection{First Test:   vs NaN vs cte  vs $\neq$ cte}
+
+Since we need do characterise each pair and check if the values given are correct for the whole energy, we'd need to compare the output with a graph. To reduce the amount of graphs, we can inspect first if the functions will return 0, be undefined ($\xi$ in the denominator of the expressions can be 0), return a non-zero constant value or a variable one. 
+
+We check the results of the maximum function from the test, printed in the terminal. If maximum returns -1, it implies all values are NaN (because of 1/0 division) and thus fail the comparison with -1, the starting value of the function. If maximum is 0, all computed values must be zero. The output in terminal is also configured to show if the function is constant across the domain we plotted or not.
+
+\subsubsection{Real Terms}
+
+For a first test, we set to +1 only the two constants we select in the pair, rest are set to 0. Here are the results.
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CS & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CSP & 2 & cte & 0 & 0  &   &   &  \\
+		\hline
+		CT & 1 & cte & 0 & 0 &   &   &  \\
+		\hline
+		CTP & 1 & cte & 0 & 0 &   &   &  \\
+		\hline
+		CV & 2 & cte & 0 & 0 &   &   &  \\
+		\hline
+		CVP & 2 & cte & 0 & 0 &   &   &  \\
+		\hline
+		CA & 1 & cte & 0 & 0 &   &   &  \\
+		\hline
+		CAP & 1 & cte & 0 & 0 &   &   &  \\
+		\hline
+	\end{tabular}
+	\caption{Results of the test with CS as one of the variables. The first column is the second coupling constant, 2nd is $\xi$; 3rd to 5th are the expectation from inspecting the function, 6th to 8th the values from the test}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CSP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CT & 1 & 0 & 0 & 0 &   &   &   \\
+		\hline
+		CTP & 1 & 0 & 0 & 0 &   &   &   \\
+		\hline
+		CV & 2 & 0 & 0 & 0 &   &   &   \\
+		\hline
+		CVP & 2 & 0 & 0 & 0 &   &   &   \\
+		\hline
+		CA & 1 & 0 & 0 & 0 &   &   &   \\
+		\hline
+		CAP & 1 & 0 & 0 & 0 &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CT & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CTP & 0 & NaN  &   &   &   &   &   \\
+		\hline
+		CV & 1 &   &   &   &   &   &   \\
+		\hline
+		CVP & 1 &   &   &   &   &   &   \\
+		\hline
+		CA & 0 &   &   &   &   &   &   \\
+		\hline
+		CAP & 0 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CTP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CV & 1 &   &   &   &   &   &   \\
+		\hline
+		CVP & 1 &   &   &   &   &   &   \\
+		\hline
+		CA & 0 &   &   &   &   &   &   \\
+		\hline
+		CAP & 0 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CV & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CVP & 2  &   &   &   &   &   &   \\
+		\hline
+		CA & 1 &   &   &   &   &   &   \\
+		\hline
+		CAP & 1 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CVP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CA & 1 &   &   &   &   &   &   \\
+		\hline
+		CAP & 1 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CA & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CAP & 0 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+We observe the results agree with the predictions
+
+\subsubsection{Imaginary Terms}
+
+For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 0.8i$. These are chosen so that the modulus is 1, giving us integer values for $\xi$. The values are also chosen to prove only the imaginary terms, as $c_1\overline{c_2} = (0.8+0.6i)(0.6+0.8i) = i$, so any term on the real part will be zero. This also implies b = 0  in this test.
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CS & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CSP &   &   &   &   &   &   &   \\
+		\hline
+		CT & 1 &   &   &   &   &   &   \\
+		\hline
+		CTP & 1 &   &   &   &   &   &   \\
+		\hline
+		CV &   &   &   &   &   &   &   \\
+		\hline
+		CVP &   &   &   &   &   &   &   \\
+		\hline
+		CA & 1 &   &   &   &   &   &   \\
+		\hline
+		CAP & 1 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CSP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CT & 1 &   &   &   &   &   &   \\
+		\hline
+		CTP & 1 &   &   &   &   &   &   \\
+		\hline
+		CV &   &   &   &   &   &   &   \\
+		\hline
+		CVP &   &   &   &   &   &   &   \\
+		\hline
+		CA & 1 &   &   &   &   &   &   \\
+		\hline
+		CAP & 1 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CT & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CTP & 2 &   &   &   &   &   &   \\
+		\hline
+		CV & 1 &   &   &   &   &   &   \\
+		\hline
+		CVP & 1 &   &   &   &   &   &   \\
+		\hline
+		CA & 2 &   &   &   &   &   &   \\
+		\hline
+		CAP & 2 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CTP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CV & 1 &   &   &   &   &   &   \\
+		\hline
+		CVP & 1 &   &   &   &   &   &   \\
+		\hline
+		CA & 2 &   &   &   &   &   &   \\
+		\hline
+		CAP & 2 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CV & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CVP &   &   &   &   &   &   &   \\
+		\hline
+		CA & 1 &   &   &   &   &   &   \\
+		\hline
+		CAP & 1 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CVP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CA & 1 &   &   &   &   &   &   \\
+		\hline
+		CAP & 1 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CA & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CAP & 2 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+	\caption{Results of the test with CS as one of the variables. The first column is the second coupling constant, 2nd is $\xi$; 3rd to 5th are the expectqtion from inspecting the function, 6th to 8th the values from the test}
+\end{table}
+
+The results obtained match the predictions once more, confirming the function works
+
+\subsection{Second Test: correct numerical values}.
+
+\section{Gamov Teller Decay ($J_i$ = $J_f$ = 1)}
+
+We now consider a Gamov-Teller  transition, to select the terms in a, b and c that are proportional to $M_{GT}$. 
+
+
+\subsection{First Test:  0 vs NaN vs cte  vs $\neq$ cte}
+
+We perform the same checks initially as in the pure Gamov-Teller case. We once more check the results of the maximum function (=0, =NaN (shown in the results as -1) or $\neq$0) and the characterisation of the function (constant or variable) from the test. 
+
+\subsubsection{Real Values}
+
+For a first test, we set to +1 only the two constants we select in the pair, rest are set to 0. Because of the choice of constants, $\xi=2$. As a consequence, no NaN values can be obtained . Here are the results.
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CS & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CSP & 2 &   &   &   &   &   &  \\
+		\hline
+		CT & 1 &   &   &   &   &   &  \\
+		\hline
+		CTP & 1 &   &   &   &   &   &  \\
+		\hline
+		CV & 2 &   &   &   &   &   &  \\
+		\hline
+		CVP & 1 &   &   &   &   &   &  \\
+		\hline
+		CA & 1 &   &   &   &   &   &  \\
+		\hline
+		CAP & 1 &   &   &   &   &   &  \\
+		\hline
+	\end{tabular}
+	\caption{Results of the test with CS as one of the variables. The first column is the second coupling constant, 2nd is $\xi$; 3rd to 5th are the expectation from inspecting the function, 6th to 8th the values from the test}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CSP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CT & 1 &   &   &   &   &   &   \\
+		\hline
+		CTP & 1 &   &   &   &   &   &   \\
+		\hline
+		CV &   &   &   &   &   &   &   \\
+		\hline
+		CVP &   &   &   &   &   &   &   \\
+		\hline
+		CA & 1 &   &   &   &   &   &   \\
+		\hline
+		CAP & 1 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CT & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CTP & 2 &   &   &   &   &   &   \\
+		\hline
+		CV & 1 &   &   &   &   &   &   \\
+		\hline
+		CVP & 1 &   &   &   &   &   &   \\
+		\hline
+		CA & 2 &   &   &   &   &   &   \\
+		\hline
+		CAP & 2 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CTP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CV & 1 &   &   &   &   &   &   \\
+		\hline
+		CVP & 1 &   &   &   &   &   &   \\
+		\hline
+		CA & 2 &   &   &   &   &   &   \\
+		\hline
+		CAP & 2 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CV & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CVP &   &   &   &   &   &   &   \\
+		\hline
+		CA & 1 &   &   &   &   &   &   \\
+		\hline
+		CAP & 1 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CVP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CA & 1 &   &   &   &   &   &   \\
+		\hline
+		CAP & 1 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CA & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CAP & 2 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+All results agreed already from the first implementation
+
+\subsubsection{Complex Values}
+
+For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 0.8i$. These are chosen so that the modulus is 1, giving us integer values for $\xi$. The values are also chosen to prove only the imaginary terms, as $c_1\overline{c_2} = (0.8+0.6i)(0.6+0.8i) = i$, so any term on the real part will be zero. This also implies b = 0  in this test.
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CS & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CSP & 2 &   &   &   &   &   &  \\
+		\hline
+		CT & 1 &   &   &   &   &   &  \\
+		\hline
+		CTP & 1 &   &   &   &   &   &  \\
+		\hline
+		CV & 2 &   &   &   &   &   &  \\
+		\hline
+		CVP & 1 &   &   &   &   &   &  \\
+		\hline
+		CA & 1 &   &   &   &   &   &  \\
+		\hline
+		CAP & 1 &   &   &   &   &   &  \\
+		\hline
+	\end{tabular}
+	\caption{Results of the test with CS as one of the variables. The first column is the second coupling constant, 2nd is $\xi$; 3rd to 5th are the expectation from inspecting the function, 6th to 8th the values from the test}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CSP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CT & 1 &   &   &   &   &   &   \\
+		\hline
+		CTP & 1 &   &   &   &   &   &   \\
+		\hline
+		CV &   &   &   &   &   &   &   \\
+		\hline
+		CVP &   &   &   &   &   &   &   \\
+		\hline
+		CA & 1 &   &   &   &   &   &   \\
+		\hline
+		CAP & 1 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CT & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CTP & 2 &   &   &   &   &   &   \\
+		\hline
+		CV & 1 &   &   &   &   &   &   \\
+		\hline
+		CVP & 1 &   &   &   &   &   &   \\
+		\hline
+		CA & 2 &   &   &   &   &   &   \\
+		\hline
+		CAP & 2 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CTP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CV & 1 &   &   &   &   &   &   \\
+		\hline
+		CVP & 1 &   &   &   &   &   &   \\
+		\hline
+		CA & 2 &   &   &   &   &   &   \\
+		\hline
+		CAP & 2 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CV & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CVP &   &   &   &   &   &   &   \\
+		\hline
+		CA & 1 &   &   &   &   &   &   \\
+		\hline
+		CAP & 1 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CVP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CA & 1 &   &   &   &   &   &   \\
+		\hline
+		CAP & 1 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		CA & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
+		\hline
+		CAP & 2 &   &   &   &   &   &   \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+The results at first test didn't match for the values marked in $^\ast$ because of a missing term in the imaginary part of the $\delta_{J_i,J_f}$ term. The error was not found until this test because it wouldn't yield anything in all previous tests. 
+
+\subsection{Second Test: correct numerical values}.
+
+\end{document}
+
+
+
+
+
