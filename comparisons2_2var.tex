@@ -15,13 +15,11 @@ We need to test the a, b, c functions implemented. We test them by setting only 
 
 \section{Fermi ($J_i$ = 0; $J_f$ = 0)}
 
-We first analyse the simpler case: a Fermi transition. Here we only need to consider a and b, as c should be   or undefined ($\xi = 0$)
+We first analyse the simpler case: a Fermi transition. Here we only need to consider a and b, as c should be always undefined ($J = 0$ breaks the factor in c formula)
 
 \subsection{First Test:   vs NaN vs cte  vs $\neq$ cte}
 
-Since we need do characterise each pair and check if the values given are correct for the whole energy, we'd need to compare the output with a graph. To reduce the amount of graphs, we can inspect first if the functions will return 0, be undefined ($\xi$ in the denominator of the expressions can be 0), return a non-zero constant value or a variable one. 
-
-We check the results of the maximum function from the test, printed in the terminal. If maximum returns -1, it implies all values are NaN (because of 1/0 division) and thus fail the comparison with -1, the starting value of the function. If maximum is 0, all computed values must be zero. The output in terminal is also configured to show if the function is constant across the domain we plotted or not.
+Since we need do characterise each pair and check if the values given are correct for the whole energy, we'd need to compare the output with a graph. To reduce the amount of graphs, we can inspect first if the functions will return 0, be undefined ($\xi$ in the denominator of the expressions can be 0), return a non-zero constant value or a variable one.  It is to note if $C_S$, $C'_S$, $C_V$ or $C'_V$ is non-zero, we get an extra constant term in 1. The expected value from the single variable parts is computed and checked
 
 \subsubsection{Real Terms}
 
@@ -32,19 +30,19 @@ For a first test, we set to +1 only the two constants we select in the pair, res
 		\hline
 		CS & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CSP & 2 & cte & 0 & 0  &   &   &  \\
+		CSP & 2 &  -1 & 0  &  NaN & -1  & 0  & NaN \\
 		\hline
-		CT & 1 & cte & 0 & 0 &   &   &  \\
+		CT & 1 & -1  &  0 & NaN  & -1  & 0 & NaN \\
 		\hline
-		CTP & 1 & cte & 0 & 0 &   &   &  \\
+		CTP & 1 &  -1 &  0 &  NaN  & -1  &  0 & NaN \\
 		\hline
-		CV & 2 & cte & 0 & 0 &   &   &  \\
+		CV & 2 & 0  &  cte &  NaN &  0 & cte  & NaN \\
 		\hline
-		CVP & 2 & cte & 0 & 0 &   &   &  \\
+		CVP & 2 & 0  &  0 & NaN  &  0 & 0 & NaN \\
 		\hline
-		CA & 1 & cte & 0 & 0 &   &   &  \\
+		CA & 1 & -1  &  0 & NaN &  -1 & 0  & NaN\\
 		\hline
-		CAP & 1 & cte & 0 & 0 &   &   &  \\
+		CAP & 1 &  -1  & 0  & NaN  & -1  &  0 & NaN \\
 		\hline
 	\end{tabular}
 	\caption{Results of the test with CS as one of the variables. The first column is the second coupling constant, 2nd is $\xi$; 3rd to 5th are the expectation from inspecting the function, 6th to 8th the values from the test}
@@ -55,17 +53,17 @@ For a first test, we set to +1 only the two constants we select in the pair, res
 		\hline
 		CSP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CT & 1 & 0 & 0 & 0 &   &   &   \\
+		CT & 1 & -1  & 0  & NaN  & -1  & 0  & NaN  \\
 		\hline
-		CTP & 1 & 0 & 0 & 0 &   &   &   \\
+		CTP & 1 &  -1 &  0 &  NaN & -1  & 0  & NaN  \\
 		\hline
-		CV & 2 & 0 & 0 & 0 &   &   &   \\
+		CV &  2 & 0  &  0 & NaN & 0 & 0  & NaN  \\
 		\hline
-		CVP & 2 & 0 & 0 & 0 &   &   &   \\
+		CVP & 2  & 0  & cte  & NaN  & 0  & cte  & NaN  \\
 		\hline
-		CA & 1 & 0 & 0 & 0 &   &   &   \\
+		CA & 1 & -1  & 0  & NaN  & -1  & 0  & NaN  \\
 		\hline
-		CAP & 1 & 0 & 0 & 0 &   &   &   \\
+		CAP & 1 &  -1  &  0 &  NaN &  -1 & 0  & NaN  \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -75,15 +73,15 @@ For a first test, we set to +1 only the two constants we select in the pair, res
 		\hline
 		CT & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CTP & 0 & NaN  &   &   &   &   &   \\
+		CTP & 0 & NaN  &  NaN & NaN   & NaN  &  NaN & NaN \\
+		\hline 
+		CV & 1 & 1  & 0  & NaN   & 1  &  0 & NaN  \\
 		\hline
-		CV & 1 &   &   &   &   &   &   \\
+		CVP & 1 & 1 & 0  &  NaN  & 1  &  0 & NaN  \\
 		\hline
-		CVP & 1 &   &   &   &   &   &   \\
+		CA & 0 & NaN & NaN  &  NaN  & NaN  &  NaN & NaN   \\
 		\hline
-		CA & 0 &   &   &   &   &   &   \\
-		\hline
-		CAP & 0 &   &   &   &   &   &   \\
+		CAP & 0 &  NaN & NaN  & NaN   & NaN  &  NaN & NaN  \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -93,13 +91,13 @@ For a first test, we set to +1 only the two constants we select in the pair, res
 		\hline
 		CTP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CV & 1 &   &   &   &   &   &   \\
+		CV & 1 &  1 & 0  & 0  & 1  & 0  & 0  \\
 		\hline
-		CVP & 1 &   &   &   &   &   &   \\
+		CVP & 1 & 1  & 0  & 0  & 1  &  0 & 0  \\
 		\hline
-		CA & 0 &   &   &   &   &   &   \\
+		CA & 0 & NaN  & NaN  & NaN   & NaN  &  NaN & NaN    \\
 		\hline
-		CAP & 0 &   &   &   &   &   &   \\
+		CAP & 0 & NaN  & NaN  & NaN   & NaN  &  NaN & NaN    \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -109,11 +107,11 @@ For a first test, we set to +1 only the two constants we select in the pair, res
 		\hline
 		CV & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CVP & 2  &   &   &   &   &   &   \\
+		CVP &  2 & 1  & 0  & NaN  &  1 & 0  & NaN  \\
 		\hline
-		CA & 1 &   &   &   &   &   &   \\
+		CA & 1 & 1  & 0  & NaN  & 1  & 0  & NaN  \\
 		\hline
-		CAP & 1 &   &   &   &   &   &   \\
+		CAP & 1 & 1  & 0  & NaN  &  1 & 0  & NaN  \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -124,9 +122,9 @@ For a first test, we set to +1 only the two constants we select in the pair, res
 		\hline
 		CVP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CA & 1 &   &   &   &   &   &   \\
+		CA & 1 & 1  &  0 & NaN & 1  & 0  &  NaN \\
 		\hline
-		CAP & 1 &   &   &   &   &   &   \\
+		CAP & 1 & 1  & 0  & NaN  & 1 & 0  &  NaN \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -136,7 +134,7 @@ For a first test, we set to +1 only the two constants we select in the pair, res
 		\hline
 		CA & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CAP & 0 &   &   &   &   &   &   \\
+		CAP & 0 &  NaN &  NaN & NaN   & NaN  &  NaN & NaN    \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -152,19 +150,19 @@ For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 
 		\hline
 		CS & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CSP &   &   &   &   &   &   &   \\
+		CSP &  2 & -1  & 0  & NaN  & -1  & 0  &  NaN \\
 		\hline
-		CT & 1 &   &   &   &   &   &   \\
+		CT & 1 & -1  & 0  &  NaN & -1  & 0  &  NaN\\
 		\hline
-		CTP & 1 &   &   &   &   &   &   \\
+		CTP & 1 & -1  & 0  & NaN  &  -1  &  0 & NaN  \\
 		\hline
-		CV &   &   &   &   &   &   &   \\
+		CV & 2  & $\neq$cte  & 0  &  NaN & $\neq$cte  & 0  &  NaN   \\
 		\hline
-		CVP &   &   &   &   &   &   &   \\
+		CVP & 2  & 0  &  0 & NaN  & 0  & 0  &  NaN  \\
 		\hline
-		CA & 1 &   &   &   &   &   &   \\
+		CA & 1 & -1  &  0 & NaN & -1  & 0  &  NaN  \\
 		\hline
-		CAP & 1 &   &   &   &   &   &   \\
+		CAP & 1 & -1  &  0 & NaN & -1  & 0  &  NaN \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -174,17 +172,17 @@ For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 
 		\hline
 		CSP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CT & 1 &   &   &   &   &   &   \\
+		CT & 1 & -1  & 0 & NaN  & -1 & 0  &  NaN \\
 		\hline
-		CTP & 1 &   &   &   &   &   &   \\
+		CTP & 1 & -1  & 0 & NaN  & -1 & 0  &  NaN \\
 		\hline
-		CV &   &   &   &   &   &   &   \\
+		CV &  2 &  0 &  0 & NaN & 0  & 0  &  NaN \\
 		\hline
-		CVP &   &   &   &   &   &   &   \\
+		CVP & 2  & $\neq$cte & 0  & NaN  & $\neq$cte  & 0  &  NaN \\
 		\hline
-		CA & 1 &   &   &   &   &   &   \\
+		CA & 1 & -1 & 0  & NaN  & -1 & 0   &  NaN \\
 		\hline
-		CAP & 1 &   &   &   &   &   &   \\
+		CAP & 1 & -1  & 0  & NaN  & -1 & 0 &  NaN \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -194,15 +192,15 @@ For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 
 		\hline
 		CT & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CTP & 2 &   &   &   &   &   &   \\
+		CTP & 0 & NaN  & NaN  & NaN & NaN  & NaN  & NaN\\
 		\hline
-		CV & 1 &   &   &   &   &   &   \\
+		CV & 1 &  1 & 0  &  NaN & 1 & 0  & NaN  \\
 		\hline
-		CVP & 1 &   &   &   &   &   &   \\
+		CVP & 1 & 1  & 0  &  NaN & 1 & 0  & NaN   \\
 		\hline
-		CA & 2 &   &   &   &   &   &   \\
+		CA & 0 & NaN  & NaN  & NaN  & NaN  & NaN  & NaN \\
 		\hline
-		CAP & 2 &   &   &   &   &   &   \\
+		CAP & 0 & NaN  & NaN  &  NaN & NaN  & NaN  & NaN \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -212,13 +210,13 @@ For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 
 		\hline
 		CTP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CV & 1 &   &   &   &   &   &   \\
+		CV & 1 & 1  & 0  & NaN  & 1  & 0  & NaN \\
 		\hline
-		CVP & 1 &   &   &   &   &   &   \\
+		CVP & 1 & 1  & 0  & NaN  & 1  & 0  & NaN \\
 		\hline
-		CA & 2 &   &   &   &   &   &   \\
+		CA & 0 & NaN  & NaN  & NaN  & NaN  & NaN  & NaN  \\
 		\hline
-		CAP & 2 &   &   &   &   &   &   \\
+		CAP & 0 & NaN  &  NaN & NaN  & NaN  & NaN  & NaN \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -228,11 +226,11 @@ For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 
 		\hline
 		CV & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CVP &   &   &   &   &   &   &   \\
+		CVP & 2 & 1  & 0  & NaN  & 1  & 0  & NaN \\
 		\hline
-		CA & 1 &   &   &   &   &   &   \\
+		CA & 1 & 1  & 0  &  NaN & 1  & 0  & NaN \\
 		\hline
-		CAP & 1 &   &   &   &   &   &   \\
+		CAP & 1 & 1  & 0  & NaN  & 1  & 0  & NaN \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -242,9 +240,9 @@ For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 
 		\hline
 		CVP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CA & 1 &   &   &   &   &   &   \\
+		CA & 1 & 1  & 0 &  NaN & 1  & 0 &  NaN \\
 		\hline
-		CAP & 1 &   &   &   &   &   &   \\
+		CAP & 1 & 1  & 0  &  NaN & 1  & 0 &  NaN \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -254,47 +252,69 @@ For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 
 		\hline
 		CA & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CAP & 2 &   &   &   &   &   &   \\
+		CAP & 0 & NaN  & NaN  & NaN & NaN  & NaN  & NaN \\
 		\hline
 	\end{tabular}
-	\caption{Results of the test with CS as one of the variables. The first column is the second coupling constant, 2nd is $\xi$; 3rd to 5th are the expectqtion from inspecting the function, 6th to 8th the values from the test}
 \end{table}
 
 The results obtained match the predictions once more, confirming the function works
 
 \subsection{Second Test: correct numerical values}.
 
-\section{Gamov Teller Decay ($J_i$ = $J_f$ = 1)}
+Out of the combinations selected as non-zero constant and variable, we do the computations to check the validity. In our test, we have used $Z=14$ and assumed the transition is $\beta^-$, that is $betaType=+1$, with $Q = 2000\mathrm{keV}$. There are few values we need to validate, as most have been checked already.
+
+\subsubsection{cs=cv=1;csp=cvp=1}
+
+Only non-zero is b, relevant term is 
+$$b = \frac{2\gamma|M_F|^2}{\xi}Re(C_S\overline{C_V}+C'_S\overline{C'_V}) = \gamma$$
+
+With the values chosen we obtain 0.994768 up to 6 decimals, exactly as the value printed in terminal  0.994768
+
+
+\subsubsection{cs=0.6+0.8i,cv=0.8-0.6i;\\csp=0.6+0.8i,cvp=0.8-0.6i;}
+
+Only non-zero term is a, relevant term is
+
+$$a = -\frac{2|M_F|^2 \alpha Z m_e}{\xi p_e}Im(C_S\overline{C_V}+C'_S\overline{C'_V})$$
+
+we plot the result
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{plots/cscv_comp_fermi_result}
+	\caption{Coeficients a with respect to energy of the electron for a Fermi Z = 14 Q = 2000 keV decay  with non-zero coupling constants cs=0.8+0.6i,cv=0.6-0.8i.}
+\end{figure}
+
+\section{Gamov Teller Decay ($J_i$ = 2,$J_f$ = 1)}
 
 We now consider a Gamov-Teller  transition, to select the terms in a, b and c that are proportional to $M_{GT}$. 
 
-
 \subsection{First Test:  0 vs NaN vs cte  vs $\neq$ cte}
 
-We perform the same checks initially as in the pure Gamov-Teller case. We once more check the results of the maximum function (=0, =NaN (shown in the results as -1) or $\neq$0) and the characterisation of the function (constant or variable) from the test. 
+We perform the same checks initially as in the pure Fermi case. We once more check the results of the maximum function (=0, =NaN (shown in the results as -1) or $\neq$0) and the characterisation of the function (constant or variable) from the test. 
 
 \subsubsection{Real Values}
 
-For a first test, we set to +1 only the two constants we select in the pair, rest are set to 0. Because of the choice of constants, $\xi=2$. As a consequence, no NaN values can be obtained . Here are the results.
+For a first test, we set to +1 only the two constants we select in the pair, rest are set to 0. As in the previous case, some NaN can be found. c is not automatically NaN. From the values $\Lambda_{J_i,J_f} = 1$ and the aligmennt is equal to $J^2 = 4$. This gives all the factors in front of c equal to -1. Equivalently, the factor in front of a is 1/3
 
 \begin{table}[H]
 	\begin{tabular}{|c|c|c|c|c|c|c|c|}
 		\hline
 		CS & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CSP & 2 &   &   &   &   &   &  \\
+		CSP & 0 & NaN & NaN & NaN  & NaN & NaN & NaN   \\
 		\hline
-		CT & 1 &   &   &   &   &   &  \\
+		CT & 1 & 1/3 & 0 & -1 & 1/3  & 0  & -1\\
 		\hline
-		CTP & 1 &   &   &   &   &   &  \\
+		CTP & 1 & 1/3 & 0 & -1  & 1/3  & 0  &  -1\\
 		\hline
-		CV & 2 &   &   &   &   &   &  \\
+		CV & 0 & NaN & NaN & NaN  & NaN & NaN & NaN   \\
 		\hline
-		CVP & 1 &   &   &   &   &   &  \\
+		CVP & 0 & NaN & NaN & NaN  & NaN & NaN & NaN   \\
 		\hline
-		CA & 1 &   &   &   &   &   &  \\
+		CA & 1 & -1/3 & 0 & 1  & -1/3  & 0  &  1\\
 		\hline
-		CAP & 1 &   &   &   &   &   &  \\
+		CAP & 1 & -1/3  & 0 & 1  & -1/3 & 0 & 1\\
 		\hline
 	\end{tabular}
 	\caption{Results of the test with CS as one of the variables. The first column is the second coupling constant, 2nd is $\xi$; 3rd to 5th are the expectation from inspecting the function, 6th to 8th the values from the test}
@@ -305,17 +325,17 @@ For a first test, we set to +1 only the two constants we select in the pair, res
 		\hline
 		CSP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CT & 1 &   &   &   &   &   &   \\
+		CT & 1 & 1/3  & 0 & -1 & 1/3  & 0 & -1 \\
 		\hline
-		CTP & 1 &   &   &   &   &   &   \\
+		CTP & 1 & 1/3  & 0  & -1  & 1/3  & 0 & -1 \\
 		\hline
-		CV &   &   &   &   &   &   &   \\
+		CV &  0 & NaN  & NaN  & NaN  &NaN & NaN  &  NaN \\
 		\hline
-		CVP &   &   &   &   &   &   &   \\
+		CVP & 0  & NaN  &  NaN  &  NaN  & NaN  & NaN &  NaN\\
 		\hline
-		CA & 1 &   &   &   &   &   &   \\
+		CA & 1 & -1/3 & 0  & 1  & 1/3  & 0 & -1   \\
 		\hline
-		CAP & 1 &   &   &   &   &   &   \\
+		CAP & 1 &  -1/3 & 0  & 1  & 1/3  & 0 & -1  \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -325,15 +345,15 @@ For a first test, we set to +1 only the two constants we select in the pair, res
 		\hline
 		CT & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CTP & 2 &   &   &   &   &   &   \\
+		CTP & 2 & 1/3  & 0 & -1 & 1/3  & 0  &  -1 \\
 		\hline
-		CV & 1 &   &   &   &   &   &   \\
+		CV & 1 & 1/3  & 0  & -1  & 1/3  & 0  &  -1 \\
 		\hline
-		CVP & 1 &   &   &   &   &   &   \\
+		CVP & 1 & 1/3  & 0  &  -1 & 1/3  & 0  & -1 \\
 		\hline
-		CA & 2 &   &   &   &   &   &   \\
+		CA & 2 & 0  & cte  & 0  &  0 & cte &  0\\
 		\hline
-		CAP & 2 &   &   &   &   &   &   \\
+		CAP & 2 & 0  & 0 & 0  & 0  & 0  & 0\\
 		\hline
 	\end{tabular}
 \end{table}
@@ -343,13 +363,13 @@ For a first test, we set to +1 only the two constants we select in the pair, res
 		\hline
 		CTP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CV & 1 &   &   &   &   &   &   \\
+		CV & 1 & 1/3  & 0 &  -1 &   &   &   \\
 		\hline
-		CVP & 1 &   &   &   &   &   &   \\
+		CVP & 1 &  1/3 & 0  &  -1 &   &   &   \\
 		\hline
-		CA & 2 &   &   &   &   &   &   \\
+		CA & 2 & 0  & 0  & 0  &   &   &   \\
 		\hline
-		CAP & 2 &   &   &   &   &   &   \\
+		CAP & 2 &  0 &  cte & 0  &   &   &   \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -359,11 +379,11 @@ For a first test, we set to +1 only the two constants we select in the pair, res
 		\hline
 		CV & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CVP &   &   &   &   &   &   &   \\
+		CVP & 0  & NaN  & NaN  & NaN  & NaN  & NaN  & NaN  \\
 		\hline
-		CA & 1 &   &   &   &   &   &   \\
+		CA & 1 & -1/3  & 0  & 1 & -1/3  & 0  & 1 \\
 		\hline
-		CAP & 1 &   &   &   &   &   &   \\
+		CAP & 1 & -1/3  & 0  & 1 & -1/3  & 0  & 1  \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -374,9 +394,9 @@ For a first test, we set to +1 only the two constants we select in the pair, res
 		\hline
 		CVP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CA & 1 &   &   &   &   &   &   \\
+		CA & 1 & -1/3  & 0 & 1  & -1/3  & 0 & 1   \\
 		\hline
-		CAP & 1 &   &   &   &   &   &   \\
+		CAP & 1 &  -1/3 & 0 & 1  & -1/3  & 0 & 1  \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -386,11 +406,10 @@ For a first test, we set to +1 only the two constants we select in the pair, res
 		\hline
 		CA & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CAP & 2 &   &   &   &   &   &   \\
+		CAP & 2 &  -1/3 & 0 & 1  & -1/3  & 0 & 1   \\
 		\hline
 	\end{tabular}
 \end{table}
-
 
 All results agreed already from the first implementation
 
@@ -403,19 +422,19 @@ For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 
 		\hline
 		CS & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CSP & 2 &   &   &   &   &   &  \\
+		CSP & 0 & NaN & NaN & NaN  & NaN & NaN & NaN   \\
 		\hline
-		CT & 1 &   &   &   &   &   &  \\
+		CT & 1 & 1/3 & 0 & -1 & 1/3  & 0  & -1\\
 		\hline
-		CTP & 1 &   &   &   &   &   &  \\
+		CTP & 1 & 1/3 & 0 & -1  & 1/3  & 0  &  -1\\
 		\hline
-		CV & 2 &   &   &   &   &   &  \\
+		CV & 0 & NaN & NaN & NaN  & NaN & NaN & NaN   \\
 		\hline
-		CVP & 1 &   &   &   &   &   &  \\
+		CVP & 0 & NaN & NaN & NaN  & NaN & NaN & NaN   \\
 		\hline
-		CA & 1 &   &   &   &   &   &  \\
+		CA & 1 & -1/3 & 0 & 1  & -1/3  & 0  &  1\\
 		\hline
-		CAP & 1 &   &   &   &   &   &  \\
+		CAP & 1 & -1/3  & 0 & 1  & -1/3 & 0 & 1\\
 		\hline
 	\end{tabular}
 	\caption{Results of the test with CS as one of the variables. The first column is the second coupling constant, 2nd is $\xi$; 3rd to 5th are the expectation from inspecting the function, 6th to 8th the values from the test}
@@ -426,17 +445,17 @@ For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 
 		\hline
 		CSP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CT & 1 &   &   &   &   &   &   \\
+		CT & 1 & 1/3  & 0 & -1 & 1/3  & 0 & -1 \\
 		\hline
-		CTP & 1 &   &   &   &   &   &   \\
+		CTP & 1 & 1/3  & 0  & -1  & 1/3  & 0 & -1 \\
 		\hline
-		CV &   &   &   &   &   &   &   \\
+		CV &  0 & NaN  & NaN  & NaN  &NaN & NaN  &  NaN \\
 		\hline
-		CVP &   &   &   &   &   &   &   \\
+		CVP & 0  & NaN  &  NaN  &  NaN  & NaN  & NaN &  NaN\\
 		\hline
-		CA & 1 &   &   &   &   &   &   \\
+		CA & 1 & -1/3 & 0  & 1  & 1/3  & 0 & -1   \\
 		\hline
-		CAP & 1 &   &   &   &   &   &   \\
+		CAP & 1 &  -1/3 & 0  & 1  & 1/3  & 0 & -1  \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -446,15 +465,15 @@ For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 
 		\hline
 		CT & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CTP & 2 &   &   &   &   &   &   \\
+		CTP & 2 & 1/3  & 0  &  -1  & 1/3  & 0  &  -1 \\
 		\hline
-		CV & 1 &   &   &   &   &   &   \\
+		CV & 1 & 1/3  & 0  & -1  & 1/3  & 0  &  -1 \\
 		\hline
-		CVP & 1 &   &   &   &   &   &   \\
+		CVP & 1 & 1/3  & 0  &  -1 & 1/3  &   &   \\
 		\hline
-		CA & 2 &   &   &   &   &   &   \\
+		CA & 2 & $\neq$cte  & 0 &  $\neq$cte & $\neq$cte  & 0 &  $\neq$cte \\
 		\hline
-		CAP & 2 &   &   &   &   &   &   \\
+		CAP & 2 & 0  & 0  & 0  &   &   &   \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -464,13 +483,13 @@ For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 
 		\hline
 		CTP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CV & 1 &   &   &   &   &   &   \\
+		CV & 1 & 1/3  & 0 &  -1 &  1/3  & 0 &  -1\\
 		\hline
-		CVP & 1 &   &   &   &   &   &   \\
+		CVP & 1 & 1/3  & 0 & -1  & 1/3  & 0  &  -1\\
 		\hline
-		CA & 2 &   &   &   &   &   &   \\
+		CA & 2 & 0  & 0 & 0  & 1/3  & 0 &  -1 \\
 		\hline
-		CAP & 2 &   &   &   &   &   &   \\
+		CAP & 2 & $\neq$cte  & 0  &  $\neq$cte & $\neq$cte  & 0 &  $\neq$cte \\
 		\hline
 	\end{tabular}
 \end{table}
@@ -480,11 +499,11 @@ For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 
 		\hline
 		CV & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CVP &   &   &   &   &   &   &   \\
+		CVP &  0 &  NaN & NaN  &  NaN  &  NaN & NaN  &  NaN  \\
 		\hline
-		CA & 1 &   &   &   &   &   &   \\
+		CA & 1 & -1/3  & 0  & 1  & -1/3  &  0 & 1 \\
 		\hline
-		CAP & 1 &   &   &   &   &   &   \\
+		CAP & 1 & -1/3  & 0  & 1  & -1/3  & 0  &  1\\
 		\hline
 	\end{tabular}
 \end{table}
@@ -495,9 +514,9 @@ For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 
 		\hline
 		CVP & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CA & 1 &   &   &   &   &   &   \\
+		CA & 1 & -1/3  & 0  & 1  & -1/3  & 0  & 1\\
 		\hline
-		CAP & 1 &   &   &   &   &   &   \\
+		CAP & 1 & -1/3  & 0  & 1 & -1/3  & 0  & 1\\
 		\hline
 	\end{tabular}
 \end{table}
@@ -507,15 +526,32 @@ For a second test, we give the pair the values $c_1 = 0.8 + 0.6i$, $c_2 = 0.6 - 
 		\hline
 		CA & $\xi $& $a_t$ & $b_t$ & $c_t$ & a & b & c \\
 		\hline
-		CAP & 2 &   &   &   &   &   &   \\
+		CAP & 2 &  -1/3 & 0  & 1  & -1/3  & 0  & 1  \\
 		\hline
 	\end{tabular}
 \end{table}
 
-
-The results at first test didn't match for the values marked in $^\ast$ because of a missing term in the imaginary part of the $\delta_{J_i,J_f}$ term. The error was not found until this test because it wouldn't yield anything in all previous tests. 
-
 \subsection{Second Test: correct numerical values}.
+
+\subsubsection{ct=ca=1;ctp=cap=1}
+
+Only non-zero is b, relevant term is 
+$$b = \frac{2\gamma|M_{GT}|^2}{\xi}Re(C_T\overline{C_A}+C'_T\overline{C'_A}) = \gamma$$
+
+With the values chosen we obtain 0.994768 up to 6 decimals, exactly as the value printed in terminal  0.994768
+
+\subsubsection{ct=0.6+0.8i,ca0.8-0.6i;\\ctp=0.6+0.8i,cap=0.8-0.6i;}
+
+Only both a and c are non-zero, relevant term is
+
+$$a = \frac{2|M_{GT}|^2 \alpha Z m_e}{3\xi p_e}Im(C_T\overline{C_A}+C'_T\overline{C'_A})$$
+$$c = \frac{2|M_{GT}|^2 \alpha Z m_e}{\xi p_e}Im(C_T\overline{C_A}+C'_T\overline{C'_A}) \Lambda_{J_i,J_f}\frac{J(J+1)-3\left<(\mathbf{J}\cdot\mathbf{j})^2\right>}{J)(2J-1)}$$
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{plots/ctca_comp_gt2_result}
+	\caption{Coeficients a and c with respect to energy of the electron for a Fermi Z = 14 Q = 2000 keV decay  with non-zero coupling constants ct=0.8+0.6i,ca=0.6-0.8i.}
+\end{figure}
 
 \end{document}
 
