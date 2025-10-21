@@ -1,0 +1,102 @@
+\documentclass{beamer}
+\usetheme{default}
+\usepackage{graphicx}
+
+
+
+\begin{document}
+\begin{frame}{Angular correlation Function}
+	$$F = 1 + a \frac{\boldsymbol{p_e}\cdot\boldsymbol{p_\nu}}{E_eE_\nu} + b \frac{m_e}{E} + c \left(\frac{\boldsymbol{p_e}\cdot\boldsymbol{p_\nu}}{3E_eE_\nu}-\frac{(\boldsymbol{p_e}\cdot\boldsymbol{j})(\boldsymbol{p_\nu}\cdot\boldsymbol{j})}{E_eE_\nu}\right) $$$$+ \frac{\boldsymbol{J}}J\cdot\left(A \frac{\boldsymbol{p_e}}{E_e} + B \frac{\boldsymbol{p_\nu}}{E_\nu} + D \frac{\boldsymbol{p_e}\times\boldsymbol{p_\nu}}{E_eE_\nu}\right)$$
+	Spherical Coordinates ($\boldsymbol{J}$ parallel to positive Z axis)
+	$$\boldsymbol{\beta_e} = (r=\beta_e;\theta=\theta_e;\phi=0),\;\cos(\theta_e) \equiv z_e,\;\beta_e = \frac{|\boldsymbol{p_e}|}{E} = \sqrt{1-\frac{m_e^2}{E^2}}$$
+	$$\boldsymbol{\beta_\nu} = (r=1;\theta=\theta_\nu;\phi=\phi),\quad\cos(\theta_\nu) \equiv z_\nu$$
+	$$\boldsymbol{\beta_e}\cdot\boldsymbol{\beta_\nu} = \beta_e(\cos\theta_e\cos\theta_\nu + \sin\theta_e\sin\theta_\nu\cos\phi) =$$
+	$$ \beta_e(z_ez_\nu + \sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\cos\phi)$$
+	$$\boldsymbol{\beta_e}\cdot\boldsymbol{j} = \beta_e\cos\theta_e=\beta_ez_e$$
+	$$\boldsymbol{\beta_\nu}\cdot\boldsymbol{j} = \cos\theta_\nu=z_\nu$$
+	$$\boldsymbol{j}\cdot(\boldsymbol{\beta_e}\times\boldsymbol{\beta_\nu})=\beta_e\sin\theta_e\sin\theta_\nu\sin\phi=\beta_e\sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\sin\phi$$
+\end{frame}	
+\begin{frame}{Angular Correlation Factor}
+	$$(\boldsymbol{\beta_e}\cdot\boldsymbol{j})(\boldsymbol{\beta_\nu}\cdot\boldsymbol{j}) = z_ez_\nu$$
+\end{frame}
+
+\begin{frame}{Single Variable c}
+	\begin{figure}
+		\centering
+		\includegraphics[height=.8\textheight]{plots/sample_cpairplot}
+		\caption{Pair plots for N = 100000 decays with c = 1, E = 1000 keV}
+	\end{figure}
+\end{frame}
+\begin{frame}{Single Variable c}{Marginal distributions}
+
+	
+	For $z_e$ (and $z_\nu$ by symmetry of the expresions), we can observe reason why the marginal distribution becomes constant: 
+	
+	$$f(z_e) = N\int_{-1}^{1}dz_\nu\int_{0}^{2\pi}d\phi F =$$$$= N\int_{-1}^{1}dz_\nu\int_{0}^{2\pi}d\phi (1 + c\beta(-2z_ez_\nu/3+\sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\cos \phi)/3) = $$$$ = N\int_{-1}^{1}dz_\nu\int_{0}^{2\pi}d\phi = 4\pi N = N $$
+
+	
+\end{frame}
+\begin{frame}{Single Variable a}{Marginal distributions}
+	
+	
+	For $\phi$, we can derive the expected shape: 
+	
+	$$f(\phi) = N\int_{-1}^{1}dz_\nu\int_{-1}^{1}dz_e F =$$$$= N\int_{-1}^{1}dz_\nu\int_{-1}^{1}dz_e (1 + a\beta(*2z_ez_\nu/3+\sqrt{1-z^2_e}\sqrt{1-z^2_\nu}\cos \phi)/3) = $$$$ = N\left(4+a\beta\left(\frac{\pi}{2}\right)^2\cos\phi/3\right) = N\left(1+a\beta\frac{\pi^2}{48}\cos\phi\right)  $$
+	
+	
+\end{frame}
+\begin{frame}{Single Variable a}{Marginal distributions}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.7\textheight]{plots/hist_c_phi}
+		\caption{Histogram showing the values of $\phi$ with a = 1, E = 1000 keV for N = 100000 decays, and curve showing the theoretical distribution}
+	\end{figure}
+\end{frame}
+\begin{frame}{Two variable: rest of pairs}
+	For the rest of variables, we show only the pairplot with the marginal distributions and the theoretical distribution in the 1D marginal plots. We expect 2 kinds of results
+	
+	\begin{itemize}
+		\item (c,A), (c,B):
+		
+		Here, one of the 1D histograms will be aproximately constant, and the other 2 will be close to the 1 variable case (though need to account for $F < 0$ areas)
+		
+		\item (c,D),(c,a)
+		
+		In this case, integration along $\phi$ cancels most terms, and the remaining $z_ez_\nu$ cancels the only non constant term. So only non-constant marginal distribution is that of $\phi$
+
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Two variable: c and a}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.6\textheight]{plots/sample_ac_eqpos_pairplot}
+		\caption{Pairplot with the marginal distributions for a simulation of N = 300000 decays with c = a = 1, E = 100000 keV. The 1 variable histograms show the theoretical distribution obtained from numerically integrating F with the constrain $F > 0$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Two variable: c and A}
+	\begin{figure}
+		\centering
+		\includegraphics[height=0.6\textheight]{plots/sample_cA_eqpos_pairplot}
+		\caption{Pairplot with the marginal distributions for a simulation of N = 300000 decays with c = A = 1, E = 100000 keV. The 1 variable histograms show the theoretical distribution obtained from numerically integrating F with the constrain $F > 0$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Two variable: c and B}
+\begin{figure}
+	\centering
+	\includegraphics[height=0.6\textheight]{plots/sample_posc_posB_hiE_pairplot}
+	\caption{Pairplot with the marginal distributions for a simulation of N = 300000 decays with c = B = 1, E = 5000 keV. The 1 variable histograms show the theoretical distribution obtained from numerically integrating F with the constrain $F > 0$}
+\end{figure}
+\end{frame}
+\begin{frame}{Two variable: c and D}
+\begin{figure}
+	\centering
+	\includegraphics[height=0.6\textheight]{plots/sample_cD_eqpos_pairplot}
+	\caption{Pairplot with the marginal distributions for a simulation of N = 300000 decays with c = D = 1, E = 100000 keV. The 1 variable histograms show the theoretical distribution obtained from numerically integrating F with the constrain $F > 0$}
+\end{figure}
+\end{frame}
+
+
+\end{document}
