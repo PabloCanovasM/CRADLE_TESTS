@@ -32,7 +32,7 @@
 		\centering
 		\includegraphics[width=0.4\paperwidth]{plots/c_3D_image.png}
 		\includegraphics[width=0.4\paperwidth]{plots/c_max_min.png}
-		\caption{(Right) Values of the angular correlation Factor with a = 1, E = 5000 keV and rest of variables 0. (Left) Location of maximum (blue, value = 1.995) and minimum (orange, value = 0.005)}	
+		\caption{(Right) Values of the angular correlation Factor with c = 1, E = 5000 keV and rest of variables 0. (Left) Location of maximum (blue, value = 1.995) and minimum (orange, value = 0.005)}	
 	\end{figure}
 \end{frame}
 \begin{frame}{Single Variable: c}{Angular Correlation Factor}
@@ -45,7 +45,7 @@
 \begin{frame}{Single Variable c}{Sampling}
 	\begin{figure}
 		\centering
-		\includegraphics[height=.8\textheight]{plots/sample_cpairplot}
+		\includegraphics[height=.7\textheight]{plots/sample_cpairplot}
 		\caption{Pair plots for N = 100000 decays with c = 1, E = 1000 keV}
 	\end{figure}
 \end{frame}
@@ -58,7 +58,7 @@
 
 	
 \end{frame}
-\begin{frame}{Single Variable a}{Marginal distributions}
+\begin{frame}{Single Variable c}{Marginal distributions}
 	
 	
 	For $\phi$, we can derive the expected shape: 
@@ -67,16 +67,16 @@
 	
 	
 \end{frame}
-\begin{frame}{Single Variable a}{Marginal distributions}
+\begin{frame}{Single Variable c}{Marginal distributions}
 	
 	\begin{figure}
 		\centering
 		\includegraphics[height=0.7\textheight]{plots/hist_c_phi}
-		\caption{Histogram showing the values of $\phi$ with a = 1, E = 1000 keV for N = 100000 decays, and curve showing the theoretical distribution}
+		\caption{Histogram showing the values of $\phi$ with c = 1, E = 1000 keV for N = 100000 decays, and curve showing the theoretical distribution}
 	\end{figure}
 \end{frame}
 \begin{frame}{Two variables: c and B}
-	Since term proportional to a depends on E, we can consider different ratios by either:
+	Since term proportional to c depends on E, we can consider different ratios by either:
 	\begin{itemize}
 		\item Fixing $c = B = 1$ and modifying the energy
 		\item Same as before, but now $B = -1$
@@ -292,4 +292,113 @@
 		\caption{Pairplot with the marginal distributions for a simulation of N = 300000 decays with c = D = 1, E = 100000 keV. The 1 variable histograms show the theoretical distribution obtained from numerically integrating F with the constrain $F > 0$}
 	\end{figure}
 \end{frame}
+\begin{frame}{Maximum of F}{Single variable: a}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/a_maxF}
+		\caption{Characteristics of the maximum of F for variable a, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Maximum of F}{Single variable: c}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/c_maxF}
+		\caption{Characteristics of the maximum of F for variable c, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Maximum of F}{Single variable: A}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/A_maxF}
+		\caption{Characteristics of the maximum of F for variable A, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Maximum of F}{Single variable: B}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/B_maxF}
+		\caption{Characteristics of the maximum of F for variable B, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Maximum of F}{Single variable: D}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/D_maxF}
+		\caption{Characteristics of the maximum of F for variable D, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Maximum of F}{Two variable: a and c}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/ac_maxF}
+		\caption{Characteristics of the maximum of F for a = 1, variable c, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Maximum of F}{Two variable: a and A}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/aA_maxF}
+		\caption{Characteristics of the maximum of F for a = 1, variable A, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Maximum of F}{Two variable: a and B}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/aB_maxF}
+		\caption{Characteristics of the maximum of F for a = 1, variable B, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Maximum of F}{Two variable: a and D}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/aD_maxF}
+		\caption{Characteristics of the maximum of F for a = 1, variable D, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Maximum of F}{Two variable: c and A}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/cA_maxF}
+		\caption{Characteristics of the maximum of F for c = 1, variable A, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Maximum of F}{Two variable: c and B}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/cB_maxF}
+		\caption{Characteristics of the maximum of F for c = 1, variable B, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Maximum of F}{Two variable: c and D}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/cD_maxF}
+		\caption{Characteristics of the maximum of F for c = 1, variable D, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Maximum of F}{Two variable: A and B}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/AB_maxF}
+		\caption{Characteristics of the maximum of F for A = 1, variable B, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Maximum of F}{Two variable: A and D}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/AD_maxF}
+		\caption{Characteristics of the maximum of F for A = 1, variable D, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Maximum of F}{Two variable: B and D}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{plots/BD_maxF}
+		\caption{Characteristics of the maximum of F for B = 1, variable D, E = 100000 keV, and rest of parameters 0}
+	\end{figure}
+\end{frame}
+
+
 \end{document}
+
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.2)  22 OCT 2025 12:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.2)  23 OCT 2025 13:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -906,12 +906,8 @@ Package pdftex.def Info: plots/crosssections_c.png  used on input line 44.
 File: plots/sample_cpairplot.png Graphic file (type png)
 <use plots/sample_cpairplot.png>
 Package pdftex.def Info: plots/sample_cpairplot.png  used on input line 51.
-(pdftex.def)             Requested size: 215.31744pt x 215.31812pt.
-
-Overfull \vbox (19.58945pt too high) detected at line 51
- []
-
-[5
+(pdftex.def)             Requested size: 188.38829pt x 188.40181pt.
+ [5
 
  <./plots/sample_cpairplot.png>]
 Overfull \hbox (17.13795pt too wide) detected at line 60
@@ -1197,7 +1193,7 @@ Package pdftex.def Info: plots/cD_max_behaviour.png  used on input line 286.
  [32
 
  <./plots/cD_max_behaviour.png>]
-<plots/sample_cD_eqpos_pairplot.png, id=922, 1084.05pt x 1084.05pt>
+<plots/sample_cD_eqpos_pairplot.png, id=923, 1084.05pt x 1084.05pt>
 File: plots/sample_cD_eqpos_pairplot.png Graphic file (type png)
 <use plots/sample_cD_eqpos_pairplot.png>
 Package pdftex.def Info: plots/sample_cD_eqpos_pairplot.png  used on input line
@@ -1210,6 +1206,127 @@ Overfull \vbox (0.16093pt too high) detected at line 294
 [33
 
  <./plots/sample_cD_eqpos_pairplot.png>]
+<plots/a_maxF.png, id=950, 867.24pt x 289.08pt>
+File: plots/a_maxF.png Graphic file (type png)
+<use plots/a_maxF.png>
+Package pdftex.def Info: plots/a_maxF.png  used on input line 301.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+ [34
+
+ <./plots/a_maxF.png>]
+<plots/c_maxF.png, id=978, 867.24pt x 289.08pt>
+File: plots/c_maxF.png Graphic file (type png)
+<use plots/c_maxF.png>
+Package pdftex.def Info: plots/c_maxF.png  used on input line 308.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+ [35
+
+ <./plots/c_maxF.png>]
+<plots/A_maxF.png, id=1005, 867.24pt x 289.08pt>
+File: plots/A_maxF.png Graphic file (type png)
+<use plots/A_maxF.png>
+Package pdftex.def Info: plots/A_maxF.png  used on input line 315.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+ [36
+
+ <./plots/A_maxF.png>]
+<plots/B_maxF.png, id=1032, 867.24pt x 289.08pt>
+File: plots/B_maxF.png Graphic file (type png)
+<use plots/B_maxF.png>
+Package pdftex.def Info: plots/B_maxF.png  used on input line 322.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+ [37
+
+ <./plots/B_maxF.png>]
+<plots/D_maxF.png, id=1060, 867.24pt x 289.08pt>
+File: plots/D_maxF.png Graphic file (type png)
+<use plots/D_maxF.png>
+Package pdftex.def Info: plots/D_maxF.png  used on input line 329.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+ [38
+
+ <./plots/D_maxF.png>]
+<plots/ac_maxF.png, id=1088, 867.24pt x 289.08pt>
+File: plots/ac_maxF.png Graphic file (type png)
+<use plots/ac_maxF.png>
+Package pdftex.def Info: plots/ac_maxF.png  used on input line 336.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+ [39
+
+ <./plots/ac_maxF.png>]
+<plots/aA_maxF.png, id=1115, 867.24pt x 289.08pt>
+File: plots/aA_maxF.png Graphic file (type png)
+<use plots/aA_maxF.png>
+Package pdftex.def Info: plots/aA_maxF.png  used on input line 343.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+ [40
+
+ <./plots/aA_maxF.png>]
+<plots/aB_maxF.png, id=1142, 867.24pt x 289.08pt>
+File: plots/aB_maxF.png Graphic file (type png)
+<use plots/aB_maxF.png>
+Package pdftex.def Info: plots/aB_maxF.png  used on input line 350.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+ [41
+
+ <./plots/aB_maxF.png>]
+<plots/aD_maxF.png, id=1169, 867.24pt x 289.08pt>
+File: plots/aD_maxF.png Graphic file (type png)
+<use plots/aD_maxF.png>
+Package pdftex.def Info: plots/aD_maxF.png  used on input line 357.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+ [42
+
+ <./plots/aD_maxF.png>]
+<plots/cA_maxF.png, id=1197, 867.24pt x 289.08pt>
+File: plots/cA_maxF.png Graphic file (type png)
+<use plots/cA_maxF.png>
+Package pdftex.def Info: plots/cA_maxF.png  used on input line 364.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+ [43
+
+ <./plots/cA_maxF.png>]
+<plots/cB_maxF.png, id=1225, 867.24pt x 289.08pt>
+File: plots/cB_maxF.png Graphic file (type png)
+<use plots/cB_maxF.png>
+Package pdftex.def Info: plots/cB_maxF.png  used on input line 371.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+
+[44
+
+ <./plots/cB_maxF.png>]
+<plots/cD_maxF.png, id=1252, 867.24pt x 289.08pt>
+File: plots/cD_maxF.png Graphic file (type png)
+<use plots/cD_maxF.png>
+Package pdftex.def Info: plots/cD_maxF.png  used on input line 378.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+ [45
+
+ <./plots/cD_maxF.png>]
+<plots/AB_maxF.png, id=1279, 867.24pt x 289.08pt>
+File: plots/AB_maxF.png Graphic file (type png)
+<use plots/AB_maxF.png>
+Package pdftex.def Info: plots/AB_maxF.png  used on input line 385.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+ [46
+
+ <./plots/AB_maxF.png>]
+<plots/AD_maxF.png, id=1307, 867.24pt x 289.08pt>
+File: plots/AD_maxF.png Graphic file (type png)
+<use plots/AD_maxF.png>
+Package pdftex.def Info: plots/AD_maxF.png  used on input line 392.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+ [47
+
+ <./plots/AD_maxF.png>]
+<plots/BD_maxF.png, id=1333, 867.24pt x 289.08pt>
+File: plots/BD_maxF.png Graphic file (type png)
+<use plots/BD_maxF.png>
+Package pdftex.def Info: plots/BD_maxF.png  used on input line 399.
+(pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
+ [48
+
+ <./plots/BD_maxF.png>]
 \tf@nav=\write6
 \openout6 = `c_tests.nav'.
 
@@ -1232,10 +1349,10 @@ Package rerunfilecheck Info: File `c_tests.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21639 strings out of 476064
- 417585 string characters out of 5792854
+ 21864 strings out of 476064
+ 421822 string characters out of 5792854
  1945975 words of memory out of 5000000
- 43165 multiletter control sequences out of 15000+600000
+ 43360 multiletter control sequences out of 15000+600000
  571378 words of font info for 84 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  101i,14n,107p,448b,561s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1254,10 +1371,10 @@ m/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 si8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on c_tests.pdf (33 pages, 3415477 bytes).
+Output written on c_tests.pdf (48 pages, 3755938 bytes).
 PDF statistics:
- 1032 PDF objects out of 1200 (max. 8388607)
- 870 compressed objects within 9 object streams
- 67 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1451 PDF objects out of 1728 (max. 8388607)
+ 1240 compressed objects within 13 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 318 words of extra memory for PDF output out of 10000 (max. 10000000)
 
