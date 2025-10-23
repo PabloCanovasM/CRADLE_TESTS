@@ -1,8 +1,13 @@
 \documentclass{beamer}
 \usetheme{default}
 \usepackage{graphicx}
-
-
+\setbeamerfont{footline}{size={\fontsize{12}{12}}}
+\addtobeamertemplate{navigation symbols}{}{%
+	\usebeamerfont{footline}%
+	\usebeamercolor[fg]{footline}%
+	\hspace{1em}%
+	\insertframenumber/\inserttotalframenumber
+}
 
 \begin{document}
 \begin{frame}{Angular Correlation Function}

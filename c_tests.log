@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.2)  23 OCT 2025 13:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.2)  23 OCT 2025 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -689,24 +689,24 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 (./c_tests.aux)
 \openout1 = `c_tests.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -764,54 +764,54 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 7.
+Package hyperref Info: Link coloring OFF on input line 12.
 
 (./c_tests.out) (./c_tests.out)
 \@outlinefile=\write5
 \openout5 = `c_tests.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 7.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 12.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 7.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 12.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 7.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 7.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 7.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 7.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 12.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 7.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 7.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 7.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 12.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 7.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 7.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 7.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 12.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 7.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 7.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 12.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 7.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 12.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 7.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 7.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 7.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 7.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 7.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 12.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 7.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 12.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -837,37 +837,37 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./c_tests.nav)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 18.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 18.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 18.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 23.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/it' undefined
-(Font)              using `OT1/cmss/b/n' instead on input line 18.
+(Font)              using `OT1/cmss/b/n' instead on input line 23.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 18.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/cmss/b/it' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 18.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/cmss/b/it' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 18.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 23.
 
-Overfull \hbox (2.88701pt too wide) detected at line 18
+Overfull \hbox (2.88701pt too wide) detected at line 23
 [] \OT1/cmss/m/n/10.95 = (\OT1/cmss/m/it/10.95 r \OT1/cmss/m/n/10.95 = \OML/cmm
 /m/it/10.95 ^^L[]\OT1/cmss/m/n/10.95 ; \OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10
 .95 = \OML/cmm/m/it/10.95 ^^R[]\OT1/cmss/m/n/10.95 ; \OML/cmm/m/it/10.95 ^^^ \O
@@ -876,20 +876,20 @@ it/10.95 ^^R[]\OT1/cmss/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^Q \OT1/cmss/m/it/10.9
 5 z[]\OML/cmm/m/it/10.95 ;  ^^L[] \OT1/cmss/m/n/10.95 = [] = []
  []
 
-[1
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+] [2
 
 ]
 <plots/c_3D_image.png, id=78, 433.62pt x 433.62pt>
 File: plots/c_3D_image.png Graphic file (type png)
 <use plots/c_3D_image.png>
-Package pdftex.def Info: plots/c_3D_image.png  used on input line 37.
+Package pdftex.def Info: plots/c_3D_image.png  used on input line 42.
 (pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
 <plots/c_max_min.png, id=80, 433.62pt x 433.62pt>
 File: plots/c_max_min.png Graphic file (type png)
 <use plots/c_max_min.png>
-Package pdftex.def Info: plots/c_max_min.png  used on input line 37.
+Package pdftex.def Info: plots/c_max_min.png  used on input line 42.
 (pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
  [3
 
@@ -897,7 +897,7 @@ Package pdftex.def Info: plots/c_max_min.png  used on input line 37.
 <plots/crosssections_c.png, id=109, 867.24pt x 433.62pt>
 File: plots/crosssections_c.png Graphic file (type png)
 <use plots/crosssections_c.png>
-Package pdftex.def Info: plots/crosssections_c.png  used on input line 44.
+Package pdftex.def Info: plots/crosssections_c.png  used on input line 49.
 (pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
  [4
 
@@ -905,12 +905,12 @@ Package pdftex.def Info: plots/crosssections_c.png  used on input line 44.
 <plots/sample_cpairplot.png, id=137, 1084.05pt x 1084.05pt>
 File: plots/sample_cpairplot.png Graphic file (type png)
 <use plots/sample_cpairplot.png>
-Package pdftex.def Info: plots/sample_cpairplot.png  used on input line 51.
+Package pdftex.def Info: plots/sample_cpairplot.png  used on input line 56.
 (pdftex.def)             Requested size: 188.38829pt x 188.40181pt.
  [5
 
  <./plots/sample_cpairplot.png>]
-Overfull \hbox (17.13795pt too wide) detected at line 60
+Overfull \hbox (17.13795pt too wide) detected at line 65
 \OT1/cmss/m/n/10.95 = \OT1/cmss/m/it/10.95 N [][] dz[] [][] d\OML/cmm/m/it/10.9
 5 ^^^ []
  []
@@ -918,7 +918,7 @@ Overfull \hbox (17.13795pt too wide) detected at line 60
 [6
 
 ]
-Overfull \hbox (15.74657pt too wide) detected at line 69
+Overfull \hbox (15.74657pt too wide) detected at line 74
 \OT1/cmss/m/n/10.95 = \OT1/cmss/m/it/10.95 N [][] dz[] [][] dz[] []
  []
 
@@ -928,10 +928,10 @@ Overfull \hbox (15.74657pt too wide) detected at line 69
 <plots/hist_c_phi.png, id=217, 433.62pt x 433.62pt>
 File: plots/hist_c_phi.png Graphic file (type png)
 <use plots/hist_c_phi.png>
-Package pdftex.def Info: plots/hist_c_phi.png  used on input line 77.
+Package pdftex.def Info: plots/hist_c_phi.png  used on input line 82.
 (pdftex.def)             Requested size: 188.40483pt x 188.40181pt.
 
-Overfull \vbox (3.07314pt too high) detected at line 77
+Overfull \vbox (3.07314pt too high) detected at line 82
  []
 
 [8
@@ -942,12 +942,12 @@ Overfull \vbox (3.07314pt too high) detected at line 77
 <plots/posc_posB_lowE_3D.png, id=271, 433.62pt x 433.62pt>
 File: plots/posc_posB_lowE_3D.png Graphic file (type png)
 <use plots/posc_posB_lowE_3D.png>
-Package pdftex.def Info: plots/posc_posB_lowE_3D.png  used on input line 100.
+Package pdftex.def Info: plots/posc_posB_lowE_3D.png  used on input line 105.
 (pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
 <plots/posc_negB_lowE_3D.png, id=272, 433.62pt x 433.62pt>
 File: plots/posc_negB_lowE_3D.png Graphic file (type png)
 <use plots/posc_negB_lowE_3D.png>
-Package pdftex.def Info: plots/posc_negB_lowE_3D.png  used on input line 100.
+Package pdftex.def Info: plots/posc_negB_lowE_3D.png  used on input line 105.
 (pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
  [10
 
@@ -955,12 +955,12 @@ Package pdftex.def Info: plots/posc_negB_lowE_3D.png  used on input line 100.
 <plots/posa_posB_hiE_3D.png, id=300, 433.62pt x 433.62pt>
 File: plots/posa_posB_hiE_3D.png Graphic file (type png)
 <use plots/posa_posB_hiE_3D.png>
-Package pdftex.def Info: plots/posa_posB_hiE_3D.png  used on input line 108.
+Package pdftex.def Info: plots/posa_posB_hiE_3D.png  used on input line 113.
 (pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
 <plots/posa_negB_hiE_3D.png, id=301, 433.62pt x 433.62pt>
 File: plots/posa_negB_hiE_3D.png Graphic file (type png)
 <use plots/posa_negB_hiE_3D.png>
-Package pdftex.def Info: plots/posa_negB_hiE_3D.png  used on input line 108.
+Package pdftex.def Info: plots/posa_negB_hiE_3D.png  used on input line 113.
 (pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
  [11
 
@@ -968,12 +968,12 @@ Package pdftex.def Info: plots/posa_negB_hiE_3D.png  used on input line 108.
 <plots/posc_posB_medE_3D.png, id=329, 433.62pt x 433.62pt>
 File: plots/posc_posB_medE_3D.png Graphic file (type png)
 <use plots/posc_posB_medE_3D.png>
-Package pdftex.def Info: plots/posc_posB_medE_3D.png  used on input line 116.
+Package pdftex.def Info: plots/posc_posB_medE_3D.png  used on input line 121.
 (pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
 <plots/posc_posB_vhic_3D.png, id=330, 433.62pt x 433.62pt>
 File: plots/posc_posB_vhic_3D.png Graphic file (type png)
 <use plots/posc_posB_vhic_3D.png>
-Package pdftex.def Info: plots/posc_posB_vhic_3D.png  used on input line 116.
+Package pdftex.def Info: plots/posc_posB_vhic_3D.png  used on input line 121.
 (pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
  [12
 
@@ -982,13 +982,13 @@ Package pdftex.def Info: plots/posc_posB_vhic_3D.png  used on input line 116.
 File: plots/posc_posB_hiE_max_min.png Graphic file (type png)
 <use plots/posc_posB_hiE_max_min.png>
 Package pdftex.def Info: plots/posc_posB_hiE_max_min.png  used on input line 12
-4.
+9.
 (pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
 <plots/posc_negB_hiE_max_min.png, id=359, 433.62pt x 505.89pt>
 File: plots/posc_negB_hiE_max_min.png Graphic file (type png)
 <use plots/posc_negB_hiE_max_min.png>
 Package pdftex.def Info: plots/posc_negB_hiE_max_min.png  used on input line 12
-4.
+9.
 (pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
 [13
 
@@ -997,7 +997,7 @@ Package pdftex.def Info: plots/posc_negB_hiE_max_min.png  used on input line 12
 File: plots/sample_posc_posB_hiE_pairplot.png Graphic file (type png)
 <use plots/sample_posc_posB_hiE_pairplot.png>
 Package pdftex.def Info: plots/sample_posc_posB_hiE_pairplot.png  used on input
- line 131.
+ line 136.
 (pdftex.def)             Requested size: 161.47568pt x 161.48961pt.
 
 [14
@@ -1008,12 +1008,12 @@ Package pdftex.def Info: plots/sample_posc_posB_hiE_pairplot.png  used on input
 <plots/posA_xsposc_3D.png, id=441, 462.528pt x 346.896pt>
 File: plots/posA_xsposc_3D.png Graphic file (type png)
 <use plots/posA_xsposc_3D.png>
-Package pdftex.def Info: plots/posA_xsposc_3D.png  used on input line 147.
+Package pdftex.def Info: plots/posA_xsposc_3D.png  used on input line 152.
 (pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
 <plots/posA_xsnegc_3D.png, id=442, 462.528pt x 346.896pt>
 File: plots/posA_xsnegc_3D.png Graphic file (type png)
 <use plots/posA_xsnegc_3D.png>
-Package pdftex.def Info: plots/posA_xsnegc_3D.png  used on input line 147.
+Package pdftex.def Info: plots/posA_xsnegc_3D.png  used on input line 152.
 (pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
  [16
 
@@ -1021,12 +1021,12 @@ Package pdftex.def Info: plots/posA_xsnegc_3D.png  used on input line 147.
 <plots/posA_eqposc_3D.png, id=470, 462.528pt x 346.896pt>
 File: plots/posA_eqposc_3D.png Graphic file (type png)
 <use plots/posA_eqposc_3D.png>
-Package pdftex.def Info: plots/posA_eqposc_3D.png  used on input line 155.
+Package pdftex.def Info: plots/posA_eqposc_3D.png  used on input line 160.
 (pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
 <plots/posA_eqnegc_3D.png, id=471, 462.528pt x 346.896pt>
 File: plots/posA_eqnegc_3D.png Graphic file (type png)
 <use plots/posA_eqnegc_3D.png>
-Package pdftex.def Info: plots/posA_eqnegc_3D.png  used on input line 155.
+Package pdftex.def Info: plots/posA_eqnegc_3D.png  used on input line 160.
 (pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
  [17
 
@@ -1034,12 +1034,12 @@ Package pdftex.def Info: plots/posA_eqnegc_3D.png  used on input line 155.
 <plots/posA_xlposc_3D.png, id=500, 462.528pt x 346.896pt>
 File: plots/posA_xlposc_3D.png Graphic file (type png)
 <use plots/posA_xlposc_3D.png>
-Package pdftex.def Info: plots/posA_xlposc_3D.png  used on input line 164.
+Package pdftex.def Info: plots/posA_xlposc_3D.png  used on input line 169.
 (pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
 <plots/posA_xlnegc_3D.png, id=501, 462.528pt x 346.896pt>
 File: plots/posA_xlnegc_3D.png Graphic file (type png)
 <use plots/posA_xlnegc_3D.png>
-Package pdftex.def Info: plots/posA_xlnegc_3D.png  used on input line 164.
+Package pdftex.def Info: plots/posA_xlnegc_3D.png  used on input line 169.
 (pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
  [18
 
@@ -1047,13 +1047,13 @@ Package pdftex.def Info: plots/posA_xlnegc_3D.png  used on input line 164.
 <plots/posA_eqposc_max_min.png, id=529, 433.62pt x 433.62pt>
 File: plots/posA_eqposc_max_min.png Graphic file (type png)
 <use plots/posA_eqposc_max_min.png>
-Package pdftex.def Info: plots/posA_eqposc_max_min.png  used on input line 172.
+Package pdftex.def Info: plots/posA_eqposc_max_min.png  used on input line 177.
 
 (pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
 <plots/posA_eqnegc_max_min.png, id=530, 433.62pt x 433.62pt>
 File: plots/posA_eqnegc_max_min.png Graphic file (type png)
 <use plots/posA_eqnegc_max_min.png>
-Package pdftex.def Info: plots/posA_eqnegc_max_min.png  used on input line 172.
+Package pdftex.def Info: plots/posA_eqnegc_max_min.png  used on input line 177.
 
 (pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
  [19
@@ -1063,10 +1063,10 @@ Package pdftex.def Info: plots/posA_eqnegc_max_min.png  used on input line 172.
 File: plots/sample_cA_eqpos_pairplot.png Graphic file (type png)
 <use plots/sample_cA_eqpos_pairplot.png>
 Package pdftex.def Info: plots/sample_cA_eqpos_pairplot.png  used on input line
- 179.
+ 184.
 (pdftex.def)             Requested size: 161.47568pt x 161.48961pt.
 
-Overfull \vbox (0.16093pt too high) detected at line 179
+Overfull \vbox (0.16093pt too high) detected at line 184
  []
 
 [20
@@ -1077,12 +1077,12 @@ Overfull \vbox (0.16093pt too high) detected at line 179
 <plots/posa_xsposc_3D.png, id=612, 462.528pt x 346.896pt>
 File: plots/posa_xsposc_3D.png Graphic file (type png)
 <use plots/posa_xsposc_3D.png>
-Package pdftex.def Info: plots/posa_xsposc_3D.png  used on input line 199.
+Package pdftex.def Info: plots/posa_xsposc_3D.png  used on input line 204.
 (pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
 <plots/posa_xsnegc_3D.png, id=613, 462.528pt x 346.896pt>
 File: plots/posa_xsnegc_3D.png Graphic file (type png)
 <use plots/posa_xsnegc_3D.png>
-Package pdftex.def Info: plots/posa_xsnegc_3D.png  used on input line 199.
+Package pdftex.def Info: plots/posa_xsnegc_3D.png  used on input line 204.
 (pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
  [22
 
@@ -1090,12 +1090,12 @@ Package pdftex.def Info: plots/posa_xsnegc_3D.png  used on input line 199.
 <plots/posa_eqposc_3D.png, id=641, 462.528pt x 346.896pt>
 File: plots/posa_eqposc_3D.png Graphic file (type png)
 <use plots/posa_eqposc_3D.png>
-Package pdftex.def Info: plots/posa_eqposc_3D.png  used on input line 207.
+Package pdftex.def Info: plots/posa_eqposc_3D.png  used on input line 212.
 (pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
 <plots/posa_eqnegc_3D.png, id=642, 462.528pt x 346.896pt>
 File: plots/posa_eqnegc_3D.png Graphic file (type png)
 <use plots/posa_eqnegc_3D.png>
-Package pdftex.def Info: plots/posa_eqnegc_3D.png  used on input line 207.
+Package pdftex.def Info: plots/posa_eqnegc_3D.png  used on input line 212.
 (pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
  [23
 
@@ -1103,12 +1103,12 @@ Package pdftex.def Info: plots/posa_eqnegc_3D.png  used on input line 207.
 <plots/posa_xlposc_3D.png, id=670, 462.528pt x 346.896pt>
 File: plots/posa_xlposc_3D.png Graphic file (type png)
 <use plots/posa_xlposc_3D.png>
-Package pdftex.def Info: plots/posa_xlposc_3D.png  used on input line 216.
+Package pdftex.def Info: plots/posa_xlposc_3D.png  used on input line 221.
 (pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
 <plots/posa_xlnegc_3D.png, id=671, 462.528pt x 346.896pt>
 File: plots/posa_xlnegc_3D.png Graphic file (type png)
 <use plots/posa_xlnegc_3D.png>
-Package pdftex.def Info: plots/posa_xlnegc_3D.png  used on input line 216.
+Package pdftex.def Info: plots/posa_xlnegc_3D.png  used on input line 221.
 (pdftex.def)             Requested size: 145.67592pt x 109.25693pt.
  [24
 
@@ -1116,13 +1116,13 @@ Package pdftex.def Info: plots/posa_xlnegc_3D.png  used on input line 216.
 <plots/posa_eqposc_max_min.png, id=699, 433.62pt x 433.62pt>
 File: plots/posa_eqposc_max_min.png Graphic file (type png)
 <use plots/posa_eqposc_max_min.png>
-Package pdftex.def Info: plots/posa_eqposc_max_min.png  used on input line 224.
+Package pdftex.def Info: plots/posa_eqposc_max_min.png  used on input line 229.
 
 (pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
 <plots/posa_eqnegc_max_min.png, id=700, 433.62pt x 433.62pt>
 File: plots/posa_eqnegc_max_min.png Graphic file (type png)
 <use plots/posa_eqnegc_max_min.png>
-Package pdftex.def Info: plots/posa_eqnegc_max_min.png  used on input line 224.
+Package pdftex.def Info: plots/posa_eqnegc_max_min.png  used on input line 229.
 
 (pdftex.def)             Requested size: 145.67592pt x 145.67548pt.
 [25
@@ -1132,7 +1132,7 @@ Package pdftex.def Info: plots/posa_eqnegc_max_min.png  used on input line 224.
 File: plots/sample_ac_eqpos_pairplot.png Graphic file (type png)
 <use plots/sample_ac_eqpos_pairplot.png>
 Package pdftex.def Info: plots/sample_ac_eqpos_pairplot.png  used on input line
- 231.
+ 236.
 (pdftex.def)             Requested size: 148.02763pt x 148.03145pt.
 
 [26
@@ -1145,13 +1145,13 @@ Package pdftex.def Info: plots/sample_ac_eqpos_pairplot.png  used on input line
 <plots/posD_xsposc_max_min.png, id=807, 433.62pt x 505.89pt>
 File: plots/posD_xsposc_max_min.png Graphic file (type png)
 <use plots/posD_xsposc_max_min.png>
-Package pdftex.def Info: plots/posD_xsposc_max_min.png  used on input line 263.
+Package pdftex.def Info: plots/posD_xsposc_max_min.png  used on input line 268.
 
 (pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
 <plots/posD_xsnegc_max_min.png, id=808, 433.62pt x 505.89pt>
 File: plots/posD_xsnegc_max_min.png Graphic file (type png)
 <use plots/posD_xsnegc_max_min.png>
-Package pdftex.def Info: plots/posD_xsnegc_max_min.png  used on input line 263.
+Package pdftex.def Info: plots/posD_xsnegc_max_min.png  used on input line 268.
 
 (pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
  [29
@@ -1160,13 +1160,13 @@ Package pdftex.def Info: plots/posD_xsnegc_max_min.png  used on input line 263.
 <plots/posD_eqposc_max_min.png, id=836, 433.62pt x 505.89pt>
 File: plots/posD_eqposc_max_min.png Graphic file (type png)
 <use plots/posD_eqposc_max_min.png>
-Package pdftex.def Info: plots/posD_eqposc_max_min.png  used on input line 271.
+Package pdftex.def Info: plots/posD_eqposc_max_min.png  used on input line 276.
 
 (pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
 <plots/posD_eqnegc_max_min.png, id=837, 433.62pt x 505.89pt>
 File: plots/posD_eqnegc_max_min.png Graphic file (type png)
 <use plots/posD_eqnegc_max_min.png>
-Package pdftex.def Info: plots/posD_eqnegc_max_min.png  used on input line 271.
+Package pdftex.def Info: plots/posD_eqnegc_max_min.png  used on input line 276.
 
 (pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
  [30
@@ -1175,12 +1175,12 @@ Package pdftex.def Info: plots/posD_eqnegc_max_min.png  used on input line 271.
 <plots/posD_lposc_max_min.png, id=866, 433.62pt x 505.89pt>
 File: plots/posD_lposc_max_min.png Graphic file (type png)
 <use plots/posD_lposc_max_min.png>
-Package pdftex.def Info: plots/posD_lposc_max_min.png  used on input line 279.
+Package pdftex.def Info: plots/posD_lposc_max_min.png  used on input line 284.
 (pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
 <plots/posD_lnegc_max_min.png, id=867, 433.62pt x 505.89pt>
 File: plots/posD_lnegc_max_min.png Graphic file (type png)
 <use plots/posD_lnegc_max_min.png>
-Package pdftex.def Info: plots/posD_lnegc_max_min.png  used on input line 279.
+Package pdftex.def Info: plots/posD_lnegc_max_min.png  used on input line 284.
 (pdftex.def)             Requested size: 145.67592pt x 169.95471pt.
  [31
 
@@ -1188,7 +1188,7 @@ Package pdftex.def Info: plots/posD_lnegc_max_min.png  used on input line 279.
 <plots/cD_max_behaviour.png, id=896, 867.24pt x 433.62pt>
 File: plots/cD_max_behaviour.png Graphic file (type png)
 <use plots/cD_max_behaviour.png>
-Package pdftex.def Info: plots/cD_max_behaviour.png  used on input line 286.
+Package pdftex.def Info: plots/cD_max_behaviour.png  used on input line 291.
 (pdftex.def)             Requested size: 291.35739pt x 145.67548pt.
  [32
 
@@ -1197,10 +1197,10 @@ Package pdftex.def Info: plots/cD_max_behaviour.png  used on input line 286.
 File: plots/sample_cD_eqpos_pairplot.png Graphic file (type png)
 <use plots/sample_cD_eqpos_pairplot.png>
 Package pdftex.def Info: plots/sample_cD_eqpos_pairplot.png  used on input line
- 294.
+ 299.
 (pdftex.def)             Requested size: 161.47568pt x 161.48961pt.
 
-Overfull \vbox (0.16093pt too high) detected at line 294
+Overfull \vbox (0.16093pt too high) detected at line 299
  []
 
 [33
@@ -1209,7 +1209,7 @@ Overfull \vbox (0.16093pt too high) detected at line 294
 <plots/a_maxF.png, id=950, 867.24pt x 289.08pt>
 File: plots/a_maxF.png Graphic file (type png)
 <use plots/a_maxF.png>
-Package pdftex.def Info: plots/a_maxF.png  used on input line 301.
+Package pdftex.def Info: plots/a_maxF.png  used on input line 306.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
  [34
 
@@ -1217,7 +1217,7 @@ Package pdftex.def Info: plots/a_maxF.png  used on input line 301.
 <plots/c_maxF.png, id=978, 867.24pt x 289.08pt>
 File: plots/c_maxF.png Graphic file (type png)
 <use plots/c_maxF.png>
-Package pdftex.def Info: plots/c_maxF.png  used on input line 308.
+Package pdftex.def Info: plots/c_maxF.png  used on input line 313.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
  [35
 
@@ -1225,7 +1225,7 @@ Package pdftex.def Info: plots/c_maxF.png  used on input line 308.
 <plots/A_maxF.png, id=1005, 867.24pt x 289.08pt>
 File: plots/A_maxF.png Graphic file (type png)
 <use plots/A_maxF.png>
-Package pdftex.def Info: plots/A_maxF.png  used on input line 315.
+Package pdftex.def Info: plots/A_maxF.png  used on input line 320.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
  [36
 
@@ -1233,7 +1233,7 @@ Package pdftex.def Info: plots/A_maxF.png  used on input line 315.
 <plots/B_maxF.png, id=1032, 867.24pt x 289.08pt>
 File: plots/B_maxF.png Graphic file (type png)
 <use plots/B_maxF.png>
-Package pdftex.def Info: plots/B_maxF.png  used on input line 322.
+Package pdftex.def Info: plots/B_maxF.png  used on input line 327.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
  [37
 
@@ -1241,7 +1241,7 @@ Package pdftex.def Info: plots/B_maxF.png  used on input line 322.
 <plots/D_maxF.png, id=1060, 867.24pt x 289.08pt>
 File: plots/D_maxF.png Graphic file (type png)
 <use plots/D_maxF.png>
-Package pdftex.def Info: plots/D_maxF.png  used on input line 329.
+Package pdftex.def Info: plots/D_maxF.png  used on input line 334.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
  [38
 
@@ -1249,7 +1249,7 @@ Package pdftex.def Info: plots/D_maxF.png  used on input line 329.
 <plots/ac_maxF.png, id=1088, 867.24pt x 289.08pt>
 File: plots/ac_maxF.png Graphic file (type png)
 <use plots/ac_maxF.png>
-Package pdftex.def Info: plots/ac_maxF.png  used on input line 336.
+Package pdftex.def Info: plots/ac_maxF.png  used on input line 341.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
  [39
 
@@ -1257,7 +1257,7 @@ Package pdftex.def Info: plots/ac_maxF.png  used on input line 336.
 <plots/aA_maxF.png, id=1115, 867.24pt x 289.08pt>
 File: plots/aA_maxF.png Graphic file (type png)
 <use plots/aA_maxF.png>
-Package pdftex.def Info: plots/aA_maxF.png  used on input line 343.
+Package pdftex.def Info: plots/aA_maxF.png  used on input line 348.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
  [40
 
@@ -1265,7 +1265,7 @@ Package pdftex.def Info: plots/aA_maxF.png  used on input line 343.
 <plots/aB_maxF.png, id=1142, 867.24pt x 289.08pt>
 File: plots/aB_maxF.png Graphic file (type png)
 <use plots/aB_maxF.png>
-Package pdftex.def Info: plots/aB_maxF.png  used on input line 350.
+Package pdftex.def Info: plots/aB_maxF.png  used on input line 355.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
  [41
 
@@ -1273,7 +1273,7 @@ Package pdftex.def Info: plots/aB_maxF.png  used on input line 350.
 <plots/aD_maxF.png, id=1169, 867.24pt x 289.08pt>
 File: plots/aD_maxF.png Graphic file (type png)
 <use plots/aD_maxF.png>
-Package pdftex.def Info: plots/aD_maxF.png  used on input line 357.
+Package pdftex.def Info: plots/aD_maxF.png  used on input line 362.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
  [42
 
@@ -1281,7 +1281,7 @@ Package pdftex.def Info: plots/aD_maxF.png  used on input line 357.
 <plots/cA_maxF.png, id=1197, 867.24pt x 289.08pt>
 File: plots/cA_maxF.png Graphic file (type png)
 <use plots/cA_maxF.png>
-Package pdftex.def Info: plots/cA_maxF.png  used on input line 364.
+Package pdftex.def Info: plots/cA_maxF.png  used on input line 369.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
  [43
 
@@ -1289,7 +1289,7 @@ Package pdftex.def Info: plots/cA_maxF.png  used on input line 364.
 <plots/cB_maxF.png, id=1225, 867.24pt x 289.08pt>
 File: plots/cB_maxF.png Graphic file (type png)
 <use plots/cB_maxF.png>
-Package pdftex.def Info: plots/cB_maxF.png  used on input line 371.
+Package pdftex.def Info: plots/cB_maxF.png  used on input line 376.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
 
 [44
@@ -1298,7 +1298,7 @@ Package pdftex.def Info: plots/cB_maxF.png  used on input line 371.
 <plots/cD_maxF.png, id=1252, 867.24pt x 289.08pt>
 File: plots/cD_maxF.png Graphic file (type png)
 <use plots/cD_maxF.png>
-Package pdftex.def Info: plots/cD_maxF.png  used on input line 378.
+Package pdftex.def Info: plots/cD_maxF.png  used on input line 383.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
  [45
 
@@ -1306,7 +1306,7 @@ Package pdftex.def Info: plots/cD_maxF.png  used on input line 378.
 <plots/AB_maxF.png, id=1279, 867.24pt x 289.08pt>
 File: plots/AB_maxF.png Graphic file (type png)
 <use plots/AB_maxF.png>
-Package pdftex.def Info: plots/AB_maxF.png  used on input line 385.
+Package pdftex.def Info: plots/AB_maxF.png  used on input line 390.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
  [46
 
@@ -1314,7 +1314,7 @@ Package pdftex.def Info: plots/AB_maxF.png  used on input line 385.
 <plots/AD_maxF.png, id=1307, 867.24pt x 289.08pt>
 File: plots/AD_maxF.png Graphic file (type png)
 <use plots/AD_maxF.png>
-Package pdftex.def Info: plots/AD_maxF.png  used on input line 392.
+Package pdftex.def Info: plots/AD_maxF.png  used on input line 397.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
  [47
 
@@ -1322,7 +1322,7 @@ Package pdftex.def Info: plots/AD_maxF.png  used on input line 392.
 <plots/BD_maxF.png, id=1333, 867.24pt x 289.08pt>
 File: plots/BD_maxF.png Graphic file (type png)
 <use plots/BD_maxF.png>
-Package pdftex.def Info: plots/BD_maxF.png  used on input line 399.
+Package pdftex.def Info: plots/BD_maxF.png  used on input line 404.
 (pdftex.def)             Requested size: 307.28987pt x 102.42783pt.
  [48
 
@@ -1349,11 +1349,11 @@ Package rerunfilecheck Info: File `c_tests.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21864 strings out of 476064
- 421822 string characters out of 5792854
+ 21865 strings out of 476064
+ 421837 string characters out of 5792854
  1945975 words of memory out of 5000000
- 43360 multiletter control sequences out of 15000+600000
- 571378 words of font info for 84 fonts, out of 8000000 for 9000
+ 43361 multiletter control sequences out of 15000+600000
+ 571685 words of font info for 85 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  101i,14n,107p,448b,561s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
@@ -1371,7 +1371,7 @@ m/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 si8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on c_tests.pdf (48 pages, 3755938 bytes).
+Output written on c_tests.pdf (48 pages, 3758878 bytes).
 PDF statistics:
  1451 PDF objects out of 1728 (max. 8388607)
  1240 compressed objects within 13 object streams
