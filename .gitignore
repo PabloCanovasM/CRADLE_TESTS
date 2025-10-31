@@ -1,3 +1,4 @@
 *.ipynb_checkpoints
 plots/
 build/
+build.zip
