@@ -1,0 +1,167 @@
+\documentclass{beamer}
+\usetheme{default}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{listings}
+\lstset{texcl=false, language=Python}
+\setbeamerfont{footline}{size={\fontsize{12}{12}}}
+\addtobeamertemplate{navigation symbols}{}{%
+	\usebeamerfont{footline}%
+	\usebeamercolor[fg]{footline}%
+	\hspace{1em}%
+	\insertframenumber/\inserttotalframenumber
+}
+
+
+\title{CRADLE++ Tests}
+\begin{document}
+\begin{frame}[plain]
+    \maketitle
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}
+	\begin{columns}
+		\begin{column}{0.4\textwidth}
+			Simplest non-trivial case: Gamov-Teller decay.
+			
+			
+ 			Full test: decay of a known nuclei. 
+ 			
+ 			
+			Simplifying assumption: focus on one decay path of that nuclei. Example:
+			$$\mathrm{^{60}Co} (5^+) \rightarrow \mathrm{^{60}Ni} (4^+)$$
+		\end{column}
+		\begin{column}{0.6\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[height=0.7\textheight]{60Co_decay}
+				\caption{Decay Scheme of $\mathrm{^{60}Co}$ into $\mathrm{^{60}Ni}$.}
+			\end{figure}
+			
+		\end{column}
+	\end{columns}
+	
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}
+	\begin{columns}
+		\begin{column}{0.575\textwidth}
+			Properties of $\mathrm{^{60}Co} (5^+) \rightarrow \mathrm{^{60}Ni} (4^+)$
+			\begin{itemize}
+				\item Q = 317.06 keV (not fully ideal)
+				\item $J_f = J_i - 1 \rightarrow \lambda_{J_i,J_f} = \Lambda_{J_i,J_f} = 1$ 
+				\item 2 $\gamma$ almost always ($5^+\rightarrow2^+$ only 1 $\gamma$)
+			\end{itemize}
+			
+			Many cases to consider, though for realism: keep $C_A = C'_A = \mathrm{cte}( = 1)$.
+			\begin{itemize}
+				\item $C_T = C'_T = 0$ (Standard Model)
+				\item $C_T = C'_T$ pure real (and large)
+				\item $C_T = C'_T$ pure imaginary 
+				\item $C_T = -C'_T$, either real or imaginary
+			\end{itemize}	
+		\end{column}
+		\begin{column}{0.425\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[height=0.6\textheight]{60Co_decay_simple}
+				\caption{Decay Scheme of $\mathrm{^{60}Co}$ into $\mathrm{^{60}Ni}$ featuring the only decay of interest}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{Standard Model values}
+	\begin{figure}
+		\begin{subfigure}{0.475\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{plots/comp_polZpos_60Co/e-_vx.pdf}
+			\caption{e}
+		\end{subfigure}
+		\begin{subfigure}{0.475\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{plots/comp_polZpos_60Co/enubar_vx.pdf}
+			\caption{$\nu$}
+		\end{subfigure}
+		\caption{Distribution of the x component of the velocity of the emmited leptons for a decay of (blue) fully polarized nuclei in the z direction and (orange) unpolarised nuclei}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{Standard Model values}
+	\begin{figure}
+		\begin{subfigure}{0.475\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{plots/comp_polZpos_60Co/e-_vy.pdf}
+			\caption{e}
+		\end{subfigure}
+		\begin{subfigure}{0.475\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{plots/comp_polZpos_60Co/enubar_vy.pdf}
+			\caption{$\nu$}
+		\end{subfigure}
+		\caption{Distribution of the y component of the velocity of the emmited leptons for a decay of (blue) fully polarized nuclei in the z direction and (orange) unpolarised nuclei}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{Standard Model values}
+	\begin{figure}
+		\begin{subfigure}{0.475\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{plots/comp_polZpos_60Co/e-_vz.pdf}
+			\caption{e}			
+		\end{subfigure}
+		\begin{subfigure}{0.475\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{plots/comp_polZpos_60Co/enubar_vz.pdf}
+			\caption{$\nu$}
+		\end{subfigure}	
+		\caption{Distribution of the z component of the velocity of the emmited leptons for a decay of (blue) fully polarized nuclei in the z direction and (orange) unpolarised nuclei}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{Numerical evaluation}
+	Use that distributions in $z_e$, $z_\nu$, $\cos \theta_{e,\nu} \equiv z_{e,\nu}$ and $\phi$ are known.
+	$$f(z_e) = \frac{1 + \left<b\gamma_e^{-1}\right> + \left<A\beta_e\right>z_e}{2(1 + \left<b\gamma_e^{-1}\right>)}$$
+	$$f(z_\nu) = \frac{1 + \left<b\gamma_e^{-1}\right> + \left<B\beta_e\right>z_\nu}{2(1 + \left<b\gamma_e^{-1}\right>)}$$
+	$$f(z_{e,\nu}) = \frac{1 + \left<b\gamma_e^{-1}\right> + \left<a\beta_e\right>z_{e,\nu}}{2(1 + \left<b\gamma_e^{-1}\right>)}$$
+	$$f(\phi) = \frac{1 + \left<b\gamma_e^{-1}\right> + \left<\left(a+\frac c3\right)\beta_e\right>\frac{\pi^2}{16}\cos\phi+\left<D\beta_e\right>\frac{\pi^2}{16}\sin\phi}{2\pi(1 + \left<b\gamma_e^{-1}\right>)}$$
+	Averages computed numerically using f(E) from the simulation data itself (avoid computing the Fermi function myself)
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{Standard Model values}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_SM_hists}
+		\caption{Distribution of various relevant angles, $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = C_T'$ Real Positive}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTposRe_hists}
+		\caption{Distribution of various relevant angles, $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value with $C_T = C_T' = 1/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = C_T'$ Real Negative}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTnegRe_hists}
+		\caption{Distribution of various relevant angles, $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value with $C_T = C_T' = -1/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = C_T'$ Imaginary Positive}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTposIm_hists}
+		\caption{Distribution of various relevant angles, $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value with $C_T = C_T' = i/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = C_T'$ Imaginary Negative}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTnegIm_hists}
+		\caption{Distribution of various relevant angles, $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value with $C_T = C_T' = -i/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = -C_T'$}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTmixRe_hists}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value with $C_T = -C_T' = 1/\sqrt2$}
+	\end{figure}
+\end{frame}
+\end{document}
