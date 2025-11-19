@@ -1,7 +1,8 @@
 \documentclass[twocolumn]{article}
 \usepackage[]{float}
 \usepackage[]{graphicx}
-
+\usepackage{tabularray}
+\usepackage{geometry}
 
 %opening
 \title{}
@@ -545,7 +546,10 @@ With the values chosen we obtain 0.994768 up to 6 decimals, exactly as the value
 Only both a and c are non-zero, relevant term is
 
 $$a = \frac{2|M_{GT}|^2 \alpha Z m_e}{3\xi p_e}Im(C_T\overline{C_A}+C'_T\overline{C'_A})$$
-$$c = \frac{2|M_{GT}|^2 \alpha Z m_e}{\xi p_e}Im(C_T\overline{C_A}+C'_T\overline{C'_A}) \Lambda_{J_i,J_f}\frac{J(J+1)-3\left<(\mathbf{J}\cdot\mathbf{j})^2\right>}{J)(2J-1)}$$
+$$c = -\frac{2|M_{GT}|^2 \alpha Z m_e}{\xi p_e}Im(C_T\overline{C_A}+C'_T\overline{C'_A}) \Lambda_{J_i,J_f}\mathcal{A}$$
+
+with $$\mathcal{A} \equiv -\frac{J(J+1)-3\left<(\mathbf{J}\cdot\mathbf{j})^2\right>}{J)(2J-1)} = 1$$
+the alignment in the simulation
 
 \begin{figure}[H]
 	\centering
@@ -553,7 +557,209 @@ $$c = \frac{2|M_{GT}|^2 \alpha Z m_e}{\xi p_e}Im(C_T\overline{C_A}+C'_T\overline
 	\caption{Coeficients a and c with respect to energy of the electron for a Fermi Z = 14 Q = 2000 keV decay  with non-zero coupling constants ct=0.8+0.6i,ca=0.6-0.8i.}
 \end{figure}
 
+\newpage
+\newgeometry{left=2pt,right=2pt,top=8pt,bottom=2pt}
+\begin{table*}[ht]
+	\renewcommand{\arraystretch}{2}
+	\begin{longtblr}{colspec = {c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}, vline{1}={2-36}{1pt}, vline{2,9,16}={2pt}}
+		\cline{2-21}
+		\SetCell[c=1]{} & \SetCell[c=7]{} Fermi & & & & & & &\SetCell[c=7]{} Gamow-Teller ($2^+\rightarrow 1^+$) & &  & & & & & \SetCell[c=6]{} Mixed  ($2^+\rightarrow2^+, \rho = 1$) & & & & & \\
+		\hline[1.5pt]
+		$C_S$ & $\xi$ & a & b & c & A & B & D & $\xi$ & a & b & c & A & B & D & a & b & c & A & B & D\\
+		\hline[1.5pt]
+		$C'_S$ & 2 & -1  & 0 & 0  & 0 & 0 & 0 &  0 & \SetCell[c=6]{} Undefined  & & & & & &  -1 & 0 & 0 & 0 & 0 & 0\\
+		\hline
+		$C_T$ & 1 & -1  & 0 & 0  & 0 & 0 & 0 & 1 & $\frac 13$  & 0 & 1  & 0 & 0 & 0 &  -$\frac 13$  & 0 & -$\frac 12$ & 0 & 0 & 0 \\
+		\hline
+		$C'_T$ & 1 & -1  & 0 & 0  & 0 & 0 & 0 & 1 & $\frac 13$  & 0 & 1  & 0 & 0 & 0 &  -$\frac 13$  & 0 & -$\frac 12$ & $\sqrt{\frac 23}$ & -$\sqrt{\frac 23}$ & 0 \\
+		\hline
+		$C_V$ & 2 & 0 & $\pm\gamma$ & 0  & 0 & 0 & 0 & 0 & \SetCell[c=6]{} Undefined & & & & &  & 0 & $\pm\gamma$ & 0  & 0 & 0 & 0 \\
+		\hline
+		$C'_V$ & 2 & 0 & 0 & 0  & 0 & 0 & 0 & 0 & \SetCell[c=6]{} Undefined  & & & & & & 0 & 0 & 0  & 0 & 0 & 0  \\
+		\hline
+		$C_A$ & 1 & -1  & 0 & 0  & 0 & 0 & 0 & 1 & -$\frac 13$ & 0 & -1  & 0 & 0 & 0  &  -$\frac 23$  & 0 & $\frac 12$ & 0 & 0 & $\mp\sqrt{\frac 23}\,\eta$\\
+		\hline
+		$C'_A$ & 1 & -1  & 0 & 0  & 0 & 0 & 0 & 1 & -$\frac 13$ & 0 & -1  & 0 & 0 & 0  & -$\frac 23$  & 0 & $\frac 12$ & 0 & $\mp\sqrt{\frac 23}\Gamma$ & 0 \\
+		\hline[2pt]
+		$C'_S$ & $\xi$ & a & b & c & A & B & D & $\xi$ & a & b & c & A & B & D & a & b & c & A & B & D\\
+		\hline[1.5pt]
+		$C_T$ & 1 & -1  & 0 & 0  & 0 & 0 & 0 & 1 & $\frac 13$  & 0 & 1  & 0 & 0 & 0 & -$\frac 13$  & 0 & -$\frac 12$ & $\sqrt{\frac 23}$ & -$\sqrt{\frac 23}$ & 0 \\
+		\hline
+		$C'_T$ & 1 & -1  & 0 & 0  & 0 & 0 & 0 & 1 & $\frac 13$  & 0 & 1  & 0 & 0 & 0  & -$\frac 13$  & 0 & -$\frac 12$ & 0 & 0 & 0 \\
+		\hline
+		$C_V$ & 2 & 0 & 0 & 0  & 0 & 0 & 0 & 0 & \SetCell[c=6]{} Undefined & & & & & & 0 & 0 & 0  & 0 & 0 & 0 \\
+		\hline
+		$C'_V$ & 2 & 0 & $\pm\gamma$ & 0  & 0 & 0 & 0 & 0 & \SetCell[c=6]{} Undefined & & & & & & 0 & $\pm\gamma$ & 0  & 0 & 0 & 0  \\
+		\hline
+		$C_A$ & 1 & -1  & 0 & 0  & 0 & 0 & 0 & 1 & -$\frac 13$ & 0 & -1  & 0 & 0 & 0 & -$\frac 23$  & 0 & $\frac 12$ & 0 & $\mp\sqrt{\frac 23}\Gamma$ & 0\\
+		\hline
+		$C'_A$ & 1 & -1  & 0 & 0  & 0 & 0 & 0 & 1 & -$\frac 13$ & 0 & -1  & 0 & 0 & 0  &-$\frac 23$  & 0 & $\frac 12$ & 0 & 0 & $\mp\sqrt{\frac 23}\,\eta$ \\
+		\hline[2pt]
+		$C_T$ & $\xi$ & a & b & c & A & B & D & $\xi$ & a & b & c & A & B & D & a & b & c & A & B & D\\
+		\hline[1.5pt]
+		$C'_T$ & 0 & \SetCell[c=6]{} Undefined & & & & &  & 2 & $\frac 13$  & 0 & 1  & $\pm$1 & $\pm$1 & 0  & $\frac 13$  & 0 & -1 & $\pm\frac 13$ & $\pm\frac 13$ & 0 \\
+		\hline
+		$C_V$ & 1 & 1 & 0 & 0  & 0 & 0 & 0 & 1 & $\frac 13$ & 0 & 1  & 0 & 0 & 0 & $\frac 23$ & 0 & -$\frac 12$  & 0 & 0 & $\pm\sqrt{\frac 23}\,\eta$  \\
+		\hline
+		$C'_V$ & 1 & 1 & 0 & 0  & 0 & 0 & 0 & 1 & $\frac 13$ & 0 & 1  & 0 & 0 & 0 & $\frac 23$ & 0 & -$\frac 12$  & 0 & $\mp\sqrt{\frac 23}\Gamma$ & 0  \\
+		\hline
+		$C_A$ & 0 & \SetCell[c=6]{} Undefined & & & & &  & 2 & 0 & $\pm\gamma$ & 0  & 0 & 0 & 0 & 0 & $\pm\gamma$ & 0 & 0 & 0 & 0\\ \hline
+		$C'_A$ & 0 & \SetCell[c=6]{} Undefined & & & & &  & 2 & 0 & 0 & 0  & 0 & $\Gamma$ & 0  & 0  & 0 & 0 & 0 & $\frac 13\Gamma$ & 0\\
+		\hline[2pt]
+		$C'_T$ & $\xi$ & a & b & c & A & B & D & $\xi$ & a & b & c & A & B & D & a & b & c & A & B & D\\
+		\hline[1.5pt]
+		$C_V$ & 1 & 1 & 0 & 0  & 0 & 0 & 0 & 1 & $\frac 13$ & 0 & 1  & 0 & 0 & 0 & $\frac 23$ & 0 & -$\frac 12$  & 0 & $\mp\sqrt{\frac 23}\Gamma$ & 0  \\
+		\hline
+		$C'_V$ & 1 & 1 & 0 & 0  & 0 & 0 & 0 & 1 & $\frac 13$ & 0 & 1  & 0 & 0 & 0 & $\frac 23$ & 0 & -$\frac 12$  & 0 & 0 & $\pm\sqrt{\frac 23}\,\eta$  \\
+		\hline
+		$C_A$ & 0 & \SetCell[c=6]{} Undefined & & & & & & 2 & 0 & 0 & 0  & 0 & $\Gamma$ & 0  & 0  & 0 & 0 & 0 & $\frac 13\Gamma$ & 0
+		\\ \hline
+		$C'_A$ & 0 & \SetCell[c=6]{} Undefined & & & & & & 2 & 0 & $\pm\gamma$ & 0  & 0 & 0 & 0 & 0 & $\pm\gamma$ & 0 & 0 & 0 & 0\\
+		\hline[2pt]
+		$C_V$ & $\xi$ & a & b & c & A & B & D & $\xi$ & a & b & c & A & B & D & a & b & c & A & B & D\\
+		\hline[1.5pt]
+		$C'_V$ & 2 & 1 & 0 & 0  & 0 & 0 & 0 & 0 & \SetCell[c=6]{} Undefined & & & & &  & 1 & 0 & 0 & 0 & 0 & 0\\
+		\hline
+		$C_A$ & 1 & 1 & 0 & 0  & 0 & 0 & 0 & 1 & -$\frac 13$ & 0 & -1  & 0 & 0 & 0 & $\frac 13$ & 0 & $\frac 12$ & 0 & 0 & 0
+		\\ \hline
+		$C'_A$ & 1 & 1 & 0 & 0  & 0 & 0 & 0 & 1 & -$\frac 13$ & 0 & -1 & 0 & 0 & 0 & $\frac 13$ & 0 & $\frac 12$ & -$\sqrt{\frac 23}$ & -$\sqrt{\frac 23}$ & 0\\
+		\hline[2pt]
+		$C'_V$ & $\xi$ & a & b & c & A & B & D & $\xi$ & a & b & c & A & B & D & a & b & c & A & B & D\\
+		\hline[1.5pt]
+		$C_A$ & 1 & 1 & 0 & 0  & 0 & 0 & 0 & 1 & -$\frac 13$ & 0 & -1 & 0 & 0 & 0 & $\frac 13$ & 0 & $\frac 12$ & -$\sqrt{\frac 23}$ & -$\sqrt{\frac 23}$ & 0\\
+		\hline
+		$C'_A$ & 1 & 1 & 0 & 0  & 0 & 0 & 0 & 1 & -$\frac 13$ & 0 & -1  & 0 & 0 & 0 & $\frac 13$ & 0 & $\frac 12$ & 0 & 0 & 0\\ 
+		\hline[2pt]
+		$C_A$ & $\xi$ & a & b & c & A & B & D & $\xi$ & a & b & c & A & B & D & a & b & c & A & B & D\\
+		\hline[1.5pt]
+		$C'_A$ & 0 & \SetCell[c=6]{} Undefined  & & & & & & 2 & -$\frac 13$ & 0 & -1 & $\mp$1 & $\pm$1 & 0 & -$\frac 13$ & 0 & 1 & $\mp\frac 13$ & $\pm\frac 13$ & 0\\
+		\hline
+	\end{longtblr}
+\end{table*}
+
+\newpage
+\newgeometry{left=2pt,right=2pt,top=8pt,bottom=2pt}
+\begin{table*}[ht]
+	\renewcommand{\arraystretch}{2}
+	\begin{longtblr}{
+			colspec = {c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|},
+			vline{1}={2-36}{1pt},
+			vline{2,9,16}={2pt}
+		}
+		\cline{2-21}
+		\SetCell[c=1]{} &
+		\SetCell[c=7]{} Fermi & & & & & & &
+		\SetCell[c=7]{} Gamow-Teller ($2^+ \rightarrow 1^+$) & & & & & & &
+		\SetCell[c=6]{} Mixed ($2^+ \rightarrow 2^+, \rho = 1$) & & & & & \\
+		\hline[1.5pt]
+		
+		$C_S$ & $\xi$ & a & b & c & A & B & D & $\xi$ & a & b & c & A & B & D & a & b & c & A & B & D \\
+		\hline[1.5pt]
+		
+		$C'_S$ & 2 & -1  & 0 & 0 & 0 & 0 & 0 & 0 & \SetCell[c=6]{} Undefined  & & & & & & -1 & 0 & 0 & 0 & 0 & 0\\
+		\hline
+		
+		$C_T$ & 1 & -1 & 0 & 0 & 0 & 0 & 0 & 1 & $\frac13$ & 0 & 1 & 0 & 0 & 0 & -$\frac13$ & 0 & -$\frac12$ & 0 & 0 & $\sqrt{\frac 23}$\\
+		\hline
+		
+		$C'_T$ & 1 & -1 & 0 & 0 & 0 & 0 & 0 & 1 & $\frac13$ & 0 & 1 & 0 & 0 & 0 & -$\frac13$ & 0 & -$\frac12$ & 0 & 0 & 0\\
+		\hline
+		
+		$C_V$ & 2 & $\mp\eta$ & 0 & 0 & 0 & 0 & 0 & 0 & \SetCell[c=6]{} Undefined & & & & & & $\mp\eta$& 0 & 0 & 0 & 0 & 0\\
+		\hline
+		
+		$C'_V$ & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \SetCell[c=6]{} Undefined & & & & & & 0 & 0 & 0 & 0 & 0 & 0 \\
+		\hline
+		
+		$C_A$ & 1 & -1 & 0 & 0 & 0 & 0 & 0 & 1 & -$\frac13$ & 0 & -1 & 0 & 0 & 0 & -$\frac23$ & 0 & $\frac12$ & 0 & 0 & 0 \\
+		\hline
+		
+		$C'_A$ & 1 & -1 & 0 & 0 & 0 & 0 & 0 & 1 & -$\frac13$ & 0 & -1 & 0 & 0 & 0 & -$\frac23$ & 0 & $\frac12$ & $\pm\sqrt{\frac 23}\eta$ & 0 &  \\
+		\hline[2pt]
+		
+		$C'_S$ & $\xi$ & a & b & c & A & B & D & $\xi$ & a & b & c & A & B & D & a & b & c & A & B & D\\
+		\hline[1.5pt]
+		
+		$C_T$ & 1 & -1 & 0 & 0 & 0 & 0 & 0 & 1 & $\frac13$ & 0 & 1 & 0 & 0 & 0 & -$\frac13$ & 0 & -$\frac12$ & 0 & 0 & 0 \\
+		\hline
+		
+		$C'_T$ & 1 & -1 & 0 & 0 & 0 & 0 & 0 & 1 & $\frac13$ & 0 & 1 & 0 & 0 & 0 & -$\frac13$ & 0 & -$\frac12$ & 0 & 0 & $\sqrt{\frac 23}$\\
+		\hline
+		
+		$C_V$ & 2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \SetCell[c=6]{} Undefined & & & & & & 0 & 0 & 0 & 0 & 0 & 0 \\
+		\hline
+		
+		$C'_V$ & 2 & $\mp\eta$ & 0 & 0 & 0 & 0 & 0 & 0 & \SetCell[c=6]{} Undefined & & & & & & $\mp\eta$ & 0 & 0 & 0 & 0 & 0 \\
+		\hline
+		
+		$C_A$ & 1 & -1 & 0 & 0 & 0 & 0 & 0 & 1 & -$\frac13$ & 0 & -1 & 0 & 0 & 0 & -$\frac23$ & 0 & $\frac12$ &$\pm\sqrt{\frac 23}\eta$ & 0 & 0 \\
+		\hline
+		
+		$C'_A$ & 1 & -1 & 0 & 0 & 0 & 0 & 0 & 1 & -$\frac13$ & 0 & -1 & 0 & 0 & 0 & -$\frac23$ & 0 & $\frac12$ & 0 & 0 & 0 \\
+		\hline[2pt]
+		
+		$C_T$ & $\xi$ & a & b & c & A & B & D & $\xi$ & a & b & c & A & B & D & a & b & c & A & B & D\\
+		\hline[1.5pt]
+		
+		$C'_T$ & 0 & \SetCell[c=6]{} Undefined & & & & & & 2 & $\frac13$ & 0 & 1 & 0 & 0 & 0 & $\frac13$ & 0 & -1 & 0 & 0 & 0 \\
+		\hline
+		
+		$C_V$ & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & $\frac13$ & 0 & 1 & 0 & 0 & 0 & $\frac 23$ & 0 & -$\frac12$ & 0 & 0 & 0 \\
+		\hline
+		
+		$C'_V$ & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & $\frac13$ & 0 & 1 & 0 & 0 & 0 & $\frac 23$ & 0 & -$\frac12$ & $\pm\sqrt{\frac 23}\eta$ & 0 & 0 \\
+		\hline
+		
+		$C_A$ & 0 & \SetCell[c=6]{} Undefined & & & & & & 2 & $\pm\frac 13\eta$ & 0 & $\pm\eta$ & 0 & 0 & 0 & $\pm\frac  13\eta$ & 0 & $\mp\eta$ & 0 & 0 & 0 \\
+		\hline
+		
+		$C'_A$ & 0 & \SetCell[c=6]{} Undefined & & & & & & 2 & 0 & 0 & 0 & $\eta$ & 0 & 0 & 0 & 0 & 0 & $\frac 13\eta$& 0 & 0 \\
+		\hline[2pt]
+		
+		$C'_T$ & $\xi$ & a & b & c & A & B & D & $\xi$ & a & b & c & A & B & D & a & b & c & A & B & D \\
+		\hline[1.5pt]
+		
+		$C_V$ & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & $\frac13$ & 0 & 1 & 0 & 0 & 0 & $\frac 23$ & 0 & -$\frac12$ & $\pm\sqrt{\frac 23}\eta$ & 0 & 0 \\
+		\hline
+		
+		$C'_V$ & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & $\frac13$ & 0 & 1 & 0 & 0 & 0 & $\frac 23$ & 0 & -$\frac12$ & 0 & 0 & 0 \\
+		\hline
+		
+		$C_A$ & 0 & \SetCell[c=6]{} Undefined & & & & & & 2 & 0 & 0 & 0 & $\eta$ & 0 & 0 & 0 & 0 & 0 & $\frac 13\eta$ & 0 & 0 \\
+		\hline
+		$C'_A$ & 0 & \SetCell[c=6]{} Undefined & & & & & & 2 & $\pm\frac  13\eta$ & 0 & $\pm\eta$ & 0 & 0 & 0 & $\pm\frac  13\eta$ & 0 & $\mp\eta$ & 0 & 0 & 0 \\
+		\hline[2pt]
+		
+		$C_V$ & $\xi$ & a & b & c & A & B & D & $\xi$ & a & b & c & A & B & D & a & b & c & A & B & D \\
+		\hline[1.5pt]
+		
+		$C'_V$ & 2 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & \SetCell[c=6]{} Undefined & & & & & & 1 & 0 & 0 & 0 & 0 & 0 \\
+		\hline
+		
+		$C_A$ & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & -$\frac13$ & 0 & -1 & 0 & 0 & 0 & $\frac13$ & 0 & $\frac12$ & 0 & 0 & -$\sqrt{\frac 23}$ \\
+		\hline
+		
+		$C'_A$ & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & -$\frac13$ & 0 & -1 & 0 & 0 & 0 & $\frac13$ & 0 & $\frac12$ & 0 & 0 & 0 \\
+		\hline[2pt]
+		
+		$C'_V$& $\xi$ & a & b & c & A & B & D & $\xi$ & a & b & c & A & B & D & a & b & c & A & B & D \\
+		\hline[1.5pt]
+		
+		$C_A$ & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & -$\frac13$ & 0 & -1 & 0 & 0 & 0 & $\frac13$ & 0 & $\frac12$ & 0 & 0 & 0 \\
+		\hline
+		
+		$C'_A$ & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & -$\frac13$ & 0 & -1  & 0 & 0 & 0 & $\frac13$ & 0 & $\frac12$ & 0 & 0 & -$\sqrt{\frac 23}$\\
+		\hline[2pt]
+		
+		$C_A$ & $\xi$ & a & b & c & A & B & D & $\xi$ & a & b & c & A & B & D & a & b & c & A & B & D \\
+		\hline[1.5pt]
+		
+		$C'_A$ & 0 & \SetCell[c=6]{} Undefined & & & & & & 2 & -$\frac13$ & 0 & -1 & 0 & 0 & 0 & -$\frac13$ & 0 & 1 & 0 & 0 & 0 \\
+		\hline
+		\end{longtblr}
+\end{table*}
 \end{document}
+
 
 
 
