@@ -1,0 +1,184 @@
+\documentclass{beamer}
+\usetheme{default}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{listings}
+\lstset{texcl=false, language=Python}
+\setbeamerfont{footline}{size={\fontsize{12}{12}}}
+\addtobeamertemplate{navigation symbols}{}{%
+	\usebeamerfont{footline}%
+	\usebeamercolor[fg]{footline}%
+	\hspace{1em}%
+	\insertframenumber
+}
+
+
+\title{CRADLE++ Tests 2}
+\begin{document}
+	\begin{frame}[plain]
+		\maketitle
+	\end{frame}
+	\begin{frame}{Simulation Wu Experiment}
+		Consider atoms of $\mathrm{^{60}Co}$ in a thermal bath and in the presence of a magnetic field in the -z direction. 
+		
+		Model each nuclei as independent 11 state system (each of the values of $m_j$)
+		
+		$$Z = \sum_{m_j = -5}^{5} e^{\frac{m_j \mu_N({\mathrm{^{60}Co}}) B}{5k_bT}} \rightarrow P(m_j) = \frac 1Ze^{\frac{m_j \mu_N({\mathrm{^{60}Co}}) B}{5k_bT}}$$
+		
+		From here polarisation and alignment in Z direction ($P_z$ and $\mathcal{A}_z$) can be computed
+		
+		$$ P_z = \frac{1}{J}\left<m_j\right> = \sum_{m_j = -5}^{5} \frac{m_jP(m_j)}{5}\qquad\mathcal{A_z} = \frac{3\left<m^2_j\right>-J(J+1)}{J(2J-1)}$$
+		
+		which leads to non-zero A polarisation.
+	\end{frame}
+	\begin{frame}{Simulation Wu Experiment}
+		\begin{columns}
+			\begin{column}{0.3\textwidth}
+				Implementation:
+				\begin{itemize}
+					\item N = 200000 atoms
+					\item $|z_e| > \cos 15^\circ$
+					\item Realistic value of $\mu_N({\mathrm{^{60}Co}})$
+					\item 1 sim for each T, with its $P_z$ and $\mathcal{A}_z$
+				\end{itemize}
+			\end{column}
+			\begin{column}{0.7\textwidth}
+				\begin{figure}
+					\includegraphics[width=\textwidth]{plots/Wu_experiment}
+					\caption{Simulation of the 1957 Wu experiment using N = 200000 $\mathrm{^{60}Co}$ nuclei for each T}
+				\end{figure}
+			\end{column}
+		\end{columns}
+	\end{frame}
+	\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}
+		\begin{columns}
+			\begin{column}{0.575\textwidth}
+				Properties of $\mathrm{^{60}Co} (5^+) \rightarrow \mathrm{^{60}Ni} (4^+)$
+				\begin{itemize}
+					\item Q = 317.06 keV (good for testing, $\left<\beta_e\right> = 0.68, \left<\gamma_e^{-1}\right> = 0.72, \left<\alpha Z\gamma_e^{-1}\right> = 0.15$)
+					\item $J_f = J_i - 1 \rightarrow \lambda_{J_i,J_f} = \Lambda_{J_i,J_f} = 1$ 
+					\item 2 $\gamma$ almost always ($5^+\rightarrow2^+$ only 1 $\gamma$)
+				\end{itemize}
+				
+				Many cases to consider, though for realism: keep $C_A = C'_A = \mathrm{cte}( = 1)$.
+				\begin{itemize}
+					\item $C_T = C'_T = 0$ (Standard Model)
+					\item $C_T = C'_T$ pure real (and large)
+					\item $C_T = C'_T$ pure imaginary 
+					\item $C_T = -C'_T$, either real or imaginary
+				\end{itemize}	
+			\end{column}
+			\begin{column}{0.425\textwidth}
+				\begin{figure}
+					\centering
+					\includegraphics[height=0.6\textheight]{60Co_decay_simple}
+					\caption{Decay Scheme of $\mathrm{^{60}Co}$ into $\mathrm{^{60}Ni}$ featuring the only decay of interest}
+				\end{figure}
+			\end{column}
+		\end{columns}
+	\end{frame}
+	\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{Numerical evaluation}
+		Use that distributions in $z_e$, $z_\nu$, $\cos \theta_{e,\nu} \equiv z_{e,\nu}$ and $\phi$ are known if $F \ge 0$ for all orientations of $p\boldsymbol{p_e}, \boldsymbol{p_\nu}$ ($\boldsymbol{J}$ fixed).
+		$$f_1(z_e) = \frac{1 + \left<b\gamma_e^{-1}\right> + \left<A\beta_e\right>z_e}{2(1 + \left<b\gamma_e^{-1}\right>)}$$
+		$$f_2(z_\nu) = \frac{1 + \left<b\gamma_e^{-1}\right> + \left<B\right>z_\nu}{2(1 + \left<b\gamma_e^{-1}\right>)}$$
+		$$f_3(z_{e,\nu}) = \frac{1 + \left<b\gamma_e^{-1}\right> + \left<a\beta_e\right>z_{e,\nu}}{2(1 + \left<b\gamma_e^{-1}\right>)}$$
+		$$f_4(\phi) = \frac{1 + \left<b\gamma_e^{-1}\right> + \left<\left(a+\frac c3\right)\beta_e\right>\frac{\pi^2}{16}\cos\phi+\left<D\beta_e\right>\frac{\pi^2}{16}\sin\phi}{2\pi(1 + \left<b\gamma_e^{-1}\right>)}$$
+		Averages computed numerically using f(E) from the simulation data itself (avoid computing the Fermi function myself)
+	\end{frame}
+	\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{Numerical verification}
+		From distributions:
+		\begin{itemize}
+			\item Compute difference $\Delta_{i,j} = f_j(x_i)-f_{j,th}(x_i)$ for each point $x_i$ in each distribution $f_j$
+			\item Use $\sigma_{i,j} = \sqrt{f_j(x_i)}$ as uncertainity
+			\item Compute residuals as:
+			$$Res_{i,j} = \frac{\Delta_{i,j}}{\sigma_{i,j}} \rightarrow \chi^2_j = \sum_i Res^2_{i,j} $$
+			\item Verify $\chi^2_j \approx \#\{x_i\}$ and residuals mostly between -2 and 2.
+		\end{itemize}
+	\end{frame}
+	\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{Standard Model}
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.85\textwidth]{plots/60Co_SM_hists}
+			\caption{Distribution of various relevant angles, $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value}
+		\end{figure}
+	\end{frame}
+	\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{Standard Model}
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.85\textwidth]{plots/60Co_SM_res}
+			\caption{Residuals from the comparison between CRADLE simulation and theory of various relevant angles, $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$. Values of $\chi^2/100$: 1.25, 0.86, 1.05, 1.03
+			}
+		\end{figure}
+	\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = C_T'$ Real Positive}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTposRe_hists}
+		\caption{Distribution of various relevant angles, $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value with $C_T = C_T' = 1/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = C_T'$ Real Positive}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTposRe_res}
+		\caption{Residuals from the comparison between CRADLE simulation and theory for $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$ distributions with $C_T = C_T' = 1/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = C_T'$ Real Negative}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTnegRe_hists}
+		\caption{Distribution of various relevant angles, $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value with $C_T = C_T' = -1/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = C_T'$ Real Negative}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTnegRe_res}
+		\caption{Residuals from the comparison between CRADLE simulation and theory for $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$ distributions with $C_T = C_T' = -1/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = C_T'$ Imaginary Positive}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTposIm_hists}
+		\caption{Distribution of various relevant angles, $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value with $C_T = C_T' = i/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = C_T'$ Imaginary Positive}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTposIm_res}
+		\caption{Residuals from the comparison between CRADLE simulation and theory for $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$ distributions with $C_T = C_T' = i/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = C_T'$ Imaginary Negative}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTnegIm_hists}
+		\caption{Distribution of various relevant angles, $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value with $C_T = C_T' = -i/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = C_T'$ Imaginary Negative}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTnegIm_res}
+		\caption{Residuals from the comparison between CRADLE simulation and theory for $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$ distributions with $C_T = C_T' = -i/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = -C_T'$}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTmixRe_hists}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value with $C_T = -C_T' = 1/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{$C_T = -C_T'$}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/60Co_CTmixRe_res}
+		\caption{Residuals from the comparison between CRADLE simulation and theory for $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$ distributions with $C_T = -C_T' = 1/\sqrt2$}
+	\end{figure}
+\end{frame}
+\end{document}
