@@ -10,7 +10,7 @@
 	\usebeamerfont{footline}%
 	\usebeamercolor[fg]{footline}%
 	\hspace{1em}%
-	\insertframenumber/\inserttotalframenumber
+	\insertframenumber
 }
 
 
@@ -47,7 +47,7 @@
 		\begin{column}{0.575\textwidth}
 			Properties of $\mathrm{^{60}Co} (5^+) \rightarrow \mathrm{^{60}Ni} (4^+)$
 			\begin{itemize}
-				\item Q = 317.06 keV (not fully ideal)
+				\item Q = 317.06 keV (good for testing, $\left<\beta_e\right> = 0.68, \left<\gamma_e^{-1}\right> = 0.72, \left<\alpha Z\gamma_e^{-1}\right> = 0.15$)
 				\item $J_f = J_i - 1 \rightarrow \lambda_{J_i,J_f} = \Lambda_{J_i,J_f} = 1$ 
 				\item 2 $\gamma$ almost always ($5^+\rightarrow2^+$ only 1 $\gamma$)
 			\end{itemize}
@@ -115,9 +115,9 @@
 	\end{figure}
 \end{frame}
 \begin{frame}{Gamow-Teller Decay: $\mathrm{^{60}Co}$}{Numerical evaluation}
-	Use that distributions in $z_e$, $z_\nu$, $\cos \theta_{e,\nu} \equiv z_{e,\nu}$ and $\phi$ are known.
+	Use that distributions in $z_e$, $z_\nu$, $\cos \theta_{e,\nu} \equiv z_{e,\nu}$ and $\phi$ are known if $F \ge 0$ for all orientations of $p\boldsymbol{p_e}, \boldsymbol{p_\nu}$ ($\boldsymbol{J}$ fixed).
 	$$f(z_e) = \frac{1 + \left<b\gamma_e^{-1}\right> + \left<A\beta_e\right>z_e}{2(1 + \left<b\gamma_e^{-1}\right>)}$$
-	$$f(z_\nu) = \frac{1 + \left<b\gamma_e^{-1}\right> + \left<B\beta_e\right>z_\nu}{2(1 + \left<b\gamma_e^{-1}\right>)}$$
+	$$f(z_\nu) = \frac{1 + \left<b\gamma_e^{-1}\right> + \left<B\right>z_\nu}{2(1 + \left<b\gamma_e^{-1}\right>)}$$
 	$$f(z_{e,\nu}) = \frac{1 + \left<b\gamma_e^{-1}\right> + \left<a\beta_e\right>z_{e,\nu}}{2(1 + \left<b\gamma_e^{-1}\right>)}$$
 	$$f(\phi) = \frac{1 + \left<b\gamma_e^{-1}\right> + \left<\left(a+\frac c3\right)\beta_e\right>\frac{\pi^2}{16}\cos\phi+\left<D\beta_e\right>\frac{\pi^2}{16}\sin\phi}{2\pi(1 + \left<b\gamma_e^{-1}\right>)}$$
 	Averages computed numerically using f(E) from the simulation data itself (avoid computing the Fermi function myself)
@@ -363,7 +363,7 @@
 			A $\beta^+$ example: $\mathrm{^{18}F} (1^+) \rightarrow \mathrm{^{18}O} (0^+)$
 			Properties:
 			\begin{itemize}
-				\item Q = 1044 keV
+				\item Q = 533 keV
 				\item No $\gamma$ produced
 				\item $J_f = J_i - 1 \rightarrow \lambda_{J_i,J_f} = \Lambda_{J_i,J_f} = 1$
 			\end{itemize}
@@ -384,5 +384,192 @@
 			
 		\end{column}
 	\end{columns}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{18}F}$}{Standard Model values}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/18F_SM_hists}
+		\caption{Distribution of various relevant angles, $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{18}F}$}{$C_T = C_T'$ Real}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/18F_CTRe_hists}
+		\caption{Distribution of various relevant angles, $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value with $C_T = C_T' = -1/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{18}F}$}{$C_T = C_T'$ Imaginary}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/18F_CTIm_hists}
+		\caption{Distribution of various relevant angles, $z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value with $C_T = C_T' = i/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Gamow-Teller Decay: $\mathrm{^{18}F}$}{$C_T = -C_T'$}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/18F_CTmix_hists}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value with $C_T = -C_T' = 1/\sqrt2$}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decays: $\mathrm{^{39}Ca}$}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			Now we consider a mixed $\beta^+$ decay: $\mathrm{^{39}Ca} \left(\frac{3}{2}\right)^+ \rightarrow \mathrm{^{39}K} \left(\frac{3}{2}\right)^+$
+			Properties:
+			\begin{itemize}
+				\item Q = 5502.5 keV (actually inconvenient, $\left<\gamma_e^{-1}\right> = 0.2$ and $\alpha Z = 0.14$)
+				\item No $\gamma$ produced
+			\end{itemize}
+			First, do tests with 2 non-zero coupling for pairs with non-zero correlations A, B and D, with either real or imaginary values of the pair, that are not present in a Gamow-Teller decay. We use $|M_{GT}C_i| = |M_FC_i| = 1$ for convenience
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[height=0.6\textheight]{39Ca_decay}
+				\caption{Decay Scheme of $\mathrm{^{39}Ca}$ into $\mathrm{^{39}K}$.}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{Imaginary $C_SC_T$}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_csct_imag}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value for $M_FC_S = 0.8+0.6i, M_{GT}C_T = 0.6-0.8i$ and rest of couplings 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{Real $C_SC'_T$}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_csctp_real}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value for $M_FC_S = 1, M_{GT}C'_T = 1$ and rest of couplings 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{Real $C_SC_A$}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_csca_real}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value for $M_FC_S = 1, M_{GT}C_A = 1$ and rest of couplings 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{Real $C_SC'_A$}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_cscap_real}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value for $M_FC_S = 1, M_{GT}C'_A = 1$ and rest of couplings 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{Imaginary $C_SC'_A$}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_cscap_imag}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value for $M_FC_S = 0.8+0.6i, M_{GT}C'_A = 0.6-0.8i$ and rest of couplings 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{Imaginary $C_VC_A$}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_cvca_imag}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value for $M_FC_V = 0.8+0.6i, M_{GT}C_A = 0.6-0.8i$ and rest of couplings 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{Real $C_VC'_A$}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_cvcap_real}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value for $M_FC_V = 1, M_{GT}C'_A = 1$ and rest of couplings 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{Real $C_VC_T$}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_ctcv_real}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value for $M_FC_V = 1, M_{GT}C_T = 1$ and rest of couplings 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{Real $C_VC'_T$}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_ctpcv_real}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value for $M_FC_V = 1, M_{GT}C'_T = 1$ and rest of couplings 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{Imaginary $C_VC'_T$}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_ctpcv_imag}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value for $M_FC_V = 0.6-0.8i, M_{GT}C'_T = 0.8+0.6i$ and rest of couplings 0}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decays: $\mathrm{^{39}Ca}$}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			Now we consider a mixed $\beta^+$ decay: $\mathrm{^{39}Ca} \left(\frac{3}{2}\right)^+ \rightarrow \mathrm{^{39}K} \left(\frac{3}{2}\right)^+$
+			Properties:
+			\begin{itemize}
+				\item Q = 5502.5 keV (actually inconvenient, $\left<\gamma_e^{-1}\right> = 0.2$ and $\alpha Z = 0.14$)
+				\item No $\gamma$ produced
+			\end{itemize}
+			Now, we peform tests using a close to real configuration: $M_{GT}C_A = M_{GT}C'_A = \rho = 0.661$, $C_V = C'_V = 1$, $M_F = 1$ 
+			Consider either:
+			\begin{itemize}
+				\item No scalar or tensor
+				\item $C_T$ pure real or imaginary
+				\item $C_S$ pure real or imaginary 
+				\item $C_S C_T$ pure imaginary
+			\end{itemize}	
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[height=0.6\textheight]{39Ca_decay}
+				\caption{Decay Scheme of $\mathrm{^{39}Ca}$ into $\mathrm{^{39}K}$.}
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{Standard Model}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_SM_hists}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, and the theoretical value for the Standard Model prediction ( including experimental value of the mixing ratio)}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{$C_T$ real or $C'_T$ real}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_CTRe_hists}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, theoretical value for the $M_{GT}C_T = 0.5$ in orange and Standard Model prediction in green}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{$C_T$ imaginary or $C'_T$ imaginary}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_CTIm_hists}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, theoretical value for the $M_{GT}C_T = 0.5i$ in orange and Standard Model prediction in green}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{$C_S$ real or $C'_S$ real}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_CSRe_hists}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, theoretical value for the $C_S = 0.5$ in orange and Standard Model prediction in green}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{$C_S$ imaginary or $C'_S$ imaginary}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_CSIm_hists}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, theoretical value for the $C_S = 0.5i$ in orange and Standard Model prediction in green}
+	\end{figure}
+\end{frame}
+\begin{frame}{Mixed Decay: $\mathrm{^{39}Ca}$}{$C_S$ real, $C_T$ imaginary}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.85\textwidth]{plots/39Ca_csctIm_hists}
+		\caption{Distribution of various relevant angles,$z_e$, $z_\nu$, $z_{e,\nu}$ and $\phi$, each with a well-known distribution, theoretical value for the $C_S = 0.5$ and $M_{GT}C_T = 0.5i$ in orange and Standard Model prediction in green}
+	\end{figure}
 \end{frame}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.2)  4 NOV 2025 13:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.2)  13 NOV 2025 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -941,13 +941,13 @@ Overfull \hbox (9.62675pt too wide) in paragraph at lines 71--71
 [3
 
  <./60Co_decay_simple.png>]
-<plots/comp_polZpos_60Co/e-_vx.pdf, id=110, 462.52798pt x 346.89601pt>
+<plots/comp_polZpos_60Co/e-_vx.pdf, id=111, 462.52798pt x 346.89601pt>
 File: plots/comp_polZpos_60Co/e-_vx.pdf Graphic file (type pdf)
 <use plots/comp_polZpos_60Co/e-_vx.pdf>
 Package pdftex.def Info: plots/comp_polZpos_60Co/e-_vx.pdf  used on input line 
 86.
 (pdftex.def)             Requested size: 145.96455pt x 109.47395pt.
-<plots/comp_polZpos_60Co/enubar_vx.pdf, id=111, 462.52798pt x 346.89601pt>
+<plots/comp_polZpos_60Co/enubar_vx.pdf, id=112, 462.52798pt x 346.89601pt>
 File: plots/comp_polZpos_60Co/enubar_vx.pdf Graphic file (type pdf)
 <use plots/comp_polZpos_60Co/enubar_vx.pdf>
 Package pdftex.def Info: plots/comp_polZpos_60Co/enubar_vx.pdf  used on input l
@@ -957,13 +957,13 @@ ine 86.
 
  <./plots/comp_polZpos_60Co/e-_vx.pdf> <./plots/comp_polZpos_60Co/enubar_vx.pdf
 >]
-<plots/comp_polZpos_60Co/e-_vy.pdf, id=191, 462.52798pt x 346.89601pt>
+<plots/comp_polZpos_60Co/e-_vy.pdf, id=192, 462.52798pt x 346.89601pt>
 File: plots/comp_polZpos_60Co/e-_vy.pdf Graphic file (type pdf)
 <use plots/comp_polZpos_60Co/e-_vy.pdf>
 Package pdftex.def Info: plots/comp_polZpos_60Co/e-_vy.pdf  used on input line 
 101.
 (pdftex.def)             Requested size: 145.96455pt x 109.47395pt.
-<plots/comp_polZpos_60Co/enubar_vy.pdf, id=192, 462.52798pt x 346.89601pt>
+<plots/comp_polZpos_60Co/enubar_vy.pdf, id=193, 462.52798pt x 346.89601pt>
 File: plots/comp_polZpos_60Co/enubar_vy.pdf Graphic file (type pdf)
 <use plots/comp_polZpos_60Co/enubar_vy.pdf>
 Package pdftex.def Info: plots/comp_polZpos_60Co/enubar_vy.pdf  used on input l
@@ -973,13 +973,13 @@ ine 101.
 
  <./plots/comp_polZpos_60Co/e-_vy.pdf> <./plots/comp_polZpos_60Co/enubar_vy.pdf
 >]
-<plots/comp_polZpos_60Co/e-_vz.pdf, id=268, 462.52798pt x 346.89601pt>
+<plots/comp_polZpos_60Co/e-_vz.pdf, id=269, 462.52798pt x 346.89601pt>
 File: plots/comp_polZpos_60Co/e-_vz.pdf Graphic file (type pdf)
 <use plots/comp_polZpos_60Co/e-_vz.pdf>
 Package pdftex.def Info: plots/comp_polZpos_60Co/e-_vz.pdf  used on input line 
 116.
 (pdftex.def)             Requested size: 145.96455pt x 109.47395pt.
-<plots/comp_polZpos_60Co/enubar_vz.pdf, id=269, 462.52798pt x 346.89601pt>
+<plots/comp_polZpos_60Co/enubar_vz.pdf, id=270, 462.52798pt x 346.89601pt>
 File: plots/comp_polZpos_60Co/enubar_vz.pdf Graphic file (type pdf)
 <use plots/comp_polZpos_60Co/enubar_vz.pdf>
 Package pdftex.def Info: plots/comp_polZpos_60Co/enubar_vz.pdf  used on input l
@@ -988,10 +988,34 @@ ine 116.
  [6
 
  <./plots/comp_polZpos_60Co/e-_vz.pdf> <./plots/comp_polZpos_60Co/enubar_vz.pdf
->] [7
+>]
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 124.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 124.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 124.
+
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/b/it' undefined
+(Font)              using `OT1/cmss/b/n' instead on input line 124.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/it' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 124.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/it' in size <6> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 124.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/it' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 124.
+
+[7
 
 ]
-<plots/60Co_SM_hists.png, id=371, 722.7pt x 505.89pt>
+<plots/60Co_SM_hists.png, id=373, 722.7pt x 505.89pt>
 File: plots/60Co_SM_hists.png Graphic file (type png)
 <use plots/60Co_SM_hists.png>
 Package pdftex.def Info: plots/60Co_SM_hists.png  used on input line 131.
@@ -999,7 +1023,7 @@ Package pdftex.def Info: plots/60Co_SM_hists.png  used on input line 131.
  [8
 
  <./plots/60Co_SM_hists.png>]
-<plots/60Co_CTposRe_hists.png, id=399, 722.7pt x 505.89pt>
+<plots/60Co_CTposRe_hists.png, id=401, 722.7pt x 505.89pt>
 File: plots/60Co_CTposRe_hists.png Graphic file (type png)
 <use plots/60Co_CTposRe_hists.png>
 Package pdftex.def Info: plots/60Co_CTposRe_hists.png  used on input line 138.
@@ -1011,7 +1035,7 @@ Overfull \vbox (7.56502pt too high) detected at line 138
 [9
 
  <./plots/60Co_CTposRe_hists.png>]
-<plots/60Co_CTnegRe_hists.png, id=429, 722.7pt x 505.89pt>
+<plots/60Co_CTnegRe_hists.png, id=431, 722.7pt x 505.89pt>
 File: plots/60Co_CTnegRe_hists.png Graphic file (type png)
 <use plots/60Co_CTnegRe_hists.png>
 Package pdftex.def Info: plots/60Co_CTnegRe_hists.png  used on input line 145.
@@ -1023,7 +1047,7 @@ Overfull \vbox (7.56502pt too high) detected at line 145
 [10
 
  <./plots/60Co_CTnegRe_hists.png>]
-<plots/60Co_CTposIm_hists.png, id=456, 722.7pt x 505.89pt>
+<plots/60Co_CTposIm_hists.png, id=458, 722.7pt x 505.89pt>
 File: plots/60Co_CTposIm_hists.png Graphic file (type png)
 <use plots/60Co_CTposIm_hists.png>
 Package pdftex.def Info: plots/60Co_CTposIm_hists.png  used on input line 152.
@@ -1035,7 +1059,7 @@ Overfull \vbox (7.56502pt too high) detected at line 152
 [11
 
  <./plots/60Co_CTposIm_hists.png>]
-<plots/60Co_CTnegIm_hists.png, id=483, 722.7pt x 505.89pt>
+<plots/60Co_CTnegIm_hists.png, id=485, 722.7pt x 505.89pt>
 File: plots/60Co_CTnegIm_hists.png Graphic file (type png)
 <use plots/60Co_CTnegIm_hists.png>
 Package pdftex.def Info: plots/60Co_CTnegIm_hists.png  used on input line 159.
@@ -1047,7 +1071,7 @@ Overfull \vbox (7.56502pt too high) detected at line 159
 [12
 
  <./plots/60Co_CTnegIm_hists.png>]
-<plots/60Co_CTmixRe_hists.png, id=511, 722.7pt x 505.89pt>
+<plots/60Co_CTmixRe_hists.png, id=513, 722.7pt x 505.89pt>
 File: plots/60Co_CTmixRe_hists.png Graphic file (type png)
 <use plots/60Co_CTmixRe_hists.png>
 Package pdftex.def Info: plots/60Co_CTmixRe_hists.png  used on input line 166.
@@ -1059,13 +1083,13 @@ Overfull \vbox (7.56502pt too high) detected at line 166
 [13
 
  <./plots/60Co_CTmixRe_hists.png>]
-<plots/60Co_polZneg_e-_x_dir.pdf, id=540, 462.52798pt x 346.89601pt>
+<plots/60Co_polZneg_e-_x_dir.pdf, id=542, 462.52798pt x 346.89601pt>
 File: plots/60Co_polZneg_e-_x_dir.pdf Graphic file (type pdf)
 <use plots/60Co_polZneg_e-_x_dir.pdf>
 Package pdftex.def Info: plots/60Co_polZneg_e-_x_dir.pdf  used on input line 18
 1.
 (pdftex.def)             Requested size: 145.96455pt x 109.47395pt.
-<plots/60Co_polZneg_enubar_vx.pdf, id=541, 462.52798pt x 346.89601pt>
+<plots/60Co_polZneg_enubar_vx.pdf, id=543, 462.52798pt x 346.89601pt>
 File: plots/60Co_polZneg_enubar_vx.pdf Graphic file (type pdf)
 <use plots/60Co_polZneg_enubar_vx.pdf>
 Package pdftex.def Info: plots/60Co_polZneg_enubar_vx.pdf  used on input line 1
@@ -1074,13 +1098,13 @@ Package pdftex.def Info: plots/60Co_polZneg_enubar_vx.pdf  used on input line 1
  [14
 
  <./plots/60Co_polZneg_e-_x_dir.pdf> <./plots/60Co_polZneg_enubar_vx.pdf>]
-<plots/60Co_polZneg_e-_y_dir.pdf, id=620, 462.52798pt x 346.89601pt>
+<plots/60Co_polZneg_e-_y_dir.pdf, id=622, 462.52798pt x 346.89601pt>
 File: plots/60Co_polZneg_e-_y_dir.pdf Graphic file (type pdf)
 <use plots/60Co_polZneg_e-_y_dir.pdf>
 Package pdftex.def Info: plots/60Co_polZneg_e-_y_dir.pdf  used on input line 19
 6.
 (pdftex.def)             Requested size: 145.96455pt x 109.47395pt.
-<plots/60Co_polZneg_enubar_vy.pdf, id=621, 462.52798pt x 346.89601pt>
+<plots/60Co_polZneg_enubar_vy.pdf, id=623, 462.52798pt x 346.89601pt>
 File: plots/60Co_polZneg_enubar_vy.pdf Graphic file (type pdf)
 <use plots/60Co_polZneg_enubar_vy.pdf>
 Package pdftex.def Info: plots/60Co_polZneg_enubar_vy.pdf  used on input line 1
@@ -1089,13 +1113,13 @@ Package pdftex.def Info: plots/60Co_polZneg_enubar_vy.pdf  used on input line 1
  [15
 
  <./plots/60Co_polZneg_e-_y_dir.pdf> <./plots/60Co_polZneg_enubar_vy.pdf>]
-<plots/60Co_polZneg_e-_z_dir.pdf, id=701, 462.52798pt x 346.89601pt>
+<plots/60Co_polZneg_e-_z_dir.pdf, id=703, 462.52798pt x 346.89601pt>
 File: plots/60Co_polZneg_e-_z_dir.pdf Graphic file (type pdf)
 <use plots/60Co_polZneg_e-_z_dir.pdf>
 Package pdftex.def Info: plots/60Co_polZneg_e-_z_dir.pdf  used on input line 21
 1.
 (pdftex.def)             Requested size: 145.96455pt x 109.47395pt.
-<plots/60Co_polZneg_enubar_vz.pdf, id=702, 462.52798pt x 346.89601pt>
+<plots/60Co_polZneg_enubar_vz.pdf, id=704, 462.52798pt x 346.89601pt>
 File: plots/60Co_polZneg_enubar_vz.pdf Graphic file (type pdf)
 <use plots/60Co_polZneg_enubar_vz.pdf>
 Package pdftex.def Info: plots/60Co_polZneg_enubar_vz.pdf  used on input line 2
@@ -1104,13 +1128,13 @@ Package pdftex.def Info: plots/60Co_polZneg_enubar_vz.pdf  used on input line 2
  [16
 
  <./plots/60Co_polZneg_e-_z_dir.pdf> <./plots/60Co_polZneg_enubar_vz.pdf>]
-<plots/60Co_polXpos_e-_x_dir.pdf, id=778, 462.52798pt x 346.89601pt>
+<plots/60Co_polXpos_e-_x_dir.pdf, id=780, 462.52798pt x 346.89601pt>
 File: plots/60Co_polXpos_e-_x_dir.pdf Graphic file (type pdf)
 <use plots/60Co_polXpos_e-_x_dir.pdf>
 Package pdftex.def Info: plots/60Co_polXpos_e-_x_dir.pdf  used on input line 22
 6.
 (pdftex.def)             Requested size: 145.96455pt x 109.47395pt.
-<plots/60Co_polXpos_enubar_vx.pdf, id=779, 462.52798pt x 346.89601pt>
+<plots/60Co_polXpos_enubar_vx.pdf, id=781, 462.52798pt x 346.89601pt>
 File: plots/60Co_polXpos_enubar_vx.pdf Graphic file (type pdf)
 <use plots/60Co_polXpos_enubar_vx.pdf>
 Package pdftex.def Info: plots/60Co_polXpos_enubar_vx.pdf  used on input line 2
@@ -1119,13 +1143,13 @@ Package pdftex.def Info: plots/60Co_polXpos_enubar_vx.pdf  used on input line 2
  [17
 
  <./plots/60Co_polXpos_e-_x_dir.pdf> <./plots/60Co_polXpos_enubar_vx.pdf>]
-<plots/60Co_polXpos_e-_y_dir.pdf, id=855, 462.52798pt x 346.89601pt>
+<plots/60Co_polXpos_e-_y_dir.pdf, id=857, 462.52798pt x 346.89601pt>
 File: plots/60Co_polXpos_e-_y_dir.pdf Graphic file (type pdf)
 <use plots/60Co_polXpos_e-_y_dir.pdf>
 Package pdftex.def Info: plots/60Co_polXpos_e-_y_dir.pdf  used on input line 24
 1.
 (pdftex.def)             Requested size: 145.96455pt x 109.47395pt.
-<plots/60Co_polXpos_enubar_vy.pdf, id=856, 462.52798pt x 346.89601pt>
+<plots/60Co_polXpos_enubar_vy.pdf, id=858, 462.52798pt x 346.89601pt>
 File: plots/60Co_polXpos_enubar_vy.pdf Graphic file (type pdf)
 <use plots/60Co_polXpos_enubar_vy.pdf>
 Package pdftex.def Info: plots/60Co_polXpos_enubar_vy.pdf  used on input line 2
@@ -1134,13 +1158,13 @@ Package pdftex.def Info: plots/60Co_polXpos_enubar_vy.pdf  used on input line 2
  [18
 
  <./plots/60Co_polXpos_e-_y_dir.pdf> <./plots/60Co_polXpos_enubar_vy.pdf>]
-<plots/60Co_polXpos_e-_z_dir.pdf, id=936, 462.52798pt x 346.89601pt>
+<plots/60Co_polXpos_e-_z_dir.pdf, id=938, 462.52798pt x 346.89601pt>
 File: plots/60Co_polXpos_e-_z_dir.pdf Graphic file (type pdf)
 <use plots/60Co_polXpos_e-_z_dir.pdf>
 Package pdftex.def Info: plots/60Co_polXpos_e-_z_dir.pdf  used on input line 25
 6.
 (pdftex.def)             Requested size: 145.96455pt x 109.47395pt.
-<plots/60Co_polXpos_enubar_vz.pdf, id=937, 462.52798pt x 346.89601pt>
+<plots/60Co_polXpos_enubar_vz.pdf, id=939, 462.52798pt x 346.89601pt>
 File: plots/60Co_polXpos_enubar_vz.pdf Graphic file (type pdf)
 <use plots/60Co_polXpos_enubar_vz.pdf>
 Package pdftex.def Info: plots/60Co_polXpos_enubar_vz.pdf  used on input line 2
@@ -1149,13 +1173,13 @@ Package pdftex.def Info: plots/60Co_polXpos_enubar_vz.pdf  used on input line 2
  [19
 
  <./plots/60Co_polXpos_e-_z_dir.pdf> <./plots/60Co_polXpos_enubar_vz.pdf>]
-<plots/60Co_polYpos_e-_x_dir.pdf, id=1017, 462.52798pt x 346.89601pt>
+<plots/60Co_polYpos_e-_x_dir.pdf, id=1019, 462.52798pt x 346.89601pt>
 File: plots/60Co_polYpos_e-_x_dir.pdf Graphic file (type pdf)
 <use plots/60Co_polYpos_e-_x_dir.pdf>
 Package pdftex.def Info: plots/60Co_polYpos_e-_x_dir.pdf  used on input line 27
 1.
 (pdftex.def)             Requested size: 145.96455pt x 109.47395pt.
-<plots/60Co_polYpos_enubar_vx.pdf, id=1018, 462.52798pt x 346.89601pt>
+<plots/60Co_polYpos_enubar_vx.pdf, id=1020, 462.52798pt x 346.89601pt>
 File: plots/60Co_polYpos_enubar_vx.pdf Graphic file (type pdf)
 <use plots/60Co_polYpos_enubar_vx.pdf>
 Package pdftex.def Info: plots/60Co_polYpos_enubar_vx.pdf  used on input line 2
@@ -1164,13 +1188,13 @@ Package pdftex.def Info: plots/60Co_polYpos_enubar_vx.pdf  used on input line 2
  [20
 
  <./plots/60Co_polYpos_e-_x_dir.pdf> <./plots/60Co_polYpos_enubar_vx.pdf>]
-<plots/60Co_polYpos_e-_y_dir.pdf, id=1097, 462.52798pt x 346.89601pt>
+<plots/60Co_polYpos_e-_y_dir.pdf, id=1099, 462.52798pt x 346.89601pt>
 File: plots/60Co_polYpos_e-_y_dir.pdf Graphic file (type pdf)
 <use plots/60Co_polYpos_e-_y_dir.pdf>
 Package pdftex.def Info: plots/60Co_polYpos_e-_y_dir.pdf  used on input line 28
 6.
 (pdftex.def)             Requested size: 145.96455pt x 109.47395pt.
-<plots/60Co_polYpos_enubar_vy.pdf, id=1098, 462.52798pt x 346.89601pt>
+<plots/60Co_polYpos_enubar_vy.pdf, id=1100, 462.52798pt x 346.89601pt>
 File: plots/60Co_polYpos_enubar_vy.pdf Graphic file (type pdf)
 <use plots/60Co_polYpos_enubar_vy.pdf>
 Package pdftex.def Info: plots/60Co_polYpos_enubar_vy.pdf  used on input line 2
@@ -1179,13 +1203,13 @@ Package pdftex.def Info: plots/60Co_polYpos_enubar_vy.pdf  used on input line 2
  [21
 
  <./plots/60Co_polYpos_e-_y_dir.pdf> <./plots/60Co_polYpos_enubar_vy.pdf>]
-<plots/60Co_polYpos_e-_z_dir.pdf, id=1175, 462.52798pt x 346.89601pt>
+<plots/60Co_polYpos_e-_z_dir.pdf, id=1177, 462.52798pt x 346.89601pt>
 File: plots/60Co_polYpos_e-_z_dir.pdf Graphic file (type pdf)
 <use plots/60Co_polYpos_e-_z_dir.pdf>
 Package pdftex.def Info: plots/60Co_polYpos_e-_z_dir.pdf  used on input line 30
 1.
 (pdftex.def)             Requested size: 145.96455pt x 109.47395pt.
-<plots/60Co_polYpos_enubar_vz.pdf, id=1176, 462.52798pt x 346.89601pt>
+<plots/60Co_polYpos_enubar_vz.pdf, id=1178, 462.52798pt x 346.89601pt>
 File: plots/60Co_polYpos_enubar_vz.pdf Graphic file (type pdf)
 <use plots/60Co_polYpos_enubar_vz.pdf>
 Package pdftex.def Info: plots/60Co_polYpos_enubar_vz.pdf  used on input line 3
@@ -1194,7 +1218,7 @@ Package pdftex.def Info: plots/60Co_polYpos_enubar_vz.pdf  used on input line 3
  [22
 
  <./plots/60Co_polYpos_e-_z_dir.pdf> <./plots/60Co_polYpos_enubar_vz.pdf>]
-<12B_decay.png, id=1255, 629.35126pt x 602.25pt>
+<12B_decay.png, id=1257, 629.35126pt x 602.25pt>
 File: 12B_decay.png Graphic file (type png)
 <use 12B_decay.png>
 Package pdftex.def Info: 12B_decay.png  used on input line 323.
@@ -1207,7 +1231,7 @@ Overfull \hbox (12.50725pt too wide) in paragraph at lines 323--323
 [23
 
  <./12B_decay.png>]
-<plots/12B_SM_hists.png, id=1282, 722.7pt x 505.89pt>
+<plots/12B_SM_hists.png, id=1284, 722.7pt x 505.89pt>
 File: plots/12B_SM_hists.png Graphic file (type png)
 <use plots/12B_SM_hists.png>
 Package pdftex.def Info: plots/12B_SM_hists.png  used on input line 330.
@@ -1215,7 +1239,7 @@ Package pdftex.def Info: plots/12B_SM_hists.png  used on input line 330.
  [24
 
  <./plots/12B_SM_hists.png>]
-<20F_decay.png, id=1309, 623.32875pt x 602.25pt>
+<20F_decay.png, id=1311, 623.32875pt x 602.25pt>
 File: 20F_decay.png Graphic file (type png)
 <use 20F_decay.png>
 Package pdftex.def Info: 20F_decay.png  used on input line 352.
@@ -1228,7 +1252,7 @@ Overfull \hbox (10.6232pt too wide) in paragraph at lines 352--352
 [25
 
  <./20F_decay.png>]
-<plots/20F_SM_hists.png, id=1338, 722.7pt x 505.89pt>
+<plots/20F_SM_hists.png, id=1340, 722.7pt x 505.89pt>
 File: plots/20F_SM_hists.png Graphic file (type png)
 <use plots/20F_SM_hists.png>
 Package pdftex.def Info: plots/20F_SM_hists.png  used on input line 359.
@@ -1236,7 +1260,7 @@ Package pdftex.def Info: plots/20F_SM_hists.png  used on input line 359.
  [26
 
  <./plots/20F_SM_hists.png>]
-<18F_decay.png, id=1364, 513.92pt x 602.25pt>
+<18F_decay.png, id=1367, 513.92pt x 602.25pt>
 File: 18F_decay.png Graphic file (type png)
 <use 18F_decay.png>
 Package pdftex.def Info: 18F_decay.png  used on input line 387.
@@ -1244,6 +1268,268 @@ Package pdftex.def Info: 18F_decay.png  used on input line 387.
  [27
 
  <./18F_decay.png>]
+<plots/18F_SM_hists.png, id=1394, 722.7pt x 505.89pt>
+File: plots/18F_SM_hists.png Graphic file (type png)
+<use plots/18F_SM_hists.png>
+Package pdftex.def Info: plots/18F_SM_hists.png  used on input line 394.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+[28
+
+ <./plots/18F_SM_hists.png>]
+<plots/18F_CTRe_hists.png, id=1421, 722.7pt x 505.89pt>
+File: plots/18F_CTRe_hists.png Graphic file (type png)
+<use plots/18F_CTRe_hists.png>
+Package pdftex.def Info: plots/18F_CTRe_hists.png  used on input line 401.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 401
+ []
+
+[29
+
+ <./plots/18F_CTRe_hists.png>]
+<plots/18F_CTIm_hists.png, id=1449, 722.7pt x 505.89pt>
+File: plots/18F_CTIm_hists.png Graphic file (type png)
+<use plots/18F_CTIm_hists.png>
+Package pdftex.def Info: plots/18F_CTIm_hists.png  used on input line 408.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 408
+ []
+
+[30
+
+ <./plots/18F_CTIm_hists.png>]
+<plots/18F_CTmix_hists.png, id=1476, 722.7pt x 505.89pt>
+File: plots/18F_CTmix_hists.png Graphic file (type png)
+<use plots/18F_CTmix_hists.png>
+Package pdftex.def Info: plots/18F_CTmix_hists.png  used on input line 415.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 415
+ []
+
+[31
+
+ <./plots/18F_CTmix_hists.png>]
+<39Ca_decay.png, id=1504, 613.29124pt x 602.25pt>
+File: 39Ca_decay.png Graphic file (type png)
+<use 39Ca_decay.png>
+Package pdftex.def Info: 39Ca_decay.png  used on input line 435.
+(pdftex.def)             Requested size: 164.44916pt x 161.48961pt.
+
+Overfull \hbox (10.80423pt too wide) in paragraph at lines 435--435
+ [] 
+ []
+
+[32
+
+ <./39Ca_decay.png>]
+<plots/39Ca_csct_imag.png, id=1531, 722.7pt x 505.89pt>
+File: plots/39Ca_csct_imag.png Graphic file (type png)
+<use plots/39Ca_csct_imag.png>
+Package pdftex.def Info: plots/39Ca_csct_imag.png  used on input line 442.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 442
+ []
+
+[33
+
+ <./plots/39Ca_csct_imag.png>]
+<plots/39Ca_csctp_real.png, id=1559, 722.7pt x 505.89pt>
+File: plots/39Ca_csctp_real.png Graphic file (type png)
+<use plots/39Ca_csctp_real.png>
+Package pdftex.def Info: plots/39Ca_csctp_real.png  used on input line 449.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 449
+ []
+
+[34
+
+ <./plots/39Ca_csctp_real.png>]
+<plots/39Ca_csca_real.png, id=1586, 722.7pt x 505.89pt>
+File: plots/39Ca_csca_real.png Graphic file (type png)
+<use plots/39Ca_csca_real.png>
+Package pdftex.def Info: plots/39Ca_csca_real.png  used on input line 456.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 456
+ []
+
+[35
+
+ <./plots/39Ca_csca_real.png>]
+<plots/39Ca_cscap_real.png, id=1613, 722.7pt x 505.89pt>
+File: plots/39Ca_cscap_real.png Graphic file (type png)
+<use plots/39Ca_cscap_real.png>
+Package pdftex.def Info: plots/39Ca_cscap_real.png  used on input line 463.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 463
+ []
+
+[36
+
+ <./plots/39Ca_cscap_real.png>]
+<plots/39Ca_cscap_imag.png, id=1640, 722.7pt x 505.89pt>
+File: plots/39Ca_cscap_imag.png Graphic file (type png)
+<use plots/39Ca_cscap_imag.png>
+Package pdftex.def Info: plots/39Ca_cscap_imag.png  used on input line 470.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 470
+ []
+
+[37
+
+ <./plots/39Ca_cscap_imag.png>]
+<plots/39Ca_cvca_imag.png, id=1669, 722.7pt x 505.89pt>
+File: plots/39Ca_cvca_imag.png Graphic file (type png)
+<use plots/39Ca_cvca_imag.png>
+Package pdftex.def Info: plots/39Ca_cvca_imag.png  used on input line 477.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 477
+ []
+
+[38
+
+ <./plots/39Ca_cvca_imag.png>]
+<plots/39Ca_cvcap_real.png, id=1696, 722.7pt x 505.89pt>
+File: plots/39Ca_cvcap_real.png Graphic file (type png)
+<use plots/39Ca_cvcap_real.png>
+Package pdftex.def Info: plots/39Ca_cvcap_real.png  used on input line 484.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 484
+ []
+
+[39
+
+ <./plots/39Ca_cvcap_real.png>]
+<plots/39Ca_ctcv_real.png, id=1723, 722.7pt x 505.89pt>
+File: plots/39Ca_ctcv_real.png Graphic file (type png)
+<use plots/39Ca_ctcv_real.png>
+Package pdftex.def Info: plots/39Ca_ctcv_real.png  used on input line 491.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 491
+ []
+
+[40
+
+ <./plots/39Ca_ctcv_real.png>]
+<plots/39Ca_ctpcv_real.png, id=1750, 722.7pt x 505.89pt>
+File: plots/39Ca_ctpcv_real.png Graphic file (type png)
+<use plots/39Ca_ctpcv_real.png>
+Package pdftex.def Info: plots/39Ca_ctpcv_real.png  used on input line 498.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 498
+ []
+
+[41
+
+ <./plots/39Ca_ctpcv_real.png>]
+<plots/39Ca_ctpcv_imag.png, id=1778, 722.7pt x 505.89pt>
+File: plots/39Ca_ctpcv_imag.png Graphic file (type png)
+<use plots/39Ca_ctpcv_imag.png>
+Package pdftex.def Info: plots/39Ca_ctpcv_imag.png  used on input line 505.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 505
+ []
+
+[42
+
+ <./plots/39Ca_ctpcv_imag.png>]
+File: 39Ca_decay.png Graphic file (type png)
+<use 39Ca_decay.png>
+Package pdftex.def Info: 39Ca_decay.png  used on input line 532.
+(pdftex.def)             Requested size: 164.44916pt x 161.48961pt.
+
+Overfull \hbox (10.80423pt too wide) in paragraph at lines 532--532
+ [] 
+ []
+
+[43
+
+]
+<plots/39Ca_SM_hists.png, id=1831, 722.7pt x 505.89pt>
+File: plots/39Ca_SM_hists.png Graphic file (type png)
+<use plots/39Ca_SM_hists.png>
+Package pdftex.def Info: plots/39Ca_SM_hists.png  used on input line 539.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 539
+ []
+
+[44
+
+ <./plots/39Ca_SM_hists.png>]
+<plots/39Ca_CTRe_hists.png, id=1858, 722.7pt x 505.89pt>
+File: plots/39Ca_CTRe_hists.png Graphic file (type png)
+<use plots/39Ca_CTRe_hists.png>
+Package pdftex.def Info: plots/39Ca_CTRe_hists.png  used on input line 546.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 546
+ []
+
+[45
+
+ <./plots/39Ca_CTRe_hists.png>]
+<plots/39Ca_CTIm_hists.png, id=1886, 722.7pt x 505.89pt>
+File: plots/39Ca_CTIm_hists.png Graphic file (type png)
+<use plots/39Ca_CTIm_hists.png>
+Package pdftex.def Info: plots/39Ca_CTIm_hists.png  used on input line 553.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 553
+ []
+
+[46
+
+ <./plots/39Ca_CTIm_hists.png>]
+<plots/39Ca_CSRe_hists.png, id=1913, 722.7pt x 505.89pt>
+File: plots/39Ca_CSRe_hists.png Graphic file (type png)
+<use plots/39Ca_CSRe_hists.png>
+Package pdftex.def Info: plots/39Ca_CSRe_hists.png  used on input line 560.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 560
+ []
+
+[47
+
+ <./plots/39Ca_CSRe_hists.png>]
+<plots/39Ca_CSIm_hists.png, id=1940, 722.7pt x 505.89pt>
+File: plots/39Ca_CSIm_hists.png Graphic file (type png)
+<use plots/39Ca_CSIm_hists.png>
+Package pdftex.def Info: plots/39Ca_CSIm_hists.png  used on input line 567.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 567
+ []
+
+[48
+
+ <./plots/39Ca_CSIm_hists.png>]
+<plots/39Ca_csctIm_hists.png, id=1966, 722.7pt x 505.89pt>
+File: plots/39Ca_csctIm_hists.png Graphic file (type png)
+<use plots/39Ca_csctIm_hists.png>
+Package pdftex.def Info: plots/39Ca_csctIm_hists.png  used on input line 574.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 574
+ []
+
+[49
+
+ <./plots/39Ca_csctIm_hists.png>]
 \tf@nav=\write6
 \openout6 = `cradle_tests.nav'.
 
@@ -1253,21 +1539,24 @@ Package pdftex.def Info: 18F_decay.png  used on input line 387.
 \tf@snm=\write8
 \openout8 = `cradle_tests.snm'.
 
-
-(./cradle_tests.aux)
+ (./cradle_tests.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `cradle_tests.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24457 strings out of 476064
- 466104 string characters out of 5792854
- 1936975 words of memory out of 5000000
- 45968 multiletter control sequences out of 15000+600000
- 573368 words of font info for 92 fonts, out of 8000000 for 9000
+ 24798 strings out of 476064
+ 474059 string characters out of 5792854
+ 1937975 words of memory out of 5000000
+ 46258 multiletter control sequences out of 15000+600000
+ 576091 words of font info for 101 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  101i,14n,107p,424b,807s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
@@ -1275,26 +1564,28 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-symbols/msam10.pfb>
-Output written on cradle_tests.pdf (27 pages, 790539 bytes).
+fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msam10.pfb>
+Output written on cradle_tests.pdf (49 pages, 1669617 bytes).
 PDF statistics:
- 1496 PDF objects out of 1728 (max. 8388607)
- 861 compressed objects within 9 object streams
- 55 named destinations out of 1000 (max. 500000)
- 228 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2118 PDF objects out of 2487 (max. 8388607)
+ 1409 compressed objects within 15 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 333 words of extra memory for PDF output out of 10000 (max. 10000000)
 
