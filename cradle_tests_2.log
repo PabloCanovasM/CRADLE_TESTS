@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  20 NOV 2025 12:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.4)  20 NOV 2025 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1216,205 +1216,227 @@ Overfull \vbox (7.56502pt too high) detected at line 267
 [26
 
  <./plots/39Ca_csca_real_res.png>]
-<plots/39Ca_cscap_real_hist.png, id=745, 722.7pt x 505.89pt>
-File: plots/39Ca_cscap_real_hist.png Graphic file (type png)
-<use plots/39Ca_cscap_real_hist.png>
-Package pdftex.def Info: plots/39Ca_cscap_real_hist.png  used on input line 275
-.
+<plots/39Ca_csca_real_more_hist.png, id=745, 722.7pt x 505.89pt>
+File: plots/39Ca_csca_real_more_hist.png Graphic file (type png)
+<use plots/39Ca_csca_real_more_hist.png>
+Package pdftex.def Info: plots/39Ca_csca_real_more_hist.png  used on input line
+ 275.
 (pdftex.def)             Requested size: 230.46739pt x 161.32458pt.
 
-Overfull \vbox (3.48405pt too high) detected at line 275
+Overfull \vbox (1.25148pt too high) detected at line 275
  []
 
 [27
 
- <./plots/39Ca_cscap_real_hist.png>]
-<plots/39Ca_cscap_real_res.png, id=772, 722.7pt x 505.89pt>
-File: plots/39Ca_cscap_real_res.png Graphic file (type png)
-<use plots/39Ca_cscap_real_res.png>
-Package pdftex.def Info: plots/39Ca_cscap_real_res.png  used on input line 283.
-
-(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
-
-Overfull \vbox (7.56502pt too high) detected at line 283
+ <./plots/39Ca_csca_real_more_hist.png>]
+Overfull \hbox (4.48529pt too wide) detected at line 295
+\OT1/mathkerncmss/m/sl/10 f[]\OT1/cmss/m/n/10 (\OML/cmm/m/it/10 ^^^\OT1/cmss/m/
+n/10 ) \OMS/cmsy/m/n/10 / [] [] [] [] \OML/cmm/m/it/10 ^^^
  []
 
+<plots/39Ca_csca_real_detail.png, id=772, 361.35pt x 433.62pt>
+File: plots/39Ca_csca_real_detail.png Graphic file (type png)
+<use plots/39Ca_csca_real_detail.png>
+Package pdftex.def Info: plots/39Ca_csca_real_detail.png  used on input line 29
+5.
+(pdftex.def)             Requested size: 138.28185pt x 165.9352pt.
 [28
 
- <./plots/39Ca_cscap_real_res.png>]
-<plots/39Ca_cscap_imag_hist.png, id=799, 722.7pt x 505.89pt>
-File: plots/39Ca_cscap_imag_hist.png Graphic file (type png)
-<use plots/39Ca_cscap_imag_hist.png>
-Package pdftex.def Info: plots/39Ca_cscap_imag_hist.png  used on input line 291
+ <./plots/39Ca_csca_real_detail.png>]
+<plots/39Ca_cscap_real_hist.png, id=799, 722.7pt x 505.89pt>
+File: plots/39Ca_cscap_real_hist.png Graphic file (type png)
+<use plots/39Ca_cscap_real_hist.png>
+Package pdftex.def Info: plots/39Ca_cscap_real_hist.png  used on input line 303
 .
 (pdftex.def)             Requested size: 230.46739pt x 161.32458pt.
 
-Overfull \vbox (3.48405pt too high) detected at line 291
+Overfull \vbox (3.48405pt too high) detected at line 303
  []
 
 [29
 
- <./plots/39Ca_cscap_imag_hist.png>]
-<plots/39Ca_cscap_imag_res.png, id=826, 722.7pt x 505.89pt>
-File: plots/39Ca_cscap_imag_res.png Graphic file (type png)
-<use plots/39Ca_cscap_imag_res.png>
-Package pdftex.def Info: plots/39Ca_cscap_imag_res.png  used on input line 298.
+ <./plots/39Ca_cscap_real_hist.png>]
+<plots/39Ca_cscap_real_res.png, id=826, 722.7pt x 505.89pt>
+File: plots/39Ca_cscap_real_res.png Graphic file (type png)
+<use plots/39Ca_cscap_real_res.png>
+Package pdftex.def Info: plots/39Ca_cscap_real_res.png  used on input line 311.
 
 (pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
 
-Overfull \vbox (7.56502pt too high) detected at line 298
+Overfull \vbox (7.56502pt too high) detected at line 311
  []
 
 [30
 
- <./plots/39Ca_cscap_imag_res.png>]
-<plots/39Ca_cvca_imag_hist.png, id=854, 722.7pt x 505.89pt>
-File: plots/39Ca_cvca_imag_hist.png Graphic file (type png)
-<use plots/39Ca_cvca_imag_hist.png>
-Package pdftex.def Info: plots/39Ca_cvca_imag_hist.png  used on input line 306.
-
+ <./plots/39Ca_cscap_real_res.png>]
+<plots/39Ca_cscap_imag_hist.png, id=854, 722.7pt x 505.89pt>
+File: plots/39Ca_cscap_imag_hist.png Graphic file (type png)
+<use plots/39Ca_cscap_imag_hist.png>
+Package pdftex.def Info: plots/39Ca_cscap_imag_hist.png  used on input line 319
+.
 (pdftex.def)             Requested size: 230.46739pt x 161.32458pt.
 
-Overfull \vbox (2.38898pt too high) detected at line 306
+Overfull \vbox (3.48405pt too high) detected at line 319
  []
 
 [31
 
- <./plots/39Ca_cvca_imag_hist.png>]
-<plots/39Ca_cvca_imag_res.png, id=882, 722.7pt x 505.89pt>
-File: plots/39Ca_cvca_imag_res.png Graphic file (type png)
-<use plots/39Ca_cvca_imag_res.png>
-Package pdftex.def Info: plots/39Ca_cvca_imag_res.png  used on input line 313.
+ <./plots/39Ca_cscap_imag_hist.png>]
+<plots/39Ca_cscap_imag_res.png, id=882, 722.7pt x 505.89pt>
+File: plots/39Ca_cscap_imag_res.png Graphic file (type png)
+<use plots/39Ca_cscap_imag_res.png>
+Package pdftex.def Info: plots/39Ca_cscap_imag_res.png  used on input line 326.
+
 (pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
 
-Overfull \vbox (7.56502pt too high) detected at line 313
+Overfull \vbox (7.56502pt too high) detected at line 326
  []
 
 [32
 
- <./plots/39Ca_cvca_imag_res.png>]
-<plots/39Ca_cvcap_real_hist.png, id=909, 722.7pt x 505.89pt>
-File: plots/39Ca_cvcap_real_hist.png Graphic file (type png)
-<use plots/39Ca_cvcap_real_hist.png>
-Package pdftex.def Info: plots/39Ca_cvcap_real_hist.png  used on input line 321
-.
+ <./plots/39Ca_cscap_imag_res.png>]
+<plots/39Ca_cscap_imag_more_hist.png, id=909, 722.7pt x 505.89pt>
+File: plots/39Ca_cscap_imag_more_hist.png Graphic file (type png)
+<use plots/39Ca_cscap_imag_more_hist.png>
+Package pdftex.def Info: plots/39Ca_cscap_imag_more_hist.png  used on input lin
+e 334.
 (pdftex.def)             Requested size: 230.46739pt x 161.32458pt.
 
-Overfull \vbox (2.38898pt too high) detected at line 321
+Overfull \vbox (1.25148pt too high) detected at line 334
  []
 
 [33
 
- <./plots/39Ca_cvcap_real_hist.png>]
-<plots/39Ca_cvcap_real_res.png, id=936, 722.7pt x 505.89pt>
-File: plots/39Ca_cvcap_real_res.png Graphic file (type png)
-<use plots/39Ca_cvcap_real_res.png>
-Package pdftex.def Info: plots/39Ca_cvcap_real_res.png  used on input line 328.
+ <./plots/39Ca_cscap_imag_more_hist.png>]
+<plots/39Ca_cscap_imag_detail.png, id=936, 361.35pt x 433.62pt>
+File: plots/39Ca_cscap_imag_detail.png Graphic file (type png)
+<use plots/39Ca_cscap_imag_detail.png>
+Package pdftex.def Info: plots/39Ca_cscap_imag_detail.png  used on input line 3
+53.
+(pdftex.def)             Requested size: 138.28185pt x 165.9352pt.
+ [34
 
-(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
-
-Overfull \vbox (7.56502pt too high) detected at line 328
- []
-
-[34
-
- <./plots/39Ca_cvcap_real_res.png>]
-<plots/39Ca_ctcv_real_hist.png, id=964, 722.7pt x 505.89pt>
-File: plots/39Ca_ctcv_real_hist.png Graphic file (type png)
-<use plots/39Ca_ctcv_real_hist.png>
-Package pdftex.def Info: plots/39Ca_ctcv_real_hist.png  used on input line 336.
+ <./plots/39Ca_cscap_imag_detail.png>]
+<plots/39Ca_cvca_imag_hist.png, id=964, 722.7pt x 505.89pt>
+File: plots/39Ca_cvca_imag_hist.png Graphic file (type png)
+<use plots/39Ca_cvca_imag_hist.png>
+Package pdftex.def Info: plots/39Ca_cvca_imag_hist.png  used on input line 361.
 
 (pdftex.def)             Requested size: 230.46739pt x 161.32458pt.
 
-Overfull \vbox (3.48405pt too high) detected at line 336
+Overfull \vbox (2.38898pt too high) detected at line 361
  []
 
 [35
 
- <./plots/39Ca_ctcv_real_hist.png>]
-<plots/39Ca_ctcv_real_res.png, id=991, 722.7pt x 505.89pt>
-File: plots/39Ca_ctcv_real_res.png Graphic file (type png)
-<use plots/39Ca_ctcv_real_res.png>
-Package pdftex.def Info: plots/39Ca_ctcv_real_res.png  used on input line 344.
+ <./plots/39Ca_cvca_imag_hist.png>]
+<plots/39Ca_cvca_imag_res.png, id=991, 722.7pt x 505.89pt>
+File: plots/39Ca_cvca_imag_res.png Graphic file (type png)
+<use plots/39Ca_cvca_imag_res.png>
+Package pdftex.def Info: plots/39Ca_cvca_imag_res.png  used on input line 368.
 (pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
 
-Overfull \vbox (7.56502pt too high) detected at line 344
+Overfull \vbox (7.56502pt too high) detected at line 368
  []
 
 [36
 
- <./plots/39Ca_ctcv_real_res.png>]
-<plots/39Ca_ctpcv_real_hist.png, id=1018, 722.7pt x 505.89pt>
-File: plots/39Ca_ctpcv_real_hist.png Graphic file (type png)
-<use plots/39Ca_ctpcv_real_hist.png>
-Package pdftex.def Info: plots/39Ca_ctpcv_real_hist.png  used on input line 352
+ <./plots/39Ca_cvca_imag_res.png>]
+<plots/39Ca_cvcap_real_hist.png, id=1018, 722.7pt x 505.89pt>
+File: plots/39Ca_cvcap_real_hist.png Graphic file (type png)
+<use plots/39Ca_cvcap_real_hist.png>
+Package pdftex.def Info: plots/39Ca_cvcap_real_hist.png  used on input line 376
 .
 (pdftex.def)             Requested size: 230.46739pt x 161.32458pt.
 
-Overfull \vbox (3.48405pt too high) detected at line 352
+Overfull \vbox (2.38898pt too high) detected at line 376
  []
 
 [37
 
- <./plots/39Ca_ctpcv_real_hist.png>]
-<plots/39Ca_ctpcv_real_res.png, id=1046, 722.7pt x 505.89pt>
-File: plots/39Ca_ctpcv_real_res.png Graphic file (type png)
-<use plots/39Ca_ctpcv_real_res.png>
-Package pdftex.def Info: plots/39Ca_ctpcv_real_res.png  used on input line 360.
+ <./plots/39Ca_cvcap_real_hist.png>]
+<plots/39Ca_cvcap_real_res.png, id=1046, 722.7pt x 505.89pt>
+File: plots/39Ca_cvcap_real_res.png Graphic file (type png)
+<use plots/39Ca_cvcap_real_res.png>
+Package pdftex.def Info: plots/39Ca_cvcap_real_res.png  used on input line 383.
 
 (pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
 
-Overfull \vbox (7.56502pt too high) detected at line 360
+Overfull \vbox (7.56502pt too high) detected at line 383
  []
 
 [38
 
- <./plots/39Ca_ctpcv_real_res.png>]
-<plots/39Ca_ctpcv_imag_hist.png, id=1074, 722.7pt x 505.89pt>
-File: plots/39Ca_ctpcv_imag_hist.png Graphic file (type png)
-<use plots/39Ca_ctpcv_imag_hist.png>
-Package pdftex.def Info: plots/39Ca_ctpcv_imag_hist.png  used on input line 368
-.
+ <./plots/39Ca_cvcap_real_res.png>]
+<plots/39Ca_ctcv_real_hist.png, id=1074, 722.7pt x 505.89pt>
+File: plots/39Ca_ctcv_real_hist.png Graphic file (type png)
+<use plots/39Ca_ctcv_real_hist.png>
+Package pdftex.def Info: plots/39Ca_ctcv_real_hist.png  used on input line 391.
+
 (pdftex.def)             Requested size: 230.46739pt x 161.32458pt.
 
-Overfull \vbox (3.48405pt too high) detected at line 368
+Overfull \vbox (3.48405pt too high) detected at line 391
  []
 
 [39
 
- <./plots/39Ca_ctpcv_imag_hist.png>]
-<plots/39Ca_ctpcv_imag_res.png, id=1101, 722.7pt x 505.89pt>
-File: plots/39Ca_ctpcv_imag_res.png Graphic file (type png)
-<use plots/39Ca_ctpcv_imag_res.png>
-Package pdftex.def Info: plots/39Ca_ctpcv_imag_res.png  used on input line 375.
-
+ <./plots/39Ca_ctcv_real_hist.png>]
+<plots/39Ca_ctcv_real_res.png, id=1101, 722.7pt x 505.89pt>
+File: plots/39Ca_ctcv_real_res.png Graphic file (type png)
+<use plots/39Ca_ctcv_real_res.png>
+Package pdftex.def Info: plots/39Ca_ctcv_real_res.png  used on input line 399.
 (pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
 
-Overfull \vbox (7.56502pt too high) detected at line 375
+Overfull \vbox (7.56502pt too high) detected at line 399
  []
 
 [40
 
- <./plots/39Ca_ctpcv_imag_res.png>]
-Overfull \vbox (5.52673pt too high) detected at line 398
+ <./plots/39Ca_ctcv_real_res.png>]
+<plots/39Ca_ctpcv_real_hist.png, id=1128, 722.7pt x 505.89pt>
+File: plots/39Ca_ctpcv_real_hist.png Graphic file (type png)
+<use plots/39Ca_ctpcv_real_hist.png>
+Package pdftex.def Info: plots/39Ca_ctpcv_real_hist.png  used on input line 407
+.
+(pdftex.def)             Requested size: 230.46739pt x 161.32458pt.
+
+Overfull \vbox (3.48405pt too high) detected at line 407
  []
 
 [41
 
-]
-Overfull \vbox (5.52673pt too high) detected at line 421
+ <./plots/39Ca_ctpcv_real_hist.png>]
+<plots/39Ca_ctpcv_real_res.png, id=1155, 722.7pt x 505.89pt>
+File: plots/39Ca_ctpcv_real_res.png Graphic file (type png)
+<use plots/39Ca_ctpcv_real_res.png>
+Package pdftex.def Info: plots/39Ca_ctpcv_real_res.png  used on input line 415.
+
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 415
  []
 
 [42
 
-] [43
+ <./plots/39Ca_ctpcv_real_res.png>]
+<plots/39Ca_ctpcv_imag_hist.png, id=1183, 722.7pt x 505.89pt>
+File: plots/39Ca_ctpcv_imag_hist.png Graphic file (type png)
+<use plots/39Ca_ctpcv_imag_hist.png>
+Package pdftex.def Info: plots/39Ca_ctpcv_imag_hist.png  used on input line 423
+.
+(pdftex.def)             Requested size: 230.46739pt x 161.32458pt.
 
-]
-<plots/39Ca_l=10000ang_cvca=10.0_hist.png, id=1205, 722.7pt x 505.89pt>
-File: plots/39Ca_l=10000ang_cvca=10.0_hist.png Graphic file (type png)
-<use plots/39Ca_l=10000ang_cvca=10.0_hist.png>
-Package pdftex.def Info: plots/39Ca_l=10000ang_cvca=10.0_hist.png  used on inpu
-t line 430.
+Overfull \vbox (3.48405pt too high) detected at line 423
+ []
+
+[43
+
+ <./plots/39Ca_ctpcv_imag_hist.png>]
+<plots/39Ca_ctpcv_imag_res.png, id=1211, 722.7pt x 505.89pt>
+File: plots/39Ca_ctpcv_imag_res.png Graphic file (type png)
+<use plots/39Ca_ctpcv_imag_res.png>
+Package pdftex.def Info: plots/39Ca_ctpcv_imag_res.png  used on input line 430.
+
 (pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
 
 Overfull \vbox (7.56502pt too high) detected at line 430
@@ -1422,106 +1444,133 @@ Overfull \vbox (7.56502pt too high) detected at line 430
 
 [44
 
- <./plots/39Ca_l=10000ang_cvca=10.0_hist.png>]
-<plots/23Mg_l=10000ang_cvca=10.0_hist.png, id=1233, 722.7pt x 505.89pt>
-File: plots/23Mg_l=10000ang_cvca=10.0_hist.png Graphic file (type png)
-<use plots/23Mg_l=10000ang_cvca=10.0_hist.png>
-Package pdftex.def Info: plots/23Mg_l=10000ang_cvca=10.0_hist.png  used on inpu
-t line 437.
-(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
-
-Overfull \vbox (7.56502pt too high) detected at line 437
+ <./plots/39Ca_ctpcv_imag_res.png>]
+Overfull \vbox (5.52673pt too high) detected at line 453
  []
 
 [45
 
- <./plots/23Mg_l=10000ang_cvca=10.0_hist.png>]
-<plots/39Ca_l=100000ang_cvca=10.0_hist.png, id=1260, 722.7pt x 505.89pt>
-File: plots/39Ca_l=100000ang_cvca=10.0_hist.png Graphic file (type png)
-<use plots/39Ca_l=100000ang_cvca=10.0_hist.png>
-Package pdftex.def Info: plots/39Ca_l=100000ang_cvca=10.0_hist.png  used on inp
-ut line 445.
-(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
-
-Overfull \vbox (7.56502pt too high) detected at line 445
+]
+Overfull \vbox (5.52673pt too high) detected at line 476
  []
 
 [46
 
- <./plots/39Ca_l=100000ang_cvca=10.0_hist.png>]
-<plots/23Mg_l=100000ang_cvca=10.0_hist.png, id=1288, 722.7pt x 505.89pt>
-File: plots/23Mg_l=100000ang_cvca=10.0_hist.png Graphic file (type png)
-<use plots/23Mg_l=100000ang_cvca=10.0_hist.png>
-Package pdftex.def Info: plots/23Mg_l=100000ang_cvca=10.0_hist.png  used on inp
-ut line 452.
+] [47
+
+]
+<plots/39Ca_l=10000ang_cvca=10.0_hist.png, id=1314, 722.7pt x 505.89pt>
+File: plots/39Ca_l=10000ang_cvca=10.0_hist.png Graphic file (type png)
+<use plots/39Ca_l=10000ang_cvca=10.0_hist.png>
+Package pdftex.def Info: plots/39Ca_l=10000ang_cvca=10.0_hist.png  used on inpu
+t line 485.
 (pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
 
-Overfull \vbox (7.56502pt too high) detected at line 452
- []
-
-[47
-
- <./plots/23Mg_l=100000ang_cvca=10.0_hist.png>]
-<plots/39Ca_l=1000000ang_cvca=10.0_hist.png, id=1315, 722.7pt x 505.89pt>
-File: plots/39Ca_l=1000000ang_cvca=10.0_hist.png Graphic file (type png)
-<use plots/39Ca_l=1000000ang_cvca=10.0_hist.png>
-Package pdftex.def Info: plots/39Ca_l=1000000ang_cvca=10.0_hist.png  used on in
-put line 460.
-(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
-
-Overfull \vbox (7.56502pt too high) detected at line 460
+Overfull \vbox (7.56502pt too high) detected at line 485
  []
 
 [48
 
- <./plots/39Ca_l=1000000ang_cvca=10.0_hist.png>]
-<plots/23Mg_l=1000000ang_cvca=10.0_hist.png, id=1342, 722.7pt x 505.89pt>
-File: plots/23Mg_l=1000000ang_cvca=10.0_hist.png Graphic file (type png)
-<use plots/23Mg_l=1000000ang_cvca=10.0_hist.png>
-Package pdftex.def Info: plots/23Mg_l=1000000ang_cvca=10.0_hist.png  used on in
-put line 467.
+ <./plots/39Ca_l=10000ang_cvca=10.0_hist.png>]
+<plots/23Mg_l=10000ang_cvca=10.0_hist.png, id=1342, 722.7pt x 505.89pt>
+File: plots/23Mg_l=10000ang_cvca=10.0_hist.png Graphic file (type png)
+<use plots/23Mg_l=10000ang_cvca=10.0_hist.png>
+Package pdftex.def Info: plots/23Mg_l=10000ang_cvca=10.0_hist.png  used on inpu
+t line 492.
 (pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
 
-Overfull \vbox (7.56502pt too high) detected at line 467
+Overfull \vbox (7.56502pt too high) detected at line 492
  []
 
 [49
 
- <./plots/23Mg_l=1000000ang_cvca=10.0_hist.png>] [50
+ <./plots/23Mg_l=10000ang_cvca=10.0_hist.png>]
+<plots/39Ca_l=100000ang_cvca=10.0_hist.png, id=1370, 722.7pt x 505.89pt>
+File: plots/39Ca_l=100000ang_cvca=10.0_hist.png Graphic file (type png)
+<use plots/39Ca_l=100000ang_cvca=10.0_hist.png>
+Package pdftex.def Info: plots/39Ca_l=100000ang_cvca=10.0_hist.png  used on inp
+ut line 500.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 500
+ []
+
+[50
+
+ <./plots/39Ca_l=100000ang_cvca=10.0_hist.png>]
+<plots/23Mg_l=100000ang_cvca=10.0_hist.png, id=1398, 722.7pt x 505.89pt>
+File: plots/23Mg_l=100000ang_cvca=10.0_hist.png Graphic file (type png)
+<use plots/23Mg_l=100000ang_cvca=10.0_hist.png>
+Package pdftex.def Info: plots/23Mg_l=100000ang_cvca=10.0_hist.png  used on inp
+ut line 507.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 507
+ []
+
+[51
+
+ <./plots/23Mg_l=100000ang_cvca=10.0_hist.png>]
+<plots/39Ca_l=1000000ang_cvca=10.0_hist.png, id=1425, 722.7pt x 505.89pt>
+File: plots/39Ca_l=1000000ang_cvca=10.0_hist.png Graphic file (type png)
+<use plots/39Ca_l=1000000ang_cvca=10.0_hist.png>
+Package pdftex.def Info: plots/39Ca_l=1000000ang_cvca=10.0_hist.png  used on in
+put line 515.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 515
+ []
+
+[52
+
+ <./plots/39Ca_l=1000000ang_cvca=10.0_hist.png>]
+<plots/23Mg_l=1000000ang_cvca=10.0_hist.png, id=1452, 722.7pt x 505.89pt>
+File: plots/23Mg_l=1000000ang_cvca=10.0_hist.png Graphic file (type png)
+<use plots/23Mg_l=1000000ang_cvca=10.0_hist.png>
+Package pdftex.def Info: plots/23Mg_l=1000000ang_cvca=10.0_hist.png  used on in
+put line 522.
+(pdftex.def)             Requested size: 261.19826pt x 182.83813pt.
+
+Overfull \vbox (7.56502pt too high) detected at line 522
+ []
+
+[53
+
+ <./plots/23Mg_l=1000000ang_cvca=10.0_hist.png>] [54
 
 ]
-<plots/39Ca_l=10000_Dchi2.png, id=1396, 715.473pt x 426.393pt>
+<plots/39Ca_l=10000_Dchi2.png, id=1504, 715.473pt x 426.393pt>
 File: plots/39Ca_l=10000_Dchi2.png Graphic file (type png)
 <use plots/39Ca_l=10000_Dchi2.png>
-Package pdftex.def Info: plots/39Ca_l=10000_Dchi2.png  used on input line 486.
+Package pdftex.def Info: plots/39Ca_l=10000_Dchi2.png  used on input line 541.
 (pdftex.def)             Requested size: 307.28987pt x 183.1307pt.
- [51
+ [55
 
  <./plots/39Ca_l=10000_Dchi2.png>]
-<plots/39Ca_l=100000_Dchi2.png, id=1423, 706.0779pt x 428.5611pt>
+<plots/39Ca_l=100000_Dchi2.png, id=1533, 706.0779pt x 428.5611pt>
 File: plots/39Ca_l=100000_Dchi2.png Graphic file (type png)
 <use plots/39Ca_l=100000_Dchi2.png>
-Package pdftex.def Info: plots/39Ca_l=100000_Dchi2.png  used on input line 493.
+Package pdftex.def Info: plots/39Ca_l=100000_Dchi2.png  used on input line 548.
 
 (pdftex.def)             Requested size: 307.28987pt x 186.51411pt.
- [52
+ [56
 
  <./plots/39Ca_l=100000_Dchi2.png>]
-<plots/39Ca_l=1000000_Dchi2.png, id=1450, 714.7503pt x 426.393pt>
+<plots/39Ca_l=1000000_Dchi2.png, id=1560, 714.7503pt x 426.393pt>
 File: plots/39Ca_l=1000000_Dchi2.png Graphic file (type png)
 <use plots/39Ca_l=1000000_Dchi2.png>
-Package pdftex.def Info: plots/39Ca_l=1000000_Dchi2.png  used on input line 501
+Package pdftex.def Info: plots/39Ca_l=1000000_Dchi2.png  used on input line 556
 .
 (pdftex.def)             Requested size: 307.28987pt x 183.31938pt.
- [53
+ [57
 
  <./plots/39Ca_l=1000000_Dchi2.png>]
 File: plots/39Ca_l=1000000_Dchi2.png Graphic file (type png)
 <use plots/39Ca_l=1000000_Dchi2.png>
-Package pdftex.def Info: plots/39Ca_l=1000000_Dchi2.png  used on input line 510
+Package pdftex.def Info: plots/39Ca_l=1000000_Dchi2.png  used on input line 565
 .
 (pdftex.def)             Requested size: 307.28987pt x 183.31938pt.
- [54
+ [58
 
 ]
 \tf@nav=\write6
@@ -1538,10 +1587,10 @@ Package rerunfilecheck Info: File `cradle_tests_2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25341 strings out of 476041
- 490199 string characters out of 5793174
+ 25401 strings out of 476041
+ 491963 string characters out of 5793174
  1872388 words of memory out of 6000000
- 45137 multiletter control sequences out of 15000+600000
+ 45185 multiletter control sequences out of 15000+600000
  534467 words of font info for 102 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  128i,14n,122p,426b,780s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1570,10 +1619,10 @@ cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfso0800.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfso1000.pfb>
-Output written on cradle_tests_2.pdf (54 pages, 1875402 bytes).
+Output written on cradle_tests_2.pdf (58 pages, 1997866 bytes).
 PDF statistics:
- 1641 PDF objects out of 1728 (max. 8388607)
- 1422 compressed objects within 15 object streams
- 109 named destinations out of 1000 (max. 500000)
- 263 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1752 PDF objects out of 2073 (max. 8388607)
+ 1520 compressed objects within 16 object streams
+ 117 named destinations out of 1000 (max. 500000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 
