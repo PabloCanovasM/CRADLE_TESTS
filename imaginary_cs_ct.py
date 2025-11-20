@@ -2,7 +2,7 @@ import subprocess
 import numpy as np
 
 
-l_list = np.array([2e5]).astype(int) #sizes
+l_list = np.array([4e5]).astype(int) #sizes
 
 cs_list = np.linspace(0,0.4,5)
 ct_list = np.linspace(0,0.4,5)
@@ -35,7 +35,7 @@ for l in l_list:
             couplingConstants = np.zeros(8).astype(np.cdouble)
             couplingConstants[[4,5]] = 1
             couplingConstants[[6,7]] = 1
-            couplingConstants[[0,1]] = cs*1jº
+            couplingConstants[[0,1]] = cs*1j
             couplingConstants[[2,3]] = ct
             print(couplingConstants)
             couplingConstans_array = []
