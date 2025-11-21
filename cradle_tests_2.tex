@@ -198,6 +198,8 @@
 		\end{tabular}
 		\caption{Values of $\chi^2/100$ for each distribution for each of the tests performed. The first one is the Standard Model values, rows 2 to 5 correspond to tests where $C_T=C'_T$ and the last one features $C_T=-C'_T$. For all tests $M_{GT} = 1$, $C_A = C'_A = 1.2754$ and $|C_T|=|C'_T| = 1/\sqrt{2}$ }
 	\end{table}
+	
+	All close to 1
 \end{frame}
 
 \begin{frame}{Mixed Decays: $\mathrm{^{39}Ca}$}
@@ -206,10 +208,10 @@
 			Now we consider a mixed $\beta^+$ decay: $\mathrm{^{39}Ca} \left(\frac{3}{2}\right)^+ \rightarrow \mathrm{^{39}K} \left(\frac{3}{2}\right)^+$
 			Properties:
 			\begin{itemize}
-				\item Q = 5502.5 keV (actually inconvenient, $\left<\gamma_e^{-1}\right> = 0.2$ and $\alpha Z = 0.14$)
+				\item Q = 5502.5 keV (a bit inconvenient, $\left<\gamma_e^{-1}\right> = 0.2$ and $\alpha Z = 0.14$)
 				\item No $\gamma$ produced
 			\end{itemize}
-			First, do tests with 2 non-zero coupling for pairs with $N = 10^6$ decays. Shown those with non-zero correlations A, B and D that are not present in a Gamow-Teller decay. We use $|M_{GT}C_i| = |M_FC_i| = 1$ for convenience
+			First, do tests with 2 non-zero coupling for pairs with $N = 10^6$ decays. Shown those with non-zero correlations A, B and D that are not present in a Gamow-Teller decay. We use $|M_{GT}C^{(\prime)}_{A,T}| = |M_FC^{(\prime)}_{V,S}| = 1$ for convenience
 		\end{column}
 		\begin{column}{0.5\textwidth}
 			\begin{figure}
@@ -280,9 +282,10 @@
 			\begin{itemize}
 				\item Increase N
 				\item Keep only the sine component  ($b = 0$)
-			\end{itemize}
 				\small $$f_4(\phi) \propto  \left(a+\frac c3\right)\left<\beta_e\right>\frac{\pi^2}{16}\cos\phi$$
 				$$+\left<D\beta_e\right>\frac{\pi^2}{16}\sin\phi + 1$$
+				\item Reduce number of bins (100 $\rightarrow$ 50)
+			\end{itemize}
 		\end{column}
 		\begin{column}{0.6\textwidth}
 			\begin{figure}
@@ -339,14 +342,15 @@
 			\begin{itemize}
 				\item Increase N
 				\item Keep only the linear component ($b = 0$)
-			\end{itemize}
-			 $$f_1(z_e) \propto  1 + \left<A\beta\right>z_e$$
+				 $$f_1(z_e) \propto  1 + \left<A\beta\right>z_e$$
+			 	\item Reduce number of bins (100 $\rightarrow$ 50)
+			 \end{itemize}
 		\end{column}
 		\begin{column}{0.6\textwidth}
 			\begin{figure}
 				\centering
 				\includegraphics[width=0.75\columnwidth]{plots/39Ca_cscap_imag_detail}
-				\caption{In top, cosine component of the $\phi$ distribution  (blue) and its theoretical vaule (orange). At the bottom, residuals.}
+				\caption{In top, linear component of the $z_e$ distribution  (blue) and its theoretical vaule (orange). At the bottom, residuals.}
 			\end{figure}
 		\end{column}
 	\end{columns}
@@ -474,7 +478,29 @@
 		\caption{Values of $\chi^2/100$ for each distribution for each of the tests}
 	\end{table}
 \end{frame}
-\begin{frame}{Non-zero D cases}
+\begin{frame}{Plausible scenarios with non-zero D}
+	Looking at D in terms of $C_X$,$C'_X$	
+	$$D = 2\delta_{J_i,J_f}M_FM_{GT}\sqrt{\frac{J_i}{J_i+1}} \left[\vphantom{\frac{\alpha}{p_e}} Im\left(C_S{C_T}^\ast+C'_S{C'_T}^\ast-C_V{C_A}^\ast-C'_V{C'_A}^\ast\right)\right.$$$$\left.\mp\frac{\alpha Z m_e}{p_e}Re\left(C_S{C_A}^\ast+C_S{C'_A}^\ast+C_T{C_V}^\ast+C'_T{C'_V}^\ast\right)\right]$$
+	
+	Multiple simple options:
+	\begin{itemize}
+		\item $C_A=C_A'$ with an imaginary component, $C_V=C'_V=1$
+		\item Keep $C^{(\prime)}_A$ and $C^{(\prime)}_V$, and add either a $C_S = C'_S$ or a $C_T= C'_T$ coupling with a real component (simpler $C_S$)
+		\item Keep $C^{(\prime)}_A$ and $C^{(\prime)}_V$, add add $C_S=-C'_S$ and $C_T=-C'_T$ couplings, one real and other imaginary
+		\item Keep $C^{(\prime)}_A$ and $C^{(\prime)}_V$, and add $C_S=C'_S$ and $C_T=C'_T$ couplings, one real and other imaginary (not so simple)
+	\end{itemize}
+\end{frame}
+\begin{frame}{Imaginary $C_VC_A$}
+	Idea: add just a phase shift between  $C_A$ and $C_V$, value $\theta$.
+	\begin{itemize}
+		\item Global symmetry to a phase shift of all coupling constants $\rightarrow$ $C_V$ chosen 1
+		\item $|C_A|$ untouched $\rightarrow$ $\xi$,$a$,$b=0$,$c$ constant
+		\item $\delta D \propto \sin(\theta) \approx \theta$ and $\delta D \propto \left<\beta_e\right>  (good)$
+		\item $\delta A ,\delta B \propto 1-\cos(\theta) = O(\theta^2)$
+	\end{itemize}
+	\small$$A\xi = 2|M_{GT}|^2 \lambda_{JJ'} \left[ \pm  Re \left(C_T {C'_T}^\ast - C_A {C'_A}^*\right) + \frac{\alpha Z m_e}{p_e} Im \left(C_T {C'_A}^* + C'_T {C_A}^*\right) \right] $$
+	\small$$+ 2\delta_{J'J} M_F M_{GT} \sqrt{\frac{J}{J+1}} \left[ Re (C_S C'_T{}^* + C'_S C_T{}^* - C_V C'_A{}^* - C'_VC_A{}^*)\vphantom{\frac{a}{b}}\right. $$
+	\small$$\left.\pm \frac{\alpha Z m}{p_e} Im \left(C_S C'_A{}^* + C'_S C_A{}^* - C_V C'_T{}^* - C'_V C_T{}^* \right)\right]$$
 \end{frame}
 \begin{frame}{Imaginary $C_VC_A$}
 	\begin{figure}
@@ -528,9 +554,7 @@
 	For experiment: noting $b = 0$, we can relate $N (\phi > 0)$ and   $N (\phi < 0)$ to the distribution
 	
 	\small $$\frac{N(\phi > 0)}{N} = \int_{0}^{\pi} f_4(\phi) = \int_{0}^{\pi}  \frac{1  + \left<\left(a+\frac c3\right)\beta_e\right>\frac{\pi^2}{16}\cos\phi+\left<D\beta_e\right>\frac{\pi^2}{16}\sin\phi}{2\pi} $$
-	$$  \frac{N(\phi > 0)}{N} = \frac{1}{2} + D\left<\beta_e\right>\frac{\pi}{16}$$
-	
-	So, with analogous computation for $N(\phi > 0)/N$, $$D\left<\beta_e\right> = \frac {N(\phi > 0) - N(\phi < 0)}{N (\phi > 0)+N (\phi < 0)}\frac{8}{\pi}$$
+	$$  \frac{N(\phi > 0)}{N} = \frac{1}{2} + D\left<\beta_e\right>\frac{\pi}{16} \rightarrow D\left<\beta_e\right> = \frac {N(\phi > 0) - N(\phi < 0)}{N (\phi > 0)+N (\phi < 0)}\frac{8}{\pi}$$
 \end{frame}
 \begin{frame}{Imaginary $C_VC_A$}
 	\begin{figure}
@@ -555,7 +579,7 @@
 	\end{figure}
 \end{frame}
 
-\begin{frame}{Imaginary $C_SC_T$}
+\begin{frame}{Imaginary $C_AC_V$}
 	\begin{figure}
 		\centering
 		\includegraphics[width=\textwidth]{plots/39Ca_l=1000000_Dchi2}
