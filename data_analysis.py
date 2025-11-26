@@ -281,7 +281,7 @@ class data_analysis:
         if showTheory:
             axs[0,0].plot(self.z_el,self.z_el_theory,linewidth = lwidth)
             if compareTheory:
-                axs[0,0].plot(self.z_el,self.z_el_theory2,linewidth = lwidth)
+                axs[0,0].plot(self.z_el,self.z_el_theory2,linewidth = lwidth,color='tab:red')
         axs[0,0].set_xlabel("$\\cos \\theta_{e,j}$",size = 16)
         axs[0,0].set_ylabel('pdf',size = 16)
         #plt.yscale('log')
@@ -289,7 +289,7 @@ class data_analysis:
         if showTheory: 
             axs[1,0].plot(self.z_nu,self.z_nu_theory,linewidth = lwidth)
             if compareTheory:
-                axs[1,0].plot(self.z_nu,self.z_nu_theory2,linewidth = lwidth)
+                axs[1,0].plot(self.z_nu,self.z_nu_theory2,linewidth = lwidth,color='tab:red')
         axs[1,0].set_xlabel("$\\cos \\theta_{\\nu,j}$",size = 16)
         axs[1,0].set_ylabel('pdf',size = 16)
         #plt.yscale('log')
@@ -297,7 +297,7 @@ class data_analysis:
         if showTheory: 
             axs[0,1].plot(self.z_elenu,self.z_elenu_theory,linewidth = lwidth)
             if compareTheory:
-                axs[0,1].plot(self.z_elenu,self.z_elenu_theory2,linewidth = lwidth)
+                axs[0,1].plot(self.z_elenu,self.z_elenu_theory2,linewidth = lwidth,color='tab:red')
         axs[0,1].set_xlabel("$\\cos \\theta_{e,\\nu}$",size = 16)
         axs[0,1].set_ylabel('pdf',size = 16)
         #plt.yscale('log')
@@ -305,7 +305,7 @@ class data_analysis:
         if showTheory: 
             axs[1,1].plot(self.phi,self.phi_theory,linewidth = lwidth)
             if compareTheory:
-                axs[1,1].plot(self.phi,self.phi_theory2,linewidth = lwidth)
+                axs[1,1].plot(self.phi,self.phi_theory2,linewidth = lwidth,color='tab:red')
         axs[1,1].set_xlabel("$\\phi$",size = 16)
         axs[1,1].set_ylabel('pdf',size = 16)
         #plt.yscale('log')
