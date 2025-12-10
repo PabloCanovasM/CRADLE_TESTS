@@ -6,7 +6,7 @@ from scipy.special import factorial, factorial2
    
 def histParam_kin(p_names,names,data,filename):
     for name in p_names:
-        var_names = ["px","py","pz"],
+        var_names = ["px","py","pz"]
         data_mom = data[names == name,5:]
         for j, var_name in enumerate(var_names):
             plt.figure()

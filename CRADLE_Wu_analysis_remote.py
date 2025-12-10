@@ -103,9 +103,8 @@ for E in E_range:
 dist_E = np.array(dist_E)
 av_beta /= dist_E.sum()
 
-polz_list_theory *= av_beta
-count_par_theory = (2-polz_list_theory*(1+cos_lim))/2
-count_antipar_theory = (2+polz_list_theory*(1+cos_lim))/2
+count_par_theory = (2-polz_list_theory*av_beta*(1+cos_lim))/2
+count_antipar_theory = (2+polz_list_theory*av_beta*(1+cos_lim))/2
 
 T_plot = np.linspace(0,10,11)
 fig, ax = plt.subplots()
@@ -119,11 +118,45 @@ ax.set_xlabel("T (mK)",size=16)
 ax.set_ylabel("$\\frac{Counts}{Counts (T>>0)}$",size=16)
 ax.errorbar(T_plot,count_par,yerr=error_count_par, linewidth = 0, elinewidth = 1, 
             marker = "x",markersize = 4,label = "Parallel to J")
-ax.plot(T_theory*1e3,count_par_theory,label = "Parallel to J Theory")
+ax.plot(T_theory[:1000]*1e3,count_par_theory[:1000],label = "Parallel to J Theory")
 ax.errorbar(T_plot,count_antipar,yerr=error_count_antipar, linewidth = 0, elinewidth = 1, 
             marker = "x",markersize = 4 ,label = "Antiparallel to J")
-ax.plot(T_theory*1e3,count_antipar_theory,label = "Antiparallel to J Theory")
+ax.plot(T_theory[:1000]*1e3,count_antipar_theory[:1000],label = "Antiparallel to J Theory")
 ax.legend()
 fig.tight_layout()
 fig.savefig("plots/Wu_experiment.png")
 
+
+
+#from Wu's paper
+polz_list = np.insert(polz_list,0,1)
+print(polz_list)
+
+pol_vals_paper = np.array([50.07,50.07,31.7,31.7,16.04,11.1,3.24,2.22]) #mm
+pol_vals_scale = 15.66 #mm = 0.1 pol
+count_ratio_scale = 15.66 #mm = 0.1 pol
+count_ratio_paper = np.array([-28.72,28.62,-21.63,21.26,-18.74,16.78,-5.19,-2.04])
+
+pol_vals_par_wu = pol_vals_paper[::2]/pol_vals_scale*0.1
+pol_vals_antipar_wu = pol_vals_paper[1::2]/pol_vals_scale*0.1
+count_par_wu = 1 + count_ratio_paper[::2]/pol_vals_scale*0.1
+pol_vals_par_wu *= 1/av_beta*(1-count_par_wu[1])/pol_vals_par_wu[1]
+count_antipar_wu = 1 + count_ratio_paper[1::2]/pol_vals_scale*0.1
+pol_vals_antipar_wu *= 1/av_beta*(count_antipar_wu[0]-1)/pol_vals_antipar_wu[0]
+
+fig, ax = plt.subplots()
+ax.tick_params("both",labelsize=14)
+ax.set_xlabel("$P_z$",size=16)
+ax.set_xscale("log")
+ax.set_ylabel("$\\frac{Counts}{Counts (T>>0)}$",size=16)
+ax.errorbar(polz_list,count_par,yerr=error_count_par, linewidth = 0, elinewidth = 1, 
+            marker = "x",markersize = 4,label = "Parallel to J")
+ax.plot(polz_list_theory,count_par_theory,label = "Parallel to J Theory")
+ax.errorbar(polz_list,count_antipar,yerr=error_count_antipar, linewidth = 0, elinewidth = 1, 
+            marker = "x",markersize = 4 ,label = "Antiparallel to J")
+ax.plot(polz_list_theory,count_antipar_theory,label = "Antiparallel to J Theory")
+ax.plot(pol_vals_par_wu[:-1],count_par_wu[:-1],label = "Parallel to J Wu", marker = "o", linewidth = 0)
+ax.plot(pol_vals_antipar_wu[:-1],count_antipar_wu[:-1],label = "Antiparallel to J Wu", marker = "o", linewidth = 0)
+ax.legend()
+fig.tight_layout()
+fig.savefig("plots/Wu_experiment_2.png")

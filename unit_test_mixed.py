@@ -23,7 +23,7 @@ for i in range(8):
             couplingConstants[j] = 1
             couplingConstants[val_corr] *= correction
             print(couplingConstants[[i,j]])
-            run_array = ["./CRADLE++", "nucleus", "-n", "39Ca", "-Z", "20", "-A", "39", "general", "-l", "1000000", "-t", "20", "-v", "0", "-o", f"build/39Ca_{ccNames[i]}{ccNames[j]}_real.txt", "betaDecay","-E", "0", "-r", "0", "--PolarisationZ", "1", "--PolarisationMag", str(1), "--Alignment", str(1), "coupling"]
+            run_array = ["./CRADLE++", "nucleus", "-n", "39Ca", "-Z", "20", "-A", "39", "general", "-l", "1000000", "-t", "20", "-v", "1", "-o", f"build/39Ca_{ccNames[i]}{ccNames[j]}_real.txt", "betaDecay","-E", "0", "-r", "0", "--PolarisationZ", "1", "--PolarisationMag", str(1), "--Alignment", str(1), "coupling"]
             for name, val in zip(ccTag,couplingConstants):
                 run_array.append(name)
                 run_array.append(str(val))
@@ -39,7 +39,7 @@ for i in range(8):
             couplingConstants[j] = 0.6-0.8j
             couplingConstants[val_corr] *= correction
             print(couplingConstants[[i,j]])
-            run_array = ["./CRADLE++", "nucleus", "-n", "39Ca", "-Z", "20", "-A", "39", "general", "-l", "1000000", "-t", "20", "-v", "0", "-o", f"build/39Ca_{ccNames[i]}{ccNames[j]}_imag.txt", "betaDecay","-E", "0", "-r", "0", "--PolarisationZ", "1", "--PolarisationMag", str(1), "--Alignment", str(1), "coupling"]
+            run_array = ["./CRADLE++", "nucleus", "-n", "39Ca", "-Z", "20", "-A", "39", "general", "-l", "1000000", "-t", "20", "-v", "1", "-o", f"build/39Ca_{ccNames[i]}{ccNames[j]}_imag.txt", "betaDecay","-E", "0", "-r", "0", "--PolarisationZ", "1", "--PolarisationMag", str(1), "--Alignment", str(1), "coupling"]
             for name, val in zip(ccTag,couplingConstants):
                 run_array.append(name)
                 if val.imag == 0:
